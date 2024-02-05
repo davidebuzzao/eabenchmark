@@ -15,6 +15,7 @@ To enhance sensitivity evaluation, we incorporate a Disease Pathway Network base
 
 Discover what method to use to get the most accurate functional characterization of your omics data. Alternatively, test your own EA method with our generalized benchmark.
 
+## **!!! Please, refer to this [bitbucket repo](https://bitbucket.org/sonnhammergroup/eabenchmark/) to download all data and results if you want to reproduce the EAbenchmark.**
 
 
 ## Getting Started
