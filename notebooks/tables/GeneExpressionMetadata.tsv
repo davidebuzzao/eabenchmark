@@ -1,0 +1,83 @@
+GEO	Disease/Target pathway	Nr. of samples	Genome coverage	Nr. of DEGs	Batch effect
+GSE10586	Type I diabetes mellitus	27 (12/15)	18023	25 (18/7)	Corrected
+GSE41762	Type I diabetes mellitus	77 (20/57)	18094	500 (303/197)	Corrected
+GSE10715	Colorectal cancer	30 (19/11)	18210	500 (244/256)	Corrected
+GSE13067	Colorectal cancer	72 (11/61)	18722	500 (279/221)	Corrected
+GSE31737	Colorectal cancer	79 (40/39)	15188	500 (292/208)	Corrected
+GSE4107	Colorectal cancer	22 (12/10)	18618	500 (297/203)	Corrected
+GSE49355	Colorectal cancer	56 (39/17)	11233	500 (192/308)	Corrected
+GSE50117	Colorectal cancer	18 (9/9)	10100	500 (311/189)	Not detected
+GSE10810	Breast cancer	58 (31/27)	18543	500 (77/423)	Corrected
+GSE26304	Breast cancer	115 (109/6)	16638	500 (107/393)	Corrected
+GSE10927	Renal cell carcinoma	64 (54/10)	18392	500 (94/406)	Corrected
+GSE15641	Renal cell carcinoma	92 (69/23)	11227	500 (103/397)	Corrected
+GSE33371	Renal cell carcinoma	64 (54/10)	18392	500 (94/406)	Corrected
+GSE53757	Renal cell carcinoma	143 (71/72)	18268	500 (173/327)	Corrected
+GSE11682	Prostate cancer	33 (17/16)	19547	59 (28/31)	Corrected
+GSE22260	Prostate cancer	30 (20/10)	15837	500 (329/171)	Not detected
+GSE30521	Prostate cancer	22 (17/5)	15150	500 (292/208)	Corrected
+GSE12643	Type II diabetes mellitus	20 (10/10)	7513	62 (49/13)	Corrected
+GSE13760	Type II diabetes mellitus	21 (10/11)	10994	29 (10/19)	Corrected
+GSE15653	Type II diabetes mellitus	18 (13/5)	11157	500 (303/197)	Corrected
+GSE20966	Type II diabetes mellitus	20 (10/10)	18819	240 (111/129)	Corrected
+GSE21340	Type II diabetes mellitus	20 (5/15)	3499	444 (176/268)	Corrected
+GSE38642	Type II diabetes mellitus	63 (9/54)	18105	500 (189/311)	Corrected
+GSE40234	Type II diabetes mellitus	62 (34/28)	19098	452 (202/250)	Corrected
+GSE12685	Alzheimer disease	13 (6/7)	11141	500 (222/278)	Corrected
+GSE28146	Alzheimer disease	29 (21/8)	17912	500 (171/329)	Corrected
+GSE36980	Alzheimer disease	79 (32/47)	17837	500 (141/359)	Corrected
+GSE37263	Alzheimer disease	16 (8/8)	15133	500 (169/331)	Corrected
+GSE39420	Alzheimer disease	21 (14/7)	17947	500 (162/338)	Not detected
+GSE4757	Alzheimer disease	20 (10/10)	18801	94 (65/29)	Corrected
+GSE95587	Alzheimer disease	117 (84/33)	18297	500 (211/289)	Not detected
+GSE97760	Alzheimer disease	19 (9/10)	10779	500 (397/103)	Not detected
+GSE14580	Inflammatory bowel disease	14 (8/6)	18612	500 (273/227)	Corrected
+GSE22619	Inflammatory bowel disease	20 (10/10)	18819	500 (201/299)	Corrected
+GSE36807	Inflammatory bowel disease	35 (28/7)	18554	500 (193/307)	Not detected
+GSE14858	Acute myeloid leukemia	39 (20/19)	18337	500 (293/207)	Corrected
+GSE15605	Melanoma	74 (58/16)	18045	500 (145/355)	Not detected
+GSE16499	Dilated cardiomyopathy	30 (15/15)	15095	500 (218/282)	Corrected
+GSE3586	Dilated cardiomyopathy	28 (13/15)	3765	500 (231/269)	Not detected
+GSE42955	Dilated cardiomyopathy	29 (24/5)	17854	500 (169/331)	Corrected
+GSE16515	Pancreatic cancer	52 (36/16)	18361	500 (374/126)	Corrected
+GSE18670	Pancreatic cancer	23 (11/12)	18656	320 (187/133)	Corrected
+GSE23397	Pancreatic cancer	21 (15/6)	15168	500 (218/282)	Corrected
+GSE28735	Pancreatic cancer	90 (45/45)	18141	500 (378/122)	Not detected
+GSE42952	Pancreatic cancer	23 (11/12)	18655	500 (131/369)	Not detected
+GSE18838	Parkinson disease	28 (17/11)	14894	500 (134/366)	Corrected
+GSE19587	Parkinson disease	22 (12/10)	11219	500 (164/336)	Corrected
+GSE20141	Parkinson disease	18 (10/8)	17802	500 (452/48)	Corrected
+GSE20146	Parkinson disease	19 (10/9)	17870	132 (25/107)	Corrected
+GSE20163	Parkinson disease	17 (8/9)	11335	500 (177/323)	Corrected
+GSE20164	Parkinson disease	11 (6/5)	11239	195 (64/131)	Corrected
+GSE20291	Parkinson disease	35 (15/20)	11341	500 (227/273)	Corrected
+GSE20292	Parkinson disease	29 (11/18)	11335	500 (232/268)	Corrected
+GSE20314	Parkinson disease	8 (4/4)	11118	58 (38/20)	Corrected
+GSE20333	Parkinson disease	12 (6/6)	6756	298 (226/72)	Corrected
+GSE7621	Parkinson disease	25 (16/9)	18430	500 (204/296)	Corrected
+GSE90514	Parkinson disease	8 (4/4)	14486	128 (84/44)	Not detected
+GSE18842	Non-small cell lung cancer	91 (46/45)	18683	500 (205/295)	Corrected
+GSE19188	Non-small cell lung cancer	156 (91/65)	18484	500 (141/359)	Corrected
+GSE19804	Non-small cell lung cancer	119 (59/60)	18682	500 (129/371)	Corrected
+GSE20189	Non-small cell lung cancer	162 (81/81)	10949	500 (188/312)	Corrected
+GSE21933	Non-small cell lung cancer	42 (21/21)	18941	500 (161/339)	Not detected
+GSE27262	Non-small cell lung cancer	50 (25/25)	18369	500 (100/400)	Corrected
+GSE52248	Non-small cell lung cancer	18 (12/6)	15210	500 (153/347)	Not detected
+GSE19187	Asthma	38 (27/11)	17803	500 (366/134)	Corrected
+GSE23552	Asthma	39 (26/13)	15210	500 (290/210)	Corrected
+GSE27011	Asthma	54 (36/18)	17634	500 (273/227)	Corrected
+GSE28619	Alcoholic liver disease	22 (15/7)	18464	500 (331/169)	Not detected
+GSE30153	Systemic lupus erythematosus	26 (17/9)	18065	20 (5/15)	Corrected
+GSE50635	Systemic lupus erythematosus	48 (32/16)	17642	293 (214/79)	Corrected
+GSE31189	Bladder cancer	92 (52/40)	18649	120 (50/70)	Corrected
+GSE36389	Endometrial cancer	19 (13/6)	11210	500 (151/349)	Corrected
+GSE38476	Hepatocellular carcinoma	20 (10/10)	13131	500 (288/212)	Not detected
+GSE54236	Hepatocellular carcinoma	160 (80/80)	16823	500 (300/200)	Corrected
+GSE40184	Hepatitis C	18 (10/8)	11099	500 (240/260)	Corrected
+GSE43754	Chronic myeloid leukemia	19 (9/10)	15020	500 (308/192)	Not detected
+GSE45516	Huntington disease	9 (6/3)	18331	500 (339/161)	Not detected
+GSE64810	Huntington disease	69 (20/49)	16046	500 (338/162)	Not detected
+GSE73655	Huntington disease	20 (13/7)	19881	65 (39/26)	Not detected
+GSE48850	Thyroid cancer	11 (6/5)	15665	500 (249/251)	Not detected
+GSE55235	Rheumatoid arthritis	20 (10/10)	11131	500 (320/180)	Corrected
+GSE5808	Measles	18 (15/3)	11156	500 (135/365)	Corrected

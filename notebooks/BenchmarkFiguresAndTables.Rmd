@@ -1,0 +1,606 @@
+---
+title: 'EA benchmark'
+author: 'Davide Buzzao'
+date: '2023-09-21'
+output:
+  bookdown::html_document2:
+    highlight: tango
+    number_sections: no
+    theme: readable
+    toc: yes
+    toc_depth: 4
+    toc_float: true
+    fig_caption: yes
+header-includes:
+- \usepackage{subfig}
+---
+
+<style>
+p.caption {
+font-size: 0.9em;
+font-style: italic;
+margin-right: 10%;
+margin-left: 10%;
+}
+</style>
+
+\newpage 
+\tableofcontents
+
+```{r setup, echo=FALSE, include=FALSE, warning=FALSE}
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(knitr)
+  library(scales)
+  library(reshape2)
+  library(ggridges)
+})
+
+knitr::opts_knit$set(root.dir='~/eabenchmark/')
+
+knitr::opts_chunk$set(
+	echo=FALSE,
+	message=FALSE,
+	warning=FALSE,
+	cache = FALSE,
+	fig.path='figures/',
+	dpi=300,
+	out.width='900px')
+```
+
+
+```{r ExtraFunctions, include=FALSE}
+
+reorder_within=function(x, by, within, fun=median, sep='___', ...) {
+  new_x=paste(x, within, sep=sep)
+  stats::reorder(new_x, by, FUN=fun)
+}
+
+scale_x_reordered=function(..., sep='___') {
+  reg=paste0(sep, '.+$')
+  ggplot2::scale_x_discrete(labels=function(x) gsub(reg, '', x), ...)
+}
+
+symlog_trans <- function(base = 10, thr = 1, scale = 1){
+  ##This is an R function that creates a symmetric logarithmic transformation (symlog_trans) 
+  ## for use with plotting data in a graph. 
+  trans <- function(x)
+    ifelse(abs(x) < thr, x, sign(x) * 
+             (thr + scale * suppressWarnings(log(sign(x) * x / thr, base))))
+
+  inv <- function(x)
+    ifelse(abs(x) < thr, x, sign(x) * 
+             base^((sign(x) * x - thr) / scale) * thr)
+
+  breaks <- function(x){
+    sgn <- sign(x[which.max(abs(x))])
+    if(all(abs(x) < thr))
+      pretty_breaks()(x)
+    else if(prod(x) >= 0){
+      if(min(abs(x)) < thr)
+        sgn * unique(c(pretty_breaks()(c(min(abs(x)), thr)),
+                       log_breaks(base)(c(max(abs(x)), thr))))
+      else
+        sgn * log_breaks(base)(sgn * x)
+    } else {
+      if(min(abs(x)) < thr)
+        unique(c(sgn * log_breaks()(c(max(abs(x)), thr)),
+                 pretty_breaks()(c(sgn * thr, x[which.min(abs(x))]))))
+      else
+        unique(c(-log_breaks(base)(c(thr, -x[1])),
+                 pretty_breaks()(c(-thr, thr)),
+                 log_breaks(base)(c(thr, x[2]))))
+    }
+  }
+  trans_new(paste("symlog", thr, base, scale, sep = "-"), trans, inv, breaks)
+}
+
+```
+
+```{r EAmethods, include=FALSE}
+## To test your own method:
+##  1. Add your method name to methods variable
+##  2. Add your method to the assign_category function
+##  3. Add your method name to the convert_name function
+##  4. Edit plot function in cell SkewenessHistogram to accept 1 more row (facet_wrap with nrow>5)
+
+networks=c('funcoup','string')
+ora = c('ease','fisher')
+anubix = paste('anubix',networks,sep = '-')
+neat = paste('neat',networks,sep = '-')
+binox = paste('binox',networks,sep = '-')
+netpea = paste('netpea',networks,sep = '-')
+camera = c('camera','camera*')
+methods = c(anubix,binox,neat,netpea,camera,ora,'roast','fgsea','gsa','gsea','padog','gsva','cepaORA','spia')
+
+assign_category=function(m){
+  if(m == 'fisher') return('Overlap-based')
+  if(m == 'ease') return('Overlap-based')
+  if(m == 'camera') return('Per-gene scoring (CP)')
+  if(m == 'camera*') return('Per-gene scoring (CP)')
+  if(m == 'gsea') return('Per-gene scoring (CP)')
+  if(m == 'fgsea') return('Per-gene scoring (CP)')
+  if(m == 'gsa') return('Per-gene scoring (CP)')
+  if(m == 'padog') return('Per-gene scoring (CP)')
+  if(m == 'gsva') return('Per-gene scoring (CP)')
+  if(m == 'roast') return('Per-gene scoring (SC)')
+  if(m == 'anubix-funcoup') return('FunCoup-based method')
+  if(m == 'anubix-string') return('STRING-based method')
+  if(m == 'binox-funcoup') return('FunCoup-based method')
+  if(m == 'binox-string') return('STRING-based method')
+  if(m == 'neat-funcoup') return('FunCoup-based method')
+  if(m == 'neat-string') return('STRING-based method')
+  if(m == 'netpea-funcoup') return('FunCoup-based method')
+  if(m == 'netpea-string') return('STRING-based method')
+  if(m == 'cepaORA') return('Pathway Topology-based')
+  if(m == 'spia') return('Pathway Topology-based')
+}
+
+convert_name=function(m){
+  if(m == 'fisher') return('Fisher')
+  if(m == 'ease') return('EASE')
+  if(m == 'camera') return('CAMERA_fixed')
+  if(m == 'camera*') return('CAMERA_flex')
+  if(m == 'gsea') return('GSEA')
+  if(m == 'fgsea') return('fGSEA')
+  if(m == 'gsa') return('GSA')
+  if(m == 'padog') return('PADOG')
+  if(m == 'roast') return('ROAST')
+  if(m == 'gsva') return('GSVA')
+  if(m == 'anubix-funcoup') return('ANUBIX-FunCoup')
+  if(m == 'anubix-string') return('ANUBIX-STRING')
+  if(m == 'binox-funcoup') return('BinoX-FunCoup')
+  if(m == 'binox-string') return('BinoX-STRING')
+  if(m == 'neat-funcoup') return('NEAT-FunCoup')
+  if(m == 'neat-string') return('NEAT-STRING')
+  if(m == 'netpea-funcoup') return('netPEA-FunCoup')
+  if(m == 'netpea-string') return('netPEA-STRING')
+  if(m == 'cepaORA') return('CePa-ORA')
+  if(m == 'spia') return('SPIA')
+}
+
+tool_shape=c(
+            'Fisher'= 25,
+             'EASE'= 24,
+             'CePa-ORA'=24,
+             'SPIA'=25,
+             'CAMERA_fixed'=21,
+             'CAMERA_flex'=1,
+             'GSA'=23,
+             'GSEA'=22,
+             'fGSEA'=0,
+             'PADOG'=25,
+             'GSVA'=24,
+             'ROAST'=24,
+             'ANUBIX-FunCoup'=21,
+             'ANUBIX-STRING'=21,
+             'BinoX-FunCoup'=22,
+             'BinoX-STRING'=22,
+             'NEAT-FunCoup'= 24,
+             'NEAT-STRING'=24,
+             'netPEA-FunCoup'=25,
+             'netPEA-STRING'=25
+)
+
+```
+
+
+```{r PlottingStyle, include=FALSE}
+## color palette
+# https://coolors.co/bee9e8-62b6cb-1b4965-cae9ff-5fa8d3
+category_col= c(
+   'Overlap-based'= '#588157',
+   'STRING-based method'= '#80b5db',
+   'FunCoup-based method'= '#014f86',
+   'Pathway Topology-based'='#f9dc5c',
+   'Per-gene scoring (CP)'='#ff8fab',
+   'Per-gene scoring (SC)'='#e63946'
+)
+
+
+# Define a plotting theme for use throughout the document
+plain_gg_theme=theme_bw() +
+    theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),
+          panel.border = element_rect(linetype = "solid", colour = "black", size=0),
+          axis.line = element_line(colour = 'black', size = 1),
+          axis.ticks = element_line(colour = "black", size = 1),
+          plot.title=element_text(size=13, face='bold'),
+          axis.title=element_text(size=13, face='bold'),
+          strip.text=element_text(size=13, face='bold'),
+          strip.background = element_rect(colour="white", fill="white"),
+          legend.justification=c('center', 'top'),
+          legend.box.just='right',
+          legend.margin=margin(6, 6, 6, 6),
+          legend.title= element_text(size=10, face='bold'),
+          legend.text= element_text(size=10))
+```
+
+## Benchmark datasets
+
+We retrieved and curated 82 high-quality datasets from [Gemma](https://gemma.msl.ubc.ca), focusing on case-control observational studies. These datasets, sourced from GEO, underwent rigorous curation, ensuring reliable gene expression data. Our criteria included a minimum of three samples per condition, no drug treatment, batch effect correction, and at least 15 differentially expressed genes (FDR < 0.2). We processed DNA-microarray data through quantile normalization and log transformation, while RNA-Seq data were obtained as log2-transformed counts per million reads. We mapped probes to Gene IDs, and for genes with multiple probes, we averaged the values. We performed quality checks and analyses, detailed in Supplementary Materials.
+
+```{r ExpressionDataset}
+#################################################
+## EXPRESSION DATA
+dataset_df = 
+  read_tsv(file='data/TPbenchmark/cc_deg-alpha10OR20-Min15Max500-beta0-DEG.tsv', 
+           col_types = 'fcfffiddiciccccc') %>%
+  arrange(TargetPathway)
+
+dataset_df %>%
+  mutate(NrOfSamples = paste0(NrOfSamples, ' (', CC,')'),
+         NrOfDEG = paste0(NrOfDEG, ' (', UpDown,')')) %>%
+   dplyr::select(GEO,TargetPathway,NrOfSamples,GenomeCoverage,NrOfDEG,BatchEffect) %>%
+  mutate(BatchEffect = str_replace(BatchEffect, "BATCH_CORRECTED_SUCCESS|Data has been batch-corrected", "Corrected")) %>%
+  mutate(BatchEffect = str_replace(BatchEffect, "No batch effect was detected", "Not detected")) %>%
+   dplyr::rename(`Batch effect` = BatchEffect, 
+         `Disease/Target pathway` = TargetPathway,
+         `Nr. of samples`=NrOfSamples,
+         `Nr. of DEGs`=NrOfDEG,
+         `Genome coverage` = GenomeCoverage) %>% 
+  write_tsv('notebooks/tables/GeneExpressionMetadata.tsv') %>% 
+  knitr::kable(format = 'simple') 
+```
+
+## Disease Pathway Network
+
+We introduce the Disease Pathway Network to counteract the shortcoming of the "single target pathway" approach and improve the sensitivity assessment in an unbiased way. HumanNet-XC, a comprehensive functional network of human genes, was used to analyze inter-pathway connectivity. Inter-pathway connectivity (IPC) was quantified as the sum of direct links and shared neighbors between genes in two pathways, tested for significance using subsampling. Inter-pathway overlap was assessed using the Jaccard index. Pathway pairs with BH FDR-corrected p-values < 0.05 in both tests were retained. 
+
+```{r  KEGG, include=FALSE}
+kegg_df = read_tsv(file = 'data/KEGG/keggrest_hsa.tsv', col_types = 'ffcccff')
+kegg_df = kegg_df %>%
+  filter(pathway_id %in%
+           as.character(
+             kegg_df %>%
+                dplyr::select(pathway_id,entrezgene_id) %>%
+               unique() %>%
+               group_by(pathway_id) %>%
+               summarise(n=n()) %>%
+               filter(n>14) %>%
+               droplevels() %>%
+               pull(pathway_id))) %>%
+  droplevels() %>%
+  dplyr::rename(GeneID=entrezgene_id)
+
+kegg_list = tapply(kegg_df$GeneID, kegg_df$pathway_id, function(x) as.character(x))
+kegg_list = lapply(kegg_list, function(x) unique(x))
+
+kegg_df = kegg_df %>% 
+  dplyr::select(pathway_id,pathway_name,class,subclass) %>% 
+  unique()
+
+kegg_class_df = kegg_df %>%
+  dplyr::select(pathway_id,pathway_name,class,subclass) %>% 
+  dplyr::rename(PathwayClass = 'class',
+         PathwaySubclass = 'subclass') %>%
+  unique()
+
+```
+
+```{r NetworkDisease,  fig.height=10, fig.width=14,  message=FALSE, warning=FALSE}
+top_cutoff = c(10,20,40,'ALL')
+tmp_pathway_network_df = lapply(top_cutoff, function(top){
+    tmp_df = read_tsv(file = paste0('results/DiseasePathwayNetwork/DiseasePathwayNetwork-FDR<5e-2_top',top,'GOaverageBMA.tsv.gz'), col_types = cols())
+  tmp_df$TOP = top
+  return(tmp_df)
+}) %>% data.table::rbindlist()
+
+pathway_network_df = tmp_pathway_network_df %>% 
+  group_by(A_name, TOP) %>%
+  summarise(n = n()+1) %>% # +1 is for Target Pathway
+  ungroup() %>%
+  pivot_wider(names_from=TOP, values_from=n) %>% 
+  dplyr::rename(pathway_name = A_name) %>% 
+  left_join(kegg_class_df, by='pathway_name') %>%
+  replace(is.na(.), 1) %>% 
+  dplyr::select(pathway_name,pathway_id,PathwaySubclass,`10`,`20`,`40`,'ALL') %>%
+  dplyr::rename('Pathway name' = pathway_name,
+         'Pathway ID' = pathway_id,
+         'Pathway subclass (Human diseases)' = PathwaySubclass)
+
+write_tsv(pathway_network_df,'notebooks/tables/DiseasePathwayNetwork.tsv')
+
+pathway_network_df %>%
+  dplyr::filter(`Pathway name` %in% unique(dataset_df$TargetPathway)) %>%
+  write_tsv('notebooks/tables/TargetDiseasePathwayNetwork.tsv') %>% 
+  knitr::kable(format = 'simple') 
+
+```
+
+
+## Nr. of enrichments per dataset
+
+Min, max and median average number of tested pathways in the positive benchmark.
+
+```{r NrEnrichment,fig.height=5, fig.width=10, out.width = '100%', fig.align = 'center', message=FALSE, warning=FALSE}
+positive_benchmark_count = read_tsv(file = 'notebooks/tables/TPbenchmark_counts.tsv', col_types = 'cif')
+order_m = positive_benchmark_count %>% filter(type=='median') %>% arrange(-val) %>% pull(Method)
+order_m = as.character(sapply(order_m, function(x) convert_name(x)))
+positive_benchmark_count$Method=sapply(positive_benchmark_count$Method, function(x) convert_name(x))
+positive_benchmark_count$Method = factor(positive_benchmark_count$Method, levels = order_m)
+
+
+ggplot(positive_benchmark_count, aes(x=Method, y=val, fill = type)) +
+  geom_bar(position="dodge", stat="identity",width = 0.7, color = "black")+
+  xlab('')+
+  ylab('Number of tested pathways') +
+  scale_fill_manual(values = c('min'='#26547c', 'max'='#ef476f', 'median'='#ffd166')) +
+  plain_gg_theme + 
+  theme(axis.title.y=element_text(size=13,face='bold',colour="black"),
+        axis.text.y=element_text(size=13,face='bold',colour="black"),
+        axis.text.x=element_text(size=13, face='bold', angle=45, hjust =1, colour="black"),
+        legend.title = element_blank(),
+        plot.margin=unit(c(1,1,0,1), 'cm'))
+  
+```
+
+## Analysis of biases in the benchmarked methods
+
+We assessed the EA methods' performance on randomized data. In an ideal scenario, the method should produce a uniform distribution of p-values ranging from 0 to 1 for pathways when applied to randomized data. Ideally, 5% of these p-values would fall below the cutoff of 0.05.
+
+```{r PvalueUnderTrueH0, fig.height=8, fig.width=8, out.width = '100%', fig.align = 'center', message=FALSE, warning=FALSE}
+negative_benchmark=read_tsv('results/stats/FPbenchmark.tsv.gz') %>%
+  replace(is.na(.),1) %>%
+  filter(Method %in% methods) %>% 
+  droplevels()
+
+## check the fraction of pvalue below 5% per pathway
+df=negative_benchmark  %>%
+  group_by(Method,pathway_id) %>%
+  summarise(FPR=sum(Pvalue<0.05)/n()) %>%
+  ungroup()
+
+df$Category=sapply(df$Method, function(x) assign_category(x))
+df$Method=sapply(df$Method, function(x) convert_name(x))
+
+df$Category=
+  factor(df$Category, 
+         levels=c('Overlap-based',
+                    'Per-gene scoring (CP)',
+                    'Per-gene scoring (SC)',
+                    'FunCoup-based method',
+                    'STRING-based method',
+                    'Pathway Topology-based'))
+
+df$Method=as.factor(df$Method)
+df$Category=as.factor(df$Category)
+
+# df %>%
+#   group_by(Method) %>%
+#   summarise(round(median(FPR),3))
+
+ggplot(df, aes(x=reorder_within(Method, by=FPR, within=Method, fun=median),y=FPR, fill=Category)) +
+  geom_boxplot(outlier.size=0.5) +
+  scale_x_reordered() +
+  xlab('') + 
+  scale_y_continuous("False Positive Rate",
+                   breaks = seq(0,1,0.1)) +
+  scale_fill_manual(values=category_col) +
+  geom_hline(aes(yintercept=0.05), linetype='dashed',color='black', alpha =0.5) +#
+  plain_gg_theme +
+  theme(axis.title.y=element_text(size=13,face='bold',colour="black"),
+        axis.text.y=element_text(size=13,face='bold',colour="black"),
+        axis.text.x=element_text(size=12, face='bold', angle=45, hjust =1, colour="black"),
+        legend.position='none',
+        plot.margin=unit(c(1,1,0,1), 'cm'))
+```
+
+Under the null hypothesis, EA methods often yield p-values that display a bias either toward 0 or 1 or exhibit a bimodal distribution skewed towards both extremes. This bias can significantly influence the significance of the analysis. Therefore, we studied the p-value distributions for each method to determine if they were right-skewed (biased toward 0) or left-skewed (biased toward 1). A right-skewed distribution (p-values biased toward 0) has the potential to produce false positives by identifying pathways as affected when they are not. Conversely, a left-skewed distribution (p-values biased toward 1) may lead to false negatives by indicating pathways as non-significant when they are indeed impacted.
+
+```{r SkewenessHistogram, echo=FALSE, fig.align='center', fig.height=12, fig.width=14, message=FALSE, warning=FALSE, out.width='100%'}
+#### Visualize SKEWNESS OF PATHWAY NULL HYPO
+df=negative_benchmark %>%
+  select(Pvalue,Method) %>%
+  na.omit()
+
+df$Category=sapply(df$Method, function(x) assign_category(x))
+df$Method=sapply(df$Method, function(x) convert_name(x))
+
+df$Category=
+  factor(df$Category, 
+         levels=c('Overlap-based',
+                  'Per-gene scoring (CP)',
+                  'Per-gene scoring (SC)',
+                  'FunCoup-based method',
+                  'STRING-based method',
+                  'Pathway Topology-based'))
+
+df$Method=factor(df$Method, levels=names(tool_shape))
+
+ggplot(df, aes(x = Pvalue, fill = Category)) +
+    geom_density(stat = "density",kernel='gaussian') +
+    facet_wrap(~Method, scales = 'free_y', nrow = 5, ncol = 4) + 
+    scale_fill_manual(values=category_col) +
+    ylab('Density') +
+    xlab('P-value') +
+    plain_gg_theme + 
+    theme(axis.title.x=element_text(size=15,face='bold',colour="black"),
+          axis.title.y=element_text(size=15,face='bold',colour="black"),
+          axis.text.y=element_text(size=13,face='bold',colour="black"),
+          axis.text.x=element_text(size=13, face='bold',colour="black"),
+          strip.text=element_text(size=15, face='bold'),
+          legend.position='none',
+          plot.margin=unit(c(1,1,1,1), 'cm'))
+```
+
+## Stats at different number of TPs in the Disease Pathway Network
+
+In this study, we used independent positive and negative benchmarks. The positive benchmark includes true positives (TP) and false negatives (FN), representing pathways correctly identified as significant (p-value < 0.05) and non-significant (p-value ≥ 0.05), respectively. Similarly, the negative benchmark includes true negatives (TN) and false positives (FP), indicating pathways correctly identified as non-significant or significant, respectively. We created the negative benchmark by resampling gene labels on the datasets from the genome, ensuring a consistent number of differentially expressed genes (DEGs) for accurate false positive rate (FPR) estimation across tests. To address the imbalance between positive and negative pathways, we focused on target-related pathways in the negative benchmark to calculate TN and FP.
+
+Using TP, TN, FP, and FN definitions, we derived true positive rate (TPR, or sensitivity) and true negative rate (TNR, or specificity, or 1-FPR). We computed the geometric mean of TPR and TNR (G-mean) as a comprehensive performance summary. Additionally, we assessed the median relative rank of TPs among the top predictions, considering ties by averaging the ranks.
+
+```{r StatsDF, message=FALSE, warning=FALSE}
+top_cutoff=c(10,20,40,'ALL')
+
+stats_df=read_tsv('results/stats/stats_balanced.tsv.gz') %>%
+  filter(Method %in% methods) %>%
+  replace(is.na(.), 0)
+# 
+rank_df=read_tsv('results/stats/Ranking(AVG).tsv.gz') %>%
+  filter(Method %in% methods) %>%
+  replace(is.na(.), 1)
+```
+
+
+```{r MedianStats, fig.height=10, fig.width=14, message=FALSE, warning=FALSE}
+
+medianRank_df=rank_df %>% 
+              group_by(Method,TOP) %>%
+              summarise(mRK=median(rank_all_mean, na.rm=T)) %>%
+              ungroup()
+
+tmp_total_stats_df=stats_df %>%
+  left_join(medianRank_df, by=c('Method','TOP')) %>%
+  mutate(mRK = round(mRK,2),
+         GM = round(GM,2))
+tmp_total_stats_df$Category=sapply(tmp_total_stats_df$Method, function(x) assign_category(x))
+tmp_total_stats_df$Method=sapply(tmp_total_stats_df$Method, function(x) convert_name(x))
+
+tmp_total_stats_df$Category=
+  factor(tmp_total_stats_df$Category, 
+         levels=c('Overlap-based',
+                    'Per-gene scoring (CP)',
+                    'Per-gene scoring (SC)',
+                    'FunCoup-based method',
+                    'STRING-based method',
+                    'Pathway Topology-based'))
+
+tmp_total_stats_df$TOP=ifelse(tmp_total_stats_df$TOP=='ALL', 'All links', paste0('Top ',tmp_total_stats_df$TOP, ' links'))
+tmp_total_stats_df$TOP = factor(tmp_total_stats_df$TOP, levels=c('Top 10 links','Top 20 links','Top 40 links','All links'))
+tmp_total_stats_df$Method=as.factor(tmp_total_stats_df$Method)
+tmp_total_stats_df$Category=as.factor(tmp_total_stats_df$Category)
+
+```
+
+```{r RRvsGM_all, fig.height=10, fig.width=12, message=FALSE, warning=FALSE, include=TRUE}
+category_col_df = 
+  data.frame(Category = names(category_col),
+           colour = as.character(category_col))
+
+total_stats_df = tmp_total_stats_df %>%
+  left_join(category_col_df,by = 'Category') %>%
+  mutate(size = 4,stroke = 2)
+
+tool_colour = total_stats_df$colour
+names(tool_colour) = total_stats_df$Method
+tool_frame_colour = total_stats_df$colour
+names(tool_frame_colour) = total_stats_df$Method
+tool_size = total_stats_df$size
+names(tool_size) = total_stats_df$Method
+
+tool_colour = tool_colour[unique(names(tool_colour))]
+tool_size = tool_size[unique(names(tool_size))]
+total_stats_df$Method = factor(total_stats_df$Method, levels=names(tool_shape))
+
+ggplot(total_stats_df, aes(x=GM, y=1-mRK, shape=Method, fill=Method, color=Method, size = Method, stroke=stroke)) + 
+  geom_point() +
+  scale_shape_manual(
+    values = tool_shape) +
+  scale_fill_manual(
+    values = tool_colour) +
+  scale_color_manual(
+    values=tool_frame_colour) +
+  scale_size_manual(values=tool_size) +
+  guides(color = guide_legend(override.aes = list(stroke = 2,
+                                                  size = 2.5))) + 
+  xlab('G-mean (TPR, 1-FPR)') + 
+  ylab('1 - Relative Rank') +
+  facet_wrap(~TOP, scales='free') + 
+  plain_gg_theme +
+  theme(panel.spacing = unit(2, "lines"),
+        axis.text.y=element_text(size=13,face='bold',colour="black"),
+        axis.text.x=element_text(size=13, face='bold',colour="black"),
+        legend.position = "top", 
+        legend.box = "horizontal",
+        legend.title = element_blank(),
+        legend.text = element_text(size=10, face='bold',colour="black"))
+
+```
+
+## Stats at top 20 of TPs in the Disease Pathway Network
+
+To ensure a balanced representation of the benchmarked disease pathway subnetworks, we limited them to the top 20 linked pathways for each target disease pathway. We made this choice due to the relatively low number of total associations observed in Parkinson's and Huntington's diseases.
+
+```{r}
+total_stats_df_top20=total_stats_df %>%
+  filter(TOP == 'Top 20 links')
+
+total_stats_df_top20 %>% 
+  select(-c(PPV,MCC,F1,Category,colour,size,stroke)) %>% 
+  mutate(mRK = 1-mRK) %>% 
+  write_tsv(file='notebooks/tables/stats_top20.tsv')
+```
+
+
+```{r RRvsGM, fig.height=7, fig.width=7, out.width = '100%', fig.align = 'center', message=FALSE, warning=FALSE}
+total_stats_df_top20$Method = factor(total_stats_df_top20$Method, levels=names(tool_shape))
+
+ggplot(total_stats_df_top20, aes(x=GM, y=1-mRK, shape=Method, fill=Method, color=Method, size = Method, stroke=stroke)) + 
+  geom_point() +
+  scale_shape_manual(
+    values = tool_shape) +
+  scale_fill_manual(
+    values = tool_colour) +
+  scale_color_manual(
+    values=tool_frame_colour) +
+  scale_size_manual(values=tool_size) +
+  guides(color = guide_legend(override.aes = list(stroke = 2,
+                                                  size = 2.5))) + 
+  xlab('G-mean (TPR, 1-FPR)') + 
+  ylab('1 - Relative Rank') +
+  plain_gg_theme +
+  theme(axis.text.y=element_text(size=13,face='bold',colour="black"),
+        axis.text.x=element_text(size=13, face='bold',colour="black"),
+        legend.position = "top", 
+        legend.box = "horizontal",
+        legend.title = element_blank(),
+        legend.text = element_text(size=9, face='bold',colour="black"))
+
+```
+
+## Runtime
+
+We conducted scalability tests for each method in the benchmark using KEGG as input on 82 datasets. Some methods support parallelization and can handle multiple datasets simultaneously, reducing elapsed time in a battery testing setup. The analysis was conducted on macOS Monterey (v.12.5.1) with an Apple M1 processor (16GB RAM), except for BinoX, which ran on Ubuntu (v.18.04.6) with an Intel Core i7-2600 3.40GHz processor (16GB RAM). GSEA is presented as elapsed time in the results.
+
+```{r RuntimeDataset, fig.height=6, fig.width=7, out.width = '100%', fig.align = 'center', message=FALSE, warning=FALSE}
+
+### Runtime
+runtime_df=lapply(methods,function(m){
+  df=read_tsv(paste0('results/runtime/',m,'.tsv.gz'), col_types='fddd')
+  df$Method=m
+  
+  if(m=='gsea'){
+   df = df %>%
+      dplyr::select(GEO,elapsed,Method) %>%
+      dplyr::rename(user=elapsed)
+  }
+  return(df %>% 
+           dplyr::select(GEO,user,Method))
+}) %>% data.table::rbindlist()
+
+runtime_df$Category=sapply(runtime_df$Method, function(x) assign_category(x))
+runtime_df$Method=sapply(runtime_df$Method, function(x) convert_name(x))
+
+order_runtime_df = runtime_df %>%
+  group_by(Method) %>%
+  summarise(muser = median(user,na.rm = T)) %>% 
+  arrange(muser)
+
+runtime_df$Method = factor(runtime_df$Method, levels = order_runtime_df$Method)
+
+ggplot(runtime_df, aes(x=user, y=Method, fill=Category)) +
+  geom_density_ridges() +
+  scale_x_continuous("CPU time (s)",
+                     trans = symlog_trans(),
+                     breaks = c(0,1,10,100,1000)) +
+  scale_fill_manual(values=category_col) +
+  ylab('') +
+  # ggtitle('OBS: GSEA is shown as elapsed time') + 
+  plain_gg_theme + 
+  theme(axis.title.y=element_text(size=13,face='bold',colour="black", vjust=5),
+        axis.text.y=element_text(size=12,face='bold',colour="black"),
+        axis.text.x=element_text(size=13, face='bold',colour="black"),
+        legend.position='none',
+        plot.margin=unit(c(1,1,1,1), 'cm'))
+
+```

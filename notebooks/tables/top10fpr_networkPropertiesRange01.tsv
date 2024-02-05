@@ -1,0 +1,181 @@
+pathway_name	Network	type	Value
+Pathways in cancer	FunCoup	Size	5.388430046328379
+Pathways in cancer	FunCoup	Fraction of intralinks	0.529156823140292
+Pathways in cancer	FunCoup	Density of links	-0.7114971058541452
+Pathways in cancer	FunCoup	Max degree	1.0368299580025289
+Pathways in cancer	FunCoup	Median degree	-0.3946844711839578
+Pathways in cancer	FunCoup	Number of CC	3.4086224386379205
+Pathways in cancer	FunCoup	Mean clustering coefficient	-1.0431324328759124
+Pathways in cancer	FunCoup	Fraction of hubs	1.825166381492839
+Pathways in cancer	FunCoup	Density of hubs	-0.5151999379681363
+Chemokine signaling pathway	FunCoup	Size	0.9636334017296587
+Chemokine signaling pathway	FunCoup	Fraction of intralinks	0.6070384317865417
+Chemokine signaling pathway	FunCoup	Density of links	-0.4173543899753687
+Chemokine signaling pathway	FunCoup	Max degree	-0.4310456524199948
+Chemokine signaling pathway	FunCoup	Median degree	-0.3087328013797169
+Chemokine signaling pathway	FunCoup	Number of CC	0.10506594065206584
+Chemokine signaling pathway	FunCoup	Mean clustering coefficient	-0.5674902907705618
+Chemokine signaling pathway	FunCoup	Fraction of hubs	0.2840179803694948
+Chemokine signaling pathway	FunCoup	Density of hubs	-0.276597460326802
+Valine, leucine and isoleucine degradation	FunCoup	Size	-0.5843152594170882
+Valine, leucine and isoleucine degradation	FunCoup	Fraction of intralinks	0.1886008181609639
+Valine, leucine and isoleucine degradation	FunCoup	Density of links	1.5101778609092298
+Valine, leucine and isoleucine degradation	FunCoup	Max degree	-0.028836458270929406
+Valine, leucine and isoleucine degradation	FunCoup	Median degree	0.9047025370330958
+Valine, leucine and isoleucine degradation	FunCoup	Number of CC	-1.0211465018431118
+Valine, leucine and isoleucine degradation	FunCoup	Mean clustering coefficient	1.0113870996576468
+Valine, leucine and isoleucine degradation	FunCoup	Fraction of hubs	0.0913744302290767
+Valine, leucine and isoleucine degradation	FunCoup	Density of hubs	1.705415768966003
+Thermogenesis	FunCoup	Size	1.693797864534728
+Thermogenesis	FunCoup	Fraction of intralinks	1.5480912851967281
+Thermogenesis	FunCoup	Density of links	0.6785643190192326
+Thermogenesis	FunCoup	Max degree	0.8545201830844946
+Thermogenesis	FunCoup	Median degree	0.7429111585780541
+Thermogenesis	FunCoup	Number of CC	0.6306317471498154
+Thermogenesis	FunCoup	Mean clustering coefficient	1.3293010335026174
+Thermogenesis	FunCoup	Fraction of hubs	2.788384132194929
+Thermogenesis	FunCoup	Density of hubs	1.3972325327825437
+Regulation of actin cytoskeleton	FunCoup	Size	1.4747485256932074
+Regulation of actin cytoskeleton	FunCoup	Fraction of intralinks	0.3225082523101246
+Regulation of actin cytoskeleton	FunCoup	Density of links	-0.3555152840775738
+Regulation of actin cytoskeleton	FunCoup	Max degree	0.721076945773356
+Regulation of actin cytoskeleton	FunCoup	Median degree	-0.2581729956125164
+Regulation of actin cytoskeleton	FunCoup	Number of CC	0.33030842915110137
+Regulation of actin cytoskeleton	FunCoup	Mean clustering coefficient	-0.2087701828411124
+Regulation of actin cytoskeleton	FunCoup	Fraction of hubs	0.958270405860958
+Regulation of actin cytoskeleton	FunCoup	Density of hubs	0.07621793185031978
+Focal adhesion	FunCoup	Size	1.4163353686688018
+Focal adhesion	FunCoup	Fraction of intralinks	0.3917104016011325
+Focal adhesion	FunCoup	Density of links	-0.4858859763366534
+Focal adhesion	FunCoup	Max degree	0.721076945773356
+Focal adhesion	FunCoup	Median degree	-0.3390686848400372
+Focal adhesion	FunCoup	Number of CC	-0.1952573773466482
+Focal adhesion	FunCoup	Mean clustering coefficient	-0.302765825673453
+Focal adhesion	FunCoup	Fraction of hubs	0.3803397554397038
+Focal adhesion	FunCoup	Density of hubs	-0.3901104345704735
+Human cytomegalovirus infection	FunCoup	Size	1.620781418254221
+Human cytomegalovirus infection	FunCoup	Fraction of intralinks	0.35409530429846803
+Human cytomegalovirus infection	FunCoup	Density of links	-0.5089411867389985
+Human cytomegalovirus infection	FunCoup	Max degree	-0.0777029958778252
+Human cytomegalovirus infection	FunCoup	Median degree	-0.2531170150357963
+Human cytomegalovirus infection	FunCoup	Number of CC	0.2552275996514229
+Human cytomegalovirus infection	FunCoup	Mean clustering coefficient	-0.7179416303599052
+Human cytomegalovirus infection	FunCoup	Fraction of hubs	0.6371978222935946
+Human cytomegalovirus infection	FunCoup	Density of hubs	-0.25839845893774976
+Sphingolipid signaling pathway	FunCoup	Size	0.291882095948995
+Sphingolipid signaling pathway	FunCoup	Fraction of intralinks	-0.15056837527504954
+Sphingolipid signaling pathway	FunCoup	Density of links	-0.33739803656927675
+Sphingolipid signaling pathway	FunCoup	Max degree	0.5989106017561165
+Sphingolipid signaling pathway	FunCoup	Median degree	-0.06604573369715439
+Sphingolipid signaling pathway	FunCoup	Number of CC	-0.1201765478469697
+Sphingolipid signaling pathway	FunCoup	Mean clustering coefficient	0.003613779615627423
+Sphingolipid signaling pathway	FunCoup	Fraction of hubs	0.3803397554397038
+Sphingolipid signaling pathway	FunCoup	Density of hubs	0.36855997365051707
+Human T-cell leukemia virus 1 infection	FunCoup	Size	1.810624178583539
+Human T-cell leukemia virus 1 infection	FunCoup	Fraction of intralinks	0.020018502522867833
+Human T-cell leukemia virus 1 infection	FunCoup	Density of links	-0.5269587150862095
+Human T-cell leukemia virus 1 infection	FunCoup	Max degree	1.6984076979112719
+Human T-cell leukemia virus 1 infection	FunCoup	Median degree	-0.17727730638499553
+Human T-cell leukemia virus 1 infection	FunCoup	Number of CC	0.10506594065206584
+Human T-cell leukemia virus 1 infection	FunCoup	Mean clustering coefficient	-0.20939665209942177
+Human T-cell leukemia virus 1 infection	FunCoup	Fraction of hubs	1.1188066976446396
+Human T-cell leukemia virus 1 infection	FunCoup	Density of hubs	0.03143429462154745
+Protein processing in endoplasmic reticulum	FunCoup	Size	1.124269583546774
+Protein processing in endoplasmic reticulum	FunCoup	Fraction of intralinks	0.3761353493146337
+Protein processing in endoplasmic reticulum	FunCoup	Density of links	0.3606776703627068
+Protein processing in endoplasmic reticulum	FunCoup	Max degree	1.709684591205171
+Protein processing in endoplasmic reticulum	FunCoup	Median degree	0.38899251820765035
+Protein processing in endoplasmic reticulum	FunCoup	Number of CC	-1.0211465018431118
+Protein processing in endoplasmic reticulum	FunCoup	Mean clustering coefficient	0.36541873129751595
+Protein processing in endoplasmic reticulum	FunCoup	Fraction of hubs	1.7930591231361028
+Protein processing in endoplasmic reticulum	FunCoup	Density of hubs	1.1080432286902524
+Pathways in cancer	STRING	Size	5.639997756116297
+Pathways in cancer	STRING	Fraction of intralinks	0.883179037675014
+Pathways in cancer	STRING	Density of links	-1.0219606375479584
+Pathways in cancer	STRING	Max degree	1.413131042088914
+Pathways in cancer	STRING	Median degree	0.1265601796202215
+Pathways in cancer	STRING	Number of CC	-0.07288834416717598
+Pathways in cancer	STRING	Mean clustering coefficient	-1.3447980750734554
+Pathways in cancer	STRING	Fraction of hubs	5.213241971625462
+Pathways in cancer	STRING	Density of hubs	0.520212289604341
+Human papillomavirus infection	STRING	Size	3.0039037389712404
+Human papillomavirus infection	STRING	Fraction of intralinks	0.29511889671801383
+Human papillomavirus infection	STRING	Density of links	-0.8920822589790824
+Human papillomavirus infection	STRING	Max degree	1.413131042088914
+Human papillomavirus infection	STRING	Median degree	0.28431083956820963
+Human papillomavirus infection	STRING	Number of CC	0.3302158896617281
+Human papillomavirus infection	STRING	Mean clustering coefficient	-0.3801199346009785
+Human papillomavirus infection	STRING	Fraction of hubs	3.2078560175976274
+Human papillomavirus infection	STRING	Density of hubs	0.7809847508152665
+Focal adhesion	STRING	Size	1.3299840380841288
+Focal adhesion	STRING	Fraction of intralinks	0.4265316000646352
+Focal adhesion	STRING	Density of links	-0.42014719670125744
+Focal adhesion	STRING	Max degree	0.9765233470181822
+Focal adhesion	STRING	Median degree	0.46178033200969626
+Focal adhesion	STRING	Number of CC	-0.274440461081628
+Focal adhesion	STRING	Mean clustering coefficient	-0.6015803175270351
+Focal adhesion	STRING	Fraction of hubs	1.4862510948001473
+Focal adhesion	STRING	Density of hubs	0.712192960700275
+Ras signaling pathway	STRING	Size	1.7253981406558874
+Ras signaling pathway	STRING	Fraction of intralinks	0.33572412829433546
+Ras signaling pathway	STRING	Density of links	-0.7303103138383414
+Ras signaling pathway	STRING	Max degree	0.36639208082959546
+Ras signaling pathway	STRING	Median degree	-0.22837880526275176
+Ras signaling pathway	STRING	Number of CC	1.1364243573195363
+Ras signaling pathway	STRING	Mean clustering coefficient	-1.864720352455754
+Ras signaling pathway	STRING	Fraction of hubs	1.2024700635697934
+Ras signaling pathway	STRING	Density of hubs	0.05862134173635095
+Proteoglycans in cancer	STRING	Size	1.3431645081698542
+Proteoglycans in cancer	STRING	Fraction of intralinks	-0.04377055140802611
+Proteoglycans in cancer	STRING	Density of links	-0.45652883851909654
+Proteoglycans in cancer	STRING	Max degree	1.413131042088914
+Proteoglycans in cancer	STRING	Median degree	1.1125018042951473
+Proteoglycans in cancer	STRING	Number of CC	-0.47599257799608
+Proteoglycans in cancer	STRING	Mean clustering coefficient	-1.2099512528582923
+Proteoglycans in cancer	STRING	Fraction of hubs	2.0159756864301412
+Proteoglycans in cancer	STRING	Density of hubs	1.2919232782308516
+Chemokine signaling pathway	STRING	Size	1.2113598073126013
+Chemokine signaling pathway	STRING	Fraction of intralinks	0.22630427431544778
+Chemokine signaling pathway	STRING	Density of links	-0.4852929039396503
+Chemokine signaling pathway	STRING	Max degree	0.9765233470181822
+Chemokine signaling pathway	STRING	Median degree	0.04768484964622746
+Chemokine signaling pathway	STRING	Number of CC	-0.677544694910532
+Chemokine signaling pathway	STRING	Mean clustering coefficient	-1.4821251548051038
+Chemokine signaling pathway	STRING	Fraction of hubs	1.1078763864930086
+Chemokine signaling pathway	STRING	Density of hubs	0.4012908029435326
+MAPK signaling pathway	STRING	Size	2.568948226142306
+MAPK signaling pathway	STRING	Fraction of intralinks	0.40727238462627297
+MAPK signaling pathway	STRING	Density of links	-0.8907985195495133
+MAPK signaling pathway	STRING	Max degree	1.413131042088914
+MAPK signaling pathway	STRING	Median degree	-0.2875353027432473
+MAPK signaling pathway	STRING	Number of CC	0.5317680065761802
+MAPK signaling pathway	STRING	Mean clustering coefficient	-1.3450770206573375
+MAPK signaling pathway	STRING	Fraction of hubs	1.7511133906151441
+MAPK signaling pathway	STRING	Density of hubs	-0.00507406378818826
+Hepatitis B	STRING	Size	0.8159457047408427
+Hepatitis B	STRING	Fraction of intralinks	-0.29320133915351254
+Hepatitis B	STRING	Density of links	-0.31937548438205
+Hepatitis B	STRING	Max degree	1.413131042088914
+Hepatitis B	STRING	Median degree	1.4674407891781205
+Hepatitis B	STRING	Number of CC	-0.07288834416717598
+Hepatitis B	STRING	Mean clustering coefficient	-1.0448940778648812
+Hepatitis B	STRING	Fraction of hubs	1.3727386823080054
+Hepatitis B	STRING	Density of hubs	1.250545266898522
+Cell cycle	STRING	Size	0.36780972182618293
+Cell cycle	STRING	Fraction of intralinks	0.22717100350601047
+Cell cycle	STRING	Density of links	0.24800855513540984
+Cell cycle	STRING	Max degree	1.413131042088914
+Cell cycle	STRING	Median degree	1.2702524642431354
+Cell cycle	STRING	Number of CC	-0.677544694910532
+Cell cycle	STRING	Mean clustering coefficient	0.0019740093786935965
+Cell cycle	STRING	Fraction of hubs	0.9186890323394395
+Cell cycle	STRING	Density of hubs	1.3594139088818384
+PI3K-Akt signaling pathway	STRING	Size	3.3334154911143723
+PI3K-Akt signaling pathway	STRING	Fraction of intralinks	0.6824907252259755
+PI3K-Akt signaling pathway	STRING	Density of links	-0.8977393670658547
+PI3K-Akt signaling pathway	STRING	Max degree	1.413131042088914
+PI3K-Akt signaling pathway	STRING	Median degree	0.06740368213972597
+PI3K-Akt signaling pathway	STRING	Number of CC	-0.07288834416717598
+PI3K-Akt signaling pathway	STRING	Mean clustering coefficient	-0.6812332297141823
+PI3K-Akt signaling pathway	STRING	Fraction of hubs	2.772725103044418
+PI3K-Akt signaling pathway	STRING	Density of hubs	0.29301799747373486

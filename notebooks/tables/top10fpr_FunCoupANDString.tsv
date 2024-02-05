@@ -1,0 +1,81 @@
+pathway_id	pathway_name	class	subclass	Method	FPR	Network
+hsa00280	Valine, leucine and isoleucine degradation	Metabolism	Amino acid metabolism	ANUBIX-FunCoup	0.07520325203252033	FunCoup
+hsa00280	Valine, leucine and isoleucine degradation	Metabolism	Amino acid metabolism	BinoX-FunCoup	0.28821138211382114	FunCoup
+hsa00280	Valine, leucine and isoleucine degradation	Metabolism	Amino acid metabolism	NEAT-FunCoup	0.26260162601626014	FunCoup
+hsa00280	Valine, leucine and isoleucine degradation	Metabolism	Amino acid metabolism	netPEA-FunCoup	0.13252032520325202	FunCoup
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	ANUBIX-FunCoup	0.07723577235772358	FunCoup
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	BinoX-FunCoup	0.27764227642276423	FunCoup
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	NEAT-FunCoup	0.27154471544715447	FunCoup
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	netPEA-FunCoup	0.13414634146341464	FunCoup
+hsa04071	Sphingolipid signaling pathway	Environmental Information Processing	Signal transduction	ANUBIX-FunCoup	0.07520325203252033	FunCoup
+hsa04071	Sphingolipid signaling pathway	Environmental Information Processing	Signal transduction	BinoX-FunCoup	0.2280487804878049	FunCoup
+hsa04071	Sphingolipid signaling pathway	Environmental Information Processing	Signal transduction	NEAT-FunCoup	0.20365853658536584	FunCoup
+hsa04071	Sphingolipid signaling pathway	Environmental Information Processing	Signal transduction	netPEA-FunCoup	0.141869918699187	FunCoup
+hsa04141	Protein processing in endoplasmic reticulum	Genetic Information Processing	Folding, sorting and degradation	ANUBIX-FunCoup	0.07804878048780488	FunCoup
+hsa04141	Protein processing in endoplasmic reticulum	Genetic Information Processing	Folding, sorting and degradation	BinoX-FunCoup	0.26747967479674795	FunCoup
+hsa04141	Protein processing in endoplasmic reticulum	Genetic Information Processing	Folding, sorting and degradation	NEAT-FunCoup	0.23658536585365852	FunCoup
+hsa04141	Protein processing in endoplasmic reticulum	Genetic Information Processing	Folding, sorting and degradation	netPEA-FunCoup	0.12154471544715448	FunCoup
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	ANUBIX-FunCoup	0.07195121951219512	FunCoup
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	BinoX-FunCoup	0.24227642276422764	FunCoup
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	NEAT-FunCoup	0.2304878048780488	FunCoup
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	netPEA-FunCoup	0.13983739837398373	FunCoup
+hsa04714	Thermogenesis	Organismal Systems	Environmental adaptation	ANUBIX-FunCoup	0.07235772357723577	FunCoup
+hsa04714	Thermogenesis	Organismal Systems	Environmental adaptation	BinoX-FunCoup	0.37113821138211384	FunCoup
+hsa04714	Thermogenesis	Organismal Systems	Environmental adaptation	NEAT-FunCoup	0.3491869918699187	FunCoup
+hsa04714	Thermogenesis	Organismal Systems	Environmental adaptation	netPEA-FunCoup	0.1264227642276423	FunCoup
+hsa04810	Regulation of actin cytoskeleton	Cellular Processes	Cell motility	ANUBIX-FunCoup	0.06910569105691057	FunCoup
+hsa04810	Regulation of actin cytoskeleton	Cellular Processes	Cell motility	BinoX-FunCoup	0.28739837398373985	FunCoup
+hsa04810	Regulation of actin cytoskeleton	Cellular Processes	Cell motility	NEAT-FunCoup	0.2621951219512195	FunCoup
+hsa04810	Regulation of actin cytoskeleton	Cellular Processes	Cell motility	netPEA-FunCoup	0.1434959349593496	FunCoup
+hsa05163	Human cytomegalovirus infection	Human Diseases	Infectious disease: viral	ANUBIX-FunCoup	0.07642276422764227	FunCoup
+hsa05163	Human cytomegalovirus infection	Human Diseases	Infectious disease: viral	BinoX-FunCoup	0.2727642276422764	FunCoup
+hsa05163	Human cytomegalovirus infection	Human Diseases	Infectious disease: viral	NEAT-FunCoup	0.2613821138211382	FunCoup
+hsa05163	Human cytomegalovirus infection	Human Diseases	Infectious disease: viral	netPEA-FunCoup	0.12398373983739837	FunCoup
+hsa05166	Human T-cell leukemia virus 1 infection	Human Diseases	Infectious disease: viral	ANUBIX-FunCoup	0.07642276422764227	FunCoup
+hsa05166	Human T-cell leukemia virus 1 infection	Human Diseases	Infectious disease: viral	BinoX-FunCoup	0.20894308943089432	FunCoup
+hsa05166	Human T-cell leukemia virus 1 infection	Human Diseases	Infectious disease: viral	NEAT-FunCoup	0.2056910569105691	FunCoup
+hsa05166	Human T-cell leukemia virus 1 infection	Human Diseases	Infectious disease: viral	netPEA-FunCoup	0.14268292682926828	FunCoup
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	ANUBIX-FunCoup	0.08292682926829269	FunCoup
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	BinoX-FunCoup	0.26666666666666666	FunCoup
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	NEAT-FunCoup	0.26422764227642276	FunCoup
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	netPEA-FunCoup	0.1329268292682927	FunCoup
+hsa04010	MAPK signaling pathway	Environmental Information Processing	Signal transduction	ANUBIX-STRING	0.07398373983739838	STRING
+hsa04010	MAPK signaling pathway	Environmental Information Processing	Signal transduction	BinoX-STRING	0.3703252032520325	STRING
+hsa04010	MAPK signaling pathway	Environmental Information Processing	Signal transduction	NEAT-STRING	0.3304878048780488	STRING
+hsa04010	MAPK signaling pathway	Environmental Information Processing	Signal transduction	netPEA-STRING	0.11626016260162601	STRING
+hsa04014	Ras signaling pathway	Environmental Information Processing	Signal transduction	ANUBIX-STRING	0.07926829268292683	STRING
+hsa04014	Ras signaling pathway	Environmental Information Processing	Signal transduction	BinoX-STRING	0.37398373983739835	STRING
+hsa04014	Ras signaling pathway	Environmental Information Processing	Signal transduction	NEAT-STRING	0.3439024390243902	STRING
+hsa04014	Ras signaling pathway	Environmental Information Processing	Signal transduction	netPEA-STRING	0.11463414634146342	STRING
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	ANUBIX-STRING	0.07398373983739838	STRING
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	BinoX-STRING	0.3678861788617886	STRING
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	NEAT-STRING	0.33699186991869917	STRING
+hsa04062	Chemokine signaling pathway	Organismal Systems	Immune system	netPEA-STRING	0.11666666666666667	STRING
+hsa04110	Cell cycle	Cellular Processes	Cell growth and death	ANUBIX-STRING	0.07520325203252033	STRING
+hsa04110	Cell cycle	Cellular Processes	Cell growth and death	BinoX-STRING	0.34471544715447155	STRING
+hsa04110	Cell cycle	Cellular Processes	Cell growth and death	NEAT-STRING	0.31666666666666665	STRING
+hsa04110	Cell cycle	Cellular Processes	Cell growth and death	netPEA-STRING	0.11829268292682926	STRING
+hsa04151	PI3K-Akt signaling pathway	Environmental Information Processing	Signal transduction	ANUBIX-STRING	0.07967479674796749	STRING
+hsa04151	PI3K-Akt signaling pathway	Environmental Information Processing	Signal transduction	BinoX-STRING	0.3975609756097561	STRING
+hsa04151	PI3K-Akt signaling pathway	Environmental Information Processing	Signal transduction	NEAT-STRING	0.366260162601626	STRING
+hsa04151	PI3K-Akt signaling pathway	Environmental Information Processing	Signal transduction	netPEA-STRING	0.10650406504065041	STRING
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	ANUBIX-STRING	0.07439024390243902	STRING
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	BinoX-STRING	0.38902439024390245	STRING
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	NEAT-STRING	0.3589430894308943	STRING
+hsa04510	Focal adhesion	Cellular Processes	Cellular community - eukaryotes	netPEA-STRING	0.13008130081300814	STRING
+hsa05161	Hepatitis B	Human Diseases	Infectious disease: viral	ANUBIX-STRING	0.07398373983739838	STRING
+hsa05161	Hepatitis B	Human Diseases	Infectious disease: viral	BinoX-STRING	0.3443089430894309	STRING
+hsa05161	Hepatitis B	Human Diseases	Infectious disease: viral	NEAT-STRING	0.3182926829268293	STRING
+hsa05161	Hepatitis B	Human Diseases	Infectious disease: viral	netPEA-STRING	0.12926829268292683	STRING
+hsa05165	Human papillomavirus infection	Human Diseases	Infectious disease: viral	ANUBIX-STRING	0.08373983739837398	STRING
+hsa05165	Human papillomavirus infection	Human Diseases	Infectious disease: viral	BinoX-STRING	0.37601626016260165	STRING
+hsa05165	Human papillomavirus infection	Human Diseases	Infectious disease: viral	NEAT-STRING	0.34796747967479674	STRING
+hsa05165	Human papillomavirus infection	Human Diseases	Infectious disease: viral	netPEA-STRING	0.12154471544715448	STRING
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	ANUBIX-STRING	0.08536585365853659	STRING
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	BinoX-STRING	0.41585365853658535	STRING
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	NEAT-STRING	0.3772357723577236	STRING
+hsa05200	Pathways in cancer	Human Diseases	Cancer: overview	netPEA-STRING	0.12479674796747968	STRING
+hsa05205	Proteoglycans in cancer	Human Diseases	Cancer: overview	ANUBIX-STRING	0.07154471544715447	STRING
+hsa05205	Proteoglycans in cancer	Human Diseases	Cancer: overview	BinoX-STRING	0.37357723577235774	STRING
+hsa05205	Proteoglycans in cancer	Human Diseases	Cancer: overview	NEAT-STRING	0.34552845528455284	STRING
+hsa05205	Proteoglycans in cancer	Human Diseases	Cancer: overview	netPEA-STRING	0.12398373983739837	STRING

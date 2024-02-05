@@ -1,0 +1,27 @@
+Pathway name	Pathway ID	Pathway subclass (Human diseases)	10	20	40	ALL
+Acute myeloid leukemia	hsa05221	Cancer: specific types	11	21	43	129
+Alcoholic liver disease	hsa04936	Endocrine and metabolic disease	11	21	41	64
+Alzheimer disease	hsa05010	Neurodegenerative disease	11	21	41	82
+Asthma	hsa05310	Immune disease	11	21	41	41
+Bladder cancer	hsa05219	Cancer: specific types	11	21	41	108
+Breast cancer	hsa05224	Cancer: specific types	11	21	42	109
+Chronic myeloid leukemia	hsa05220	Cancer: specific types	11	22	41	129
+Colorectal cancer	hsa05210	Cancer: specific types	11	21	41	128
+Dilated cardiomyopathy	hsa05414	Cardiovascular disease	11	21	41	66
+Endometrial cancer	hsa05213	Cancer: specific types	11	21	42	122
+Hepatitis C	hsa05160	Infectious disease: viral	12	21	41	128
+Hepatocellular carcinoma	hsa05225	Cancer: specific types	11	21	41	110
+Huntington disease	hsa05016	Neurodegenerative disease	11	21	23	23
+Inflammatory bowel disease	hsa05321	Immune disease	11	22	41	79
+Measles	hsa05162	Infectious disease: viral	11	21	41	113
+Melanoma	hsa05218	Cancer: specific types	11	21	41	114
+Non-small cell lung cancer	hsa05223	Cancer: specific types	12	21	41	129
+Pancreatic cancer	hsa05212	Cancer: specific types	11	21	41	135
+Parkinson disease	hsa05012	Neurodegenerative disease	11	21	28	28
+Prostate cancer	hsa05215	Cancer: specific types	11	22	42	115
+Renal cell carcinoma	hsa05211	Cancer: specific types	11	21	41	129
+Rheumatoid arthritis	hsa05323	Immune disease	11	21	41	67
+Systemic lupus erythematosus	hsa05322	Immune disease	11	21	39	39
+Thyroid cancer	hsa05216	Cancer: specific types	11	21	41	108
+Type I diabetes mellitus	hsa04940	Endocrine and metabolic disease	11	21	41	43
+Type II diabetes mellitus	hsa04930	Endocrine and metabolic disease	11	21	41	125

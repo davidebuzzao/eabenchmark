@@ -1,0 +1,1831 @@
+A	B	GO_BMA	A_name	B_name
+hsa04930	hsa04012	0.883	Type II diabetes mellitus	ErbB signaling pathway
+hsa04930	hsa04066	0.875	Type II diabetes mellitus	HIF-1 signaling pathway
+hsa04930	hsa04152	0.875	Type II diabetes mellitus	AMPK signaling pathway
+hsa04930	hsa04211	0.877	Type II diabetes mellitus	Longevity regulating pathway
+hsa04930	hsa04620	0.88	Type II diabetes mellitus	Toll-like receptor signaling pathway
+hsa04930	hsa04625	0.875	Type II diabetes mellitus	C-type lectin receptor signaling pathway
+hsa04930	hsa04660	0.884	Type II diabetes mellitus	T cell receptor signaling pathway
+hsa04930	hsa04668	0.876	Type II diabetes mellitus	TNF signaling pathway
+hsa04930	hsa04722	0.888	Type II diabetes mellitus	Neurotrophin signaling pathway
+hsa04930	hsa04910	0.893	Type II diabetes mellitus	Insulin signaling pathway
+hsa04930	hsa04917	0.9	Type II diabetes mellitus	Prolactin signaling pathway
+hsa04930	hsa04920	0.877	Type II diabetes mellitus	Adipocytokine signaling pathway
+hsa04930	hsa04929	0.891	Type II diabetes mellitus	GnRH secretion
+hsa04930	hsa04931	0.89	Type II diabetes mellitus	Insulin resistance
+hsa04930	hsa04935	0.89	Type II diabetes mellitus	Growth hormone synthesis, secretion and action
+hsa04930	hsa04960	0.886	Type II diabetes mellitus	Aldosterone-regulated sodium reabsorption
+hsa04930	hsa05135	0.877	Type II diabetes mellitus	Yersinia infection
+hsa04930	hsa05168	0.879	Type II diabetes mellitus	Herpes simplex virus 1 infection
+hsa04930	hsa05221	0.88	Type II diabetes mellitus	Acute myeloid leukemia
+hsa04930	hsa05235	0.879	Type II diabetes mellitus	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa04931	hsa04066	0.919	Insulin resistance	HIF-1 signaling pathway
+hsa04931	hsa04068	0.926	Insulin resistance	FoxO signaling pathway
+hsa04931	hsa04071	0.914	Insulin resistance	Sphingolipid signaling pathway
+hsa04931	hsa04152	0.939	Insulin resistance	AMPK signaling pathway
+hsa04931	hsa04211	0.922	Insulin resistance	Longevity regulating pathway
+hsa04931	hsa04660	0.917	Insulin resistance	T cell receptor signaling pathway
+hsa04931	hsa04668	0.916	Insulin resistance	TNF signaling pathway
+hsa04931	hsa04722	0.921	Insulin resistance	Neurotrophin signaling pathway
+hsa04931	hsa04910	0.94	Insulin resistance	Insulin signaling pathway
+hsa04931	hsa04917	0.919	Insulin resistance	Prolactin signaling pathway
+hsa04931	hsa04920	0.949	Insulin resistance	Adipocytokine signaling pathway
+hsa04931	hsa04932	0.918	Insulin resistance	Non-alcoholic fatty liver disease
+hsa04931	hsa05135	0.914	Insulin resistance	Yersinia infection
+hsa04931	hsa05160	0.921	Insulin resistance	Hepatitis C
+hsa04931	hsa05161	0.917	Insulin resistance	Hepatitis B
+hsa04931	hsa05168	0.924	Insulin resistance	Herpes simplex virus 1 infection
+hsa04931	hsa05215	0.922	Insulin resistance	Prostate cancer
+hsa04931	hsa05221	0.916	Insulin resistance	Acute myeloid leukemia
+hsa04931	hsa05235	0.924	Insulin resistance	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa04931	hsa05417	0.914	Insulin resistance	Lipid and atherosclerosis
+hsa04932	hsa04068	0.913	Non-alcoholic fatty liver disease	FoxO signaling pathway
+hsa04932	hsa04151	0.914	Non-alcoholic fatty liver disease	PI3K-Akt signaling pathway
+hsa04932	hsa04210	0.922	Non-alcoholic fatty liver disease	Apoptosis
+hsa04932	hsa04380	0.914	Non-alcoholic fatty liver disease	Osteoclast differentiation
+hsa04932	hsa04668	0.915	Non-alcoholic fatty liver disease	TNF signaling pathway
+hsa04932	hsa04931	0.918	Non-alcoholic fatty liver disease	Insulin resistance
+hsa04932	hsa04933	0.917	Non-alcoholic fatty liver disease	AGE-RAGE signaling pathway in diabetic complications
+hsa04932	hsa04936	0.927	Non-alcoholic fatty liver disease	Alcoholic liver disease
+hsa04932	hsa05010	0.914	Non-alcoholic fatty liver disease	Alzheimer disease
+hsa04932	hsa05020	0.919	Non-alcoholic fatty liver disease	Prion disease
+hsa04932	hsa05135	0.916	Non-alcoholic fatty liver disease	Yersinia infection
+hsa04932	hsa05160	0.924	Non-alcoholic fatty liver disease	Hepatitis C
+hsa04932	hsa05161	0.93	Non-alcoholic fatty liver disease	Hepatitis B
+hsa04932	hsa05162	0.922	Non-alcoholic fatty liver disease	Measles
+hsa04932	hsa05163	0.918	Non-alcoholic fatty liver disease	Human cytomegalovirus infection
+hsa04932	hsa05167	0.92	Non-alcoholic fatty liver disease	Kaposi sarcoma-associated herpesvirus infection
+hsa04932	hsa05168	0.926	Non-alcoholic fatty liver disease	Herpes simplex virus 1 infection
+hsa04932	hsa05208	0.928	Non-alcoholic fatty liver disease	Chemical carcinogenesis - reactive oxygen species
+hsa04932	hsa05415	0.93	Non-alcoholic fatty liver disease	Diabetic cardiomyopathy
+hsa04932	hsa05417	0.933	Non-alcoholic fatty liver disease	Lipid and atherosclerosis
+hsa04933	hsa04062	0.941	AGE-RAGE signaling pathway in diabetic complications	Chemokine signaling pathway
+hsa04933	hsa04151	0.938	AGE-RAGE signaling pathway in diabetic complications	PI3K-Akt signaling pathway
+hsa04933	hsa04380	0.946	AGE-RAGE signaling pathway in diabetic complications	Osteoclast differentiation
+hsa04933	hsa04510	0.934	AGE-RAGE signaling pathway in diabetic complications	Focal adhesion
+hsa04933	hsa04620	0.934	AGE-RAGE signaling pathway in diabetic complications	Toll-like receptor signaling pathway
+hsa04933	hsa04668	0.943	AGE-RAGE signaling pathway in diabetic complications	TNF signaling pathway
+hsa04933	hsa04926	0.953	AGE-RAGE signaling pathway in diabetic complications	Relaxin signaling pathway
+hsa04933	hsa05135	0.941	AGE-RAGE signaling pathway in diabetic complications	Yersinia infection
+hsa04933	hsa05142	0.946	AGE-RAGE signaling pathway in diabetic complications	Chagas disease
+hsa04933	hsa05146	0.936	AGE-RAGE signaling pathway in diabetic complications	Amoebiasis
+hsa04933	hsa05161	0.955	AGE-RAGE signaling pathway in diabetic complications	Hepatitis B
+hsa04933	hsa05163	0.935	AGE-RAGE signaling pathway in diabetic complications	Human cytomegalovirus infection
+hsa04933	hsa05167	0.937	AGE-RAGE signaling pathway in diabetic complications	Kaposi sarcoma-associated herpesvirus infection
+hsa04933	hsa05200	0.936	AGE-RAGE signaling pathway in diabetic complications	Pathways in cancer
+hsa04933	hsa05205	0.939	AGE-RAGE signaling pathway in diabetic complications	Proteoglycans in cancer
+hsa04933	hsa05210	0.938	AGE-RAGE signaling pathway in diabetic complications	Colorectal cancer
+hsa04933	hsa05212	0.952	AGE-RAGE signaling pathway in diabetic complications	Pancreatic cancer
+hsa04933	hsa05220	0.938	AGE-RAGE signaling pathway in diabetic complications	Chronic myeloid leukemia
+hsa04933	hsa05417	0.936	AGE-RAGE signaling pathway in diabetic complications	Lipid and atherosclerosis
+hsa04933	hsa05418	0.938	AGE-RAGE signaling pathway in diabetic complications	Fluid shear stress and atherosclerosis
+hsa04934	hsa04010	0.918	Cushing syndrome	MAPK signaling pathway
+hsa04934	hsa04310	0.938	Cushing syndrome	Wnt signaling pathway
+hsa04934	hsa04390	0.914	Cushing syndrome	Hippo signaling pathway
+hsa04934	hsa04550	0.919	Cushing syndrome	Signaling pathways regulating pluripotency of stem cells
+hsa04934	hsa04912	0.914	Cushing syndrome	GnRH signaling pathway
+hsa04934	hsa04915	0.913	Cushing syndrome	Estrogen signaling pathway
+hsa04934	hsa04916	0.943	Cushing syndrome	Melanogenesis
+hsa04934	hsa04921	0.916	Cushing syndrome	Oxytocin signaling pathway
+hsa04934	hsa04925	0.921	Cushing syndrome	Aldosterone synthesis and secretion
+hsa04934	hsa04927	0.915	Cushing syndrome	Cortisol synthesis and secretion
+hsa04934	hsa04928	0.93	Cushing syndrome	Parathyroid hormone synthesis, secretion and action
+hsa04934	hsa04935	0.919	Cushing syndrome	Growth hormone synthesis, secretion and action
+hsa04934	hsa05163	0.92	Cushing syndrome	Human cytomegalovirus infection
+hsa04934	hsa05200	0.921	Cushing syndrome	Pathways in cancer
+hsa04934	hsa05205	0.919	Cushing syndrome	Proteoglycans in cancer
+hsa04934	hsa05207	0.915	Cushing syndrome	Chemical carcinogenesis - receptor activation
+hsa04934	hsa05215	0.914	Cushing syndrome	Prostate cancer
+hsa04934	hsa05224	0.931	Cushing syndrome	Breast cancer
+hsa04934	hsa05225	0.925	Cushing syndrome	Hepatocellular carcinoma
+hsa04934	hsa05226	0.928	Cushing syndrome	Gastric cancer
+hsa04936	hsa04064	0.92	Alcoholic liver disease	NF-kappa B signaling pathway
+hsa04936	hsa04380	0.917	Alcoholic liver disease	Osteoclast differentiation
+hsa04936	hsa04620	0.937	Alcoholic liver disease	Toll-like receptor signaling pathway
+hsa04936	hsa04621	0.921	Alcoholic liver disease	NOD-like receptor signaling pathway
+hsa04936	hsa04657	0.924	Alcoholic liver disease	IL-17 signaling pathway
+hsa04936	hsa04668	0.932	Alcoholic liver disease	TNF signaling pathway
+hsa04936	hsa04932	0.927	Alcoholic liver disease	Non-alcoholic fatty liver disease
+hsa04936	hsa05133	0.915	Alcoholic liver disease	Pertussis
+hsa04936	hsa05135	0.917	Alcoholic liver disease	Yersinia infection
+hsa04936	hsa05142	0.925	Alcoholic liver disease	Chagas disease
+hsa04936	hsa05145	0.914	Alcoholic liver disease	Toxoplasmosis
+hsa04936	hsa05152	0.915	Alcoholic liver disease	Tuberculosis
+hsa04936	hsa05160	0.931	Alcoholic liver disease	Hepatitis C
+hsa04936	hsa05161	0.933	Alcoholic liver disease	Hepatitis B
+hsa04936	hsa05162	0.93	Alcoholic liver disease	Measles
+hsa04936	hsa05164	0.919	Alcoholic liver disease	Influenza A
+hsa04936	hsa05167	0.921	Alcoholic liver disease	Kaposi sarcoma-associated herpesvirus infection
+hsa04936	hsa05168	0.934	Alcoholic liver disease	Herpes simplex virus 1 infection
+hsa04936	hsa05169	0.92	Alcoholic liver disease	Epstein-Barr virus infection
+hsa04936	hsa05417	0.926	Alcoholic liver disease	Lipid and atherosclerosis
+hsa04940	hsa04060	0.854	Type I diabetes mellitus	Cytokine-cytokine receptor interaction
+hsa04940	hsa04514	0.856	Type I diabetes mellitus	Cell adhesion molecules
+hsa04940	hsa04612	0.896	Type I diabetes mellitus	Antigen processing and presentation
+hsa04940	hsa04640	0.886	Type I diabetes mellitus	Hematopoietic cell lineage
+hsa04940	hsa04650	0.841	Type I diabetes mellitus	Natural killer cell mediated cytotoxicity
+hsa04940	hsa04658	0.847	Type I diabetes mellitus	Th1 and Th2 cell differentiation
+hsa04940	hsa04672	0.889	Type I diabetes mellitus	Intestinal immune network for IgA production
+hsa04940	hsa05134	0.854	Type I diabetes mellitus	Legionellosis
+hsa04940	hsa05140	0.868	Type I diabetes mellitus	Leishmaniasis
+hsa04940	hsa05144	0.842	Type I diabetes mellitus	Malaria
+hsa04940	hsa05150	0.857	Type I diabetes mellitus	Staphylococcus aureus infection
+hsa04940	hsa05164	0.843	Type I diabetes mellitus	Influenza A
+hsa04940	hsa05310	0.892	Type I diabetes mellitus	Asthma
+hsa04940	hsa05320	0.928	Type I diabetes mellitus	Autoimmune thyroid disease
+hsa04940	hsa05321	0.882	Type I diabetes mellitus	Inflammatory bowel disease
+hsa04940	hsa05322	0.867	Type I diabetes mellitus	Systemic lupus erythematosus
+hsa04940	hsa05323	0.867	Type I diabetes mellitus	Rheumatoid arthritis
+hsa04940	hsa05330	0.964	Type I diabetes mellitus	Allograft rejection
+hsa04940	hsa05332	0.96	Type I diabetes mellitus	Graft-versus-host disease
+hsa04940	hsa05416	0.852	Type I diabetes mellitus	Viral myocarditis
+hsa04950	hsa04911	0.743	Maturity onset diabetes of the young	Insulin secretion
+hsa04950	hsa04922	0.762	Maturity onset diabetes of the young	Glucagon signaling pathway
+hsa05010	hsa04010	0.926	Alzheimer disease	MAPK signaling pathway
+hsa05010	hsa04210	0.906	Alzheimer disease	Apoptosis
+hsa05010	hsa04310	0.904	Alzheimer disease	Wnt signaling pathway
+hsa05010	hsa04932	0.914	Alzheimer disease	Non-alcoholic fatty liver disease
+hsa05010	hsa05012	0.935	Alzheimer disease	Parkinson disease
+hsa05010	hsa05014	0.943	Alzheimer disease	Amyotrophic lateral sclerosis
+hsa05010	hsa05016	0.932	Alzheimer disease	Huntington disease
+hsa05010	hsa05017	0.905	Alzheimer disease	Spinocerebellar ataxia
+hsa05010	hsa05020	0.952	Alzheimer disease	Prion disease
+hsa05010	hsa05022	0.979	Alzheimer disease	Pathways of neurodegeneration - multiple diseases
+hsa05010	hsa05132	0.916	Alzheimer disease	Salmonella infection
+hsa05010	hsa05160	0.909	Alzheimer disease	Hepatitis C
+hsa05010	hsa05163	0.924	Alzheimer disease	Human cytomegalovirus infection
+hsa05010	hsa05167	0.918	Alzheimer disease	Kaposi sarcoma-associated herpesvirus infection
+hsa05010	hsa05168	0.909	Alzheimer disease	Herpes simplex virus 1 infection
+hsa05010	hsa05208	0.912	Alzheimer disease	Chemical carcinogenesis - reactive oxygen species
+hsa05010	hsa05225	0.902	Alzheimer disease	Hepatocellular carcinoma
+hsa05010	hsa05415	0.928	Alzheimer disease	Diabetic cardiomyopathy
+hsa05010	hsa05417	0.929	Alzheimer disease	Lipid and atherosclerosis
+hsa05010	hsa05418	0.911	Alzheimer disease	Fluid shear stress and atherosclerosis
+hsa05012	hsa04137	0.854	Parkinson disease	Mitophagy - animal
+hsa05012	hsa04141	0.886	Parkinson disease	Protein processing in endoplasmic reticulum
+hsa05012	hsa04714	0.887	Parkinson disease	Thermogenesis
+hsa05012	hsa04722	0.87	Parkinson disease	Neurotrophin signaling pathway
+hsa05012	hsa04723	0.847	Parkinson disease	Retrograde endocannabinoid signaling
+hsa05012	hsa04728	0.879	Parkinson disease	Dopaminergic synapse
+hsa05012	hsa04918	0.813	Parkinson disease	Thyroid hormone synthesis
+hsa05012	hsa04922	0.847	Parkinson disease	Glucagon signaling pathway
+hsa05012	hsa04932	0.893	Parkinson disease	Non-alcoholic fatty liver disease
+hsa05012	hsa05010	0.935	Parkinson disease	Alzheimer disease
+hsa05012	hsa05014	0.935	Parkinson disease	Amyotrophic lateral sclerosis
+hsa05012	hsa05016	0.931	Parkinson disease	Huntington disease
+hsa05012	hsa05017	0.884	Parkinson disease	Spinocerebellar ataxia
+hsa05012	hsa05020	0.936	Parkinson disease	Prion disease
+hsa05012	hsa05022	0.944	Parkinson disease	Pathways of neurodegeneration - multiple diseases
+hsa05012	hsa05030	0.816	Parkinson disease	Cocaine addiction
+hsa05012	hsa05031	0.833	Parkinson disease	Amphetamine addiction
+hsa05012	hsa05034	0.86	Parkinson disease	Alcoholism
+hsa05012	hsa05208	0.9	Parkinson disease	Chemical carcinogenesis - reactive oxygen species
+hsa05012	hsa05214	0.84	Parkinson disease	Glioma
+hsa05014	hsa04137	0.86	Amyotrophic lateral sclerosis	Mitophagy - animal
+hsa05014	hsa04140	0.881	Amyotrophic lateral sclerosis	Autophagy - animal
+hsa05014	hsa04141	0.888	Amyotrophic lateral sclerosis	Protein processing in endoplasmic reticulum
+hsa05014	hsa04210	0.902	Amyotrophic lateral sclerosis	Apoptosis
+hsa05014	hsa04621	0.892	Amyotrophic lateral sclerosis	NOD-like receptor signaling pathway
+hsa05014	hsa04622	0.814	Amyotrophic lateral sclerosis	RIG-I-like receptor signaling pathway
+hsa05014	hsa04932	0.896	Amyotrophic lateral sclerosis	Non-alcoholic fatty liver disease
+hsa05014	hsa05010	0.943	Amyotrophic lateral sclerosis	Alzheimer disease
+hsa05014	hsa05012	0.935	Amyotrophic lateral sclerosis	Parkinson disease
+hsa05014	hsa05016	0.949	Amyotrophic lateral sclerosis	Huntington disease
+hsa05014	hsa05017	0.895	Amyotrophic lateral sclerosis	Spinocerebellar ataxia
+hsa05014	hsa05020	0.942	Amyotrophic lateral sclerosis	Prion disease
+hsa05014	hsa05022	0.963	Amyotrophic lateral sclerosis	Pathways of neurodegeneration - multiple diseases
+hsa05014	hsa05130	0.898	Amyotrophic lateral sclerosis	Pathogenic Escherichia coli infection
+hsa05014	hsa05132	0.918	Amyotrophic lateral sclerosis	Salmonella infection
+hsa05014	hsa05134	0.841	Amyotrophic lateral sclerosis	Legionellosis
+hsa05014	hsa05145	0.874	Amyotrophic lateral sclerosis	Toxoplasmosis
+hsa05014	hsa05164	0.883	Amyotrophic lateral sclerosis	Influenza A
+hsa05014	hsa05208	0.899	Amyotrophic lateral sclerosis	Chemical carcinogenesis - reactive oxygen species
+hsa05014	hsa05417	0.907	Amyotrophic lateral sclerosis	Lipid and atherosclerosis
+hsa05016	hsa04137	0.846	Huntington disease	Mitophagy - animal
+hsa05016	hsa04211	0.863	Huntington disease	Longevity regulating pathway
+hsa05016	hsa04215	0.795	Huntington disease	Apoptosis - multiple species
+hsa05016	hsa04714	0.891	Huntington disease	Thermogenesis
+hsa05016	hsa04720	0.816	Huntington disease	Long-term potentiation
+hsa05016	hsa04723	0.843	Huntington disease	Retrograde endocannabinoid signaling
+hsa05016	hsa04728	0.854	Huntington disease	Dopaminergic synapse
+hsa05016	hsa04922	0.833	Huntington disease	Glucagon signaling pathway
+hsa05016	hsa04932	0.889	Huntington disease	Non-alcoholic fatty liver disease
+hsa05016	hsa04962	0.772	Huntington disease	Vasopressin-regulated water reabsorption
+hsa05016	hsa05010	0.932	Huntington disease	Alzheimer disease
+hsa05016	hsa05012	0.931	Huntington disease	Parkinson disease
+hsa05016	hsa05014	0.949	Huntington disease	Amyotrophic lateral sclerosis
+hsa05016	hsa05017	0.908	Huntington disease	Spinocerebellar ataxia
+hsa05016	hsa05020	0.931	Huntington disease	Prion disease
+hsa05016	hsa05022	0.943	Huntington disease	Pathways of neurodegeneration - multiple diseases
+hsa05016	hsa05030	0.805	Huntington disease	Cocaine addiction
+hsa05016	hsa05031	0.821	Huntington disease	Amphetamine addiction
+hsa05016	hsa05208	0.896	Huntington disease	Chemical carcinogenesis - reactive oxygen species
+hsa05016	hsa05415	0.892	Huntington disease	Diabetic cardiomyopathy
+hsa05017	hsa04020	0.877	Spinocerebellar ataxia	Calcium signaling pathway
+hsa05017	hsa04022	0.887	Spinocerebellar ataxia	cGMP-PKG signaling pathway
+hsa05017	hsa04024	0.885	Spinocerebellar ataxia	cAMP signaling pathway
+hsa05017	hsa04140	0.903	Spinocerebellar ataxia	Autophagy - animal
+hsa05017	hsa04211	0.884	Spinocerebellar ataxia	Longevity regulating pathway
+hsa05017	hsa04218	0.89	Spinocerebellar ataxia	Cellular senescence
+hsa05017	hsa04371	0.89	Spinocerebellar ataxia	Apelin signaling pathway
+hsa05017	hsa04613	0.882	Spinocerebellar ataxia	Neutrophil extracellular trap formation
+hsa05017	hsa04722	0.894	Spinocerebellar ataxia	Neurotrophin signaling pathway
+hsa05017	hsa04725	0.888	Spinocerebellar ataxia	Cholinergic synapse
+hsa05017	hsa04728	0.886	Spinocerebellar ataxia	Dopaminergic synapse
+hsa05017	hsa04915	0.898	Spinocerebellar ataxia	Estrogen signaling pathway
+hsa05017	hsa04935	0.897	Spinocerebellar ataxia	Growth hormone synthesis, secretion and action
+hsa05017	hsa05010	0.905	Spinocerebellar ataxia	Alzheimer disease
+hsa05017	hsa05012	0.884	Spinocerebellar ataxia	Parkinson disease
+hsa05017	hsa05014	0.895	Spinocerebellar ataxia	Amyotrophic lateral sclerosis
+hsa05017	hsa05016	0.908	Spinocerebellar ataxia	Huntington disease
+hsa05017	hsa05020	0.901	Spinocerebellar ataxia	Prion disease
+hsa05017	hsa05022	0.899	Spinocerebellar ataxia	Pathways of neurodegeneration - multiple diseases
+hsa05017	hsa05415	0.877	Spinocerebellar ataxia	Diabetic cardiomyopathy
+hsa05020	hsa04010	0.919	Prion disease	MAPK signaling pathway
+hsa05020	hsa04210	0.904	Prion disease	Apoptosis
+hsa05020	hsa04621	0.899	Prion disease	NOD-like receptor signaling pathway
+hsa05020	hsa04915	0.896	Prion disease	Estrogen signaling pathway
+hsa05020	hsa04932	0.919	Prion disease	Non-alcoholic fatty liver disease
+hsa05020	hsa05010	0.952	Prion disease	Alzheimer disease
+hsa05020	hsa05012	0.936	Prion disease	Parkinson disease
+hsa05020	hsa05014	0.942	Prion disease	Amyotrophic lateral sclerosis
+hsa05020	hsa05016	0.931	Prion disease	Huntington disease
+hsa05020	hsa05017	0.901	Prion disease	Spinocerebellar ataxia
+hsa05020	hsa05022	0.949	Prion disease	Pathways of neurodegeneration - multiple diseases
+hsa05020	hsa05130	0.895	Prion disease	Pathogenic Escherichia coli infection
+hsa05020	hsa05132	0.909	Prion disease	Salmonella infection
+hsa05020	hsa05152	0.899	Prion disease	Tuberculosis
+hsa05020	hsa05163	0.914	Prion disease	Human cytomegalovirus infection
+hsa05020	hsa05169	0.894	Prion disease	Epstein-Barr virus infection
+hsa05020	hsa05208	0.917	Prion disease	Chemical carcinogenesis - reactive oxygen species
+hsa05020	hsa05415	0.925	Prion disease	Diabetic cardiomyopathy
+hsa05020	hsa05417	0.923	Prion disease	Lipid and atherosclerosis
+hsa05020	hsa05418	0.905	Prion disease	Fluid shear stress and atherosclerosis
+hsa05022	hsa04010	0.924	Pathways of neurodegeneration - multiple diseases	MAPK signaling pathway
+hsa05022	hsa04020	0.9	Pathways of neurodegeneration - multiple diseases	Calcium signaling pathway
+hsa05022	hsa04210	0.9	Pathways of neurodegeneration - multiple diseases	Apoptosis
+hsa05022	hsa04310	0.904	Pathways of neurodegeneration - multiple diseases	Wnt signaling pathway
+hsa05022	hsa04621	0.903	Pathways of neurodegeneration - multiple diseases	NOD-like receptor signaling pathway
+hsa05022	hsa04932	0.899	Pathways of neurodegeneration - multiple diseases	Non-alcoholic fatty liver disease
+hsa05022	hsa05010	0.979	Pathways of neurodegeneration - multiple diseases	Alzheimer disease
+hsa05022	hsa05012	0.944	Pathways of neurodegeneration - multiple diseases	Parkinson disease
+hsa05022	hsa05014	0.963	Pathways of neurodegeneration - multiple diseases	Amyotrophic lateral sclerosis
+hsa05022	hsa05016	0.943	Pathways of neurodegeneration - multiple diseases	Huntington disease
+hsa05022	hsa05017	0.899	Pathways of neurodegeneration - multiple diseases	Spinocerebellar ataxia
+hsa05022	hsa05020	0.949	Pathways of neurodegeneration - multiple diseases	Prion disease
+hsa05022	hsa05130	0.903	Pathways of neurodegeneration - multiple diseases	Pathogenic Escherichia coli infection
+hsa05022	hsa05132	0.922	Pathways of neurodegeneration - multiple diseases	Salmonella infection
+hsa05022	hsa05163	0.922	Pathways of neurodegeneration - multiple diseases	Human cytomegalovirus infection
+hsa05022	hsa05167	0.912	Pathways of neurodegeneration - multiple diseases	Kaposi sarcoma-associated herpesvirus infection
+hsa05022	hsa05208	0.904	Pathways of neurodegeneration - multiple diseases	Chemical carcinogenesis - reactive oxygen species
+hsa05022	hsa05225	0.898	Pathways of neurodegeneration - multiple diseases	Hepatocellular carcinoma
+hsa05022	hsa05415	0.914	Pathways of neurodegeneration - multiple diseases	Diabetic cardiomyopathy
+hsa05022	hsa05417	0.924	Pathways of neurodegeneration - multiple diseases	Lipid and atherosclerosis
+hsa05030	hsa04024	0.864	Cocaine addiction	cAMP signaling pathway
+hsa05030	hsa04080	0.861	Cocaine addiction	Neuroactive ligand-receptor interaction
+hsa05030	hsa04211	0.853	Cocaine addiction	Longevity regulating pathway
+hsa05030	hsa04713	0.887	Cocaine addiction	Circadian entrainment
+hsa05030	hsa04720	0.88	Cocaine addiction	Long-term potentiation
+hsa05030	hsa04722	0.86	Cocaine addiction	Neurotrophin signaling pathway
+hsa05030	hsa04725	0.868	Cocaine addiction	Cholinergic synapse
+hsa05030	hsa04728	0.906	Cocaine addiction	Dopaminergic synapse
+hsa05030	hsa04911	0.859	Cocaine addiction	Insulin secretion
+hsa05030	hsa04912	0.859	Cocaine addiction	GnRH signaling pathway
+hsa05030	hsa04915	0.86	Cocaine addiction	Estrogen signaling pathway
+hsa05030	hsa04916	0.864	Cocaine addiction	Melanogenesis
+hsa05030	hsa04918	0.853	Cocaine addiction	Thyroid hormone synthesis
+hsa05030	hsa04926	0.857	Cocaine addiction	Relaxin signaling pathway
+hsa05030	hsa04927	0.857	Cocaine addiction	Cortisol synthesis and secretion
+hsa05030	hsa04928	0.868	Cocaine addiction	Parathyroid hormone synthesis, secretion and action
+hsa05030	hsa04934	0.856	Cocaine addiction	Cushing syndrome
+hsa05030	hsa04935	0.865	Cocaine addiction	Growth hormone synthesis, secretion and action
+hsa05030	hsa05031	0.915	Cocaine addiction	Amphetamine addiction
+hsa05030	hsa05034	0.907	Cocaine addiction	Alcoholism
+hsa05031	hsa04022	0.878	Amphetamine addiction	cGMP-PKG signaling pathway
+hsa05031	hsa04024	0.881	Amphetamine addiction	cAMP signaling pathway
+hsa05031	hsa04114	0.873	Amphetamine addiction	Oocyte meiosis
+hsa05031	hsa04218	0.875	Amphetamine addiction	Cellular senescence
+hsa05031	hsa04261	0.886	Amphetamine addiction	Adrenergic signaling in cardiomyocytes
+hsa05031	hsa04713	0.917	Amphetamine addiction	Circadian entrainment
+hsa05031	hsa04720	0.935	Amphetamine addiction	Long-term potentiation
+hsa05031	hsa04725	0.886	Amphetamine addiction	Cholinergic synapse
+hsa05031	hsa04728	0.941	Amphetamine addiction	Dopaminergic synapse
+hsa05031	hsa04911	0.885	Amphetamine addiction	Insulin secretion
+hsa05031	hsa04912	0.888	Amphetamine addiction	GnRH signaling pathway
+hsa05031	hsa04915	0.874	Amphetamine addiction	Estrogen signaling pathway
+hsa05031	hsa04916	0.875	Amphetamine addiction	Melanogenesis
+hsa05031	hsa04921	0.889	Amphetamine addiction	Oxytocin signaling pathway
+hsa05031	hsa04922	0.893	Amphetamine addiction	Glucagon signaling pathway
+hsa05031	hsa04925	0.884	Amphetamine addiction	Aldosterone synthesis and secretion
+hsa05031	hsa04928	0.873	Amphetamine addiction	Parathyroid hormone synthesis, secretion and action
+hsa05031	hsa04935	0.877	Amphetamine addiction	Growth hormone synthesis, secretion and action
+hsa05031	hsa05030	0.915	Amphetamine addiction	Cocaine addiction
+hsa05031	hsa05034	0.924	Amphetamine addiction	Alcoholism
+hsa05032	hsa04020	0.846	Morphine addiction	Calcium signaling pathway
+hsa05032	hsa04024	0.842	Morphine addiction	cAMP signaling pathway
+hsa05032	hsa04080	0.864	Morphine addiction	Neuroactive ligand-receptor interaction
+hsa05032	hsa04540	0.846	Morphine addiction	Gap junction
+hsa05032	hsa04713	0.88	Morphine addiction	Circadian entrainment
+hsa05032	hsa04720	0.847	Morphine addiction	Long-term potentiation
+hsa05032	hsa04723	0.892	Morphine addiction	Retrograde endocannabinoid signaling
+hsa05032	hsa04724	0.881	Morphine addiction	Glutamatergic synapse
+hsa05032	hsa04725	0.874	Morphine addiction	Cholinergic synapse
+hsa05032	hsa04726	0.872	Morphine addiction	Serotonergic synapse
+hsa05032	hsa04727	0.932	Morphine addiction	GABAergic synapse
+hsa05032	hsa04728	0.856	Morphine addiction	Dopaminergic synapse
+hsa05032	hsa04740	0.884	Morphine addiction	Olfactory transduction
+hsa05032	hsa04742	0.905	Morphine addiction	Taste transduction
+hsa05032	hsa04750	0.844	Morphine addiction	Inflammatory mediator regulation of TRP channels
+hsa05032	hsa04911	0.844	Morphine addiction	Insulin secretion
+hsa05032	hsa04924	0.854	Morphine addiction	Renin secretion
+hsa05032	hsa04925	0.846	Morphine addiction	Aldosterone synthesis and secretion
+hsa05032	hsa04970	0.851	Morphine addiction	Salivary secretion
+hsa05032	hsa04971	0.856	Morphine addiction	Gastric acid secretion
+hsa05033	hsa04020	0.731	Nicotine addiction	Calcium signaling pathway
+hsa05033	hsa04024	0.704	Nicotine addiction	cAMP signaling pathway
+hsa05033	hsa04080	0.81	Nicotine addiction	Neuroactive ligand-receptor interaction
+hsa05033	hsa04713	0.751	Nicotine addiction	Circadian entrainment
+hsa05033	hsa04720	0.74	Nicotine addiction	Long-term potentiation
+hsa05033	hsa04721	0.748	Nicotine addiction	Synaptic vesicle cycle
+hsa05033	hsa04723	0.78	Nicotine addiction	Retrograde endocannabinoid signaling
+hsa05033	hsa04724	0.801	Nicotine addiction	Glutamatergic synapse
+hsa05033	hsa04725	0.74	Nicotine addiction	Cholinergic synapse
+hsa05033	hsa04726	0.74	Nicotine addiction	Serotonergic synapse
+hsa05033	hsa04727	0.828	Nicotine addiction	GABAergic synapse
+hsa05033	hsa04728	0.712	Nicotine addiction	Dopaminergic synapse
+hsa05033	hsa04730	0.722	Nicotine addiction	Long-term depression
+hsa05033	hsa04742	0.834	Nicotine addiction	Taste transduction
+hsa05033	hsa05010	0.652	Nicotine addiction	Alzheimer disease
+hsa05033	hsa05017	0.7	Nicotine addiction	Spinocerebellar ataxia
+hsa05033	hsa05022	0.649	Nicotine addiction	Pathways of neurodegeneration - multiple diseases
+hsa05033	hsa05030	0.766	Nicotine addiction	Cocaine addiction
+hsa05033	hsa05031	0.743	Nicotine addiction	Amphetamine addiction
+hsa05033	hsa05032	0.817	Nicotine addiction	Morphine addiction
+hsa05034	hsa04010	0.893	Alcoholism	MAPK signaling pathway
+hsa05034	hsa04014	0.891	Alcoholism	Ras signaling pathway
+hsa05034	hsa04022	0.886	Alcoholism	cGMP-PKG signaling pathway
+hsa05034	hsa04024	0.9	Alcoholism	cAMP signaling pathway
+hsa05034	hsa04371	0.895	Alcoholism	Apelin signaling pathway
+hsa05034	hsa04613	0.894	Alcoholism	Neutrophil extracellular trap formation
+hsa05034	hsa04713	0.888	Alcoholism	Circadian entrainment
+hsa05034	hsa04720	0.899	Alcoholism	Long-term potentiation
+hsa05034	hsa04722	0.895	Alcoholism	Neurotrophin signaling pathway
+hsa05034	hsa04728	0.921	Alcoholism	Dopaminergic synapse
+hsa05034	hsa04912	0.892	Alcoholism	GnRH signaling pathway
+hsa05034	hsa04915	0.9	Alcoholism	Estrogen signaling pathway
+hsa05034	hsa04916	0.886	Alcoholism	Melanogenesis
+hsa05034	hsa04921	0.887	Alcoholism	Oxytocin signaling pathway
+hsa05034	hsa04926	0.887	Alcoholism	Relaxin signaling pathway
+hsa05034	hsa04928	0.886	Alcoholism	Parathyroid hormone synthesis, secretion and action
+hsa05034	hsa04935	0.893	Alcoholism	Growth hormone synthesis, secretion and action
+hsa05034	hsa05030	0.907	Alcoholism	Cocaine addiction
+hsa05034	hsa05031	0.924	Alcoholism	Amphetamine addiction
+hsa05034	hsa05203	0.898	Alcoholism	Viral carcinogenesis
+hsa05100	hsa04012	0.899	Bacterial invasion of epithelial cells	ErbB signaling pathway
+hsa05100	hsa04015	0.913	Bacterial invasion of epithelial cells	Rap1 signaling pathway
+hsa05100	hsa04062	0.893	Bacterial invasion of epithelial cells	Chemokine signaling pathway
+hsa05100	hsa04144	0.894	Bacterial invasion of epithelial cells	Endocytosis
+hsa05100	hsa04360	0.913	Bacterial invasion of epithelial cells	Axon guidance
+hsa05100	hsa04510	0.933	Bacterial invasion of epithelial cells	Focal adhesion
+hsa05100	hsa04520	0.918	Bacterial invasion of epithelial cells	Adherens junction
+hsa05100	hsa04530	0.905	Bacterial invasion of epithelial cells	Tight junction
+hsa05100	hsa04611	0.898	Bacterial invasion of epithelial cells	Platelet activation
+hsa05100	hsa04660	0.893	Bacterial invasion of epithelial cells	T cell receptor signaling pathway
+hsa05100	hsa04666	0.904	Bacterial invasion of epithelial cells	Fc gamma R-mediated phagocytosis
+hsa05100	hsa04670	0.933	Bacterial invasion of epithelial cells	Leukocyte transendothelial migration
+hsa05100	hsa04722	0.896	Bacterial invasion of epithelial cells	Neurotrophin signaling pathway
+hsa05100	hsa04810	0.926	Bacterial invasion of epithelial cells	Regulation of actin cytoskeleton
+hsa05100	hsa05130	0.9	Bacterial invasion of epithelial cells	Pathogenic Escherichia coli infection
+hsa05100	hsa05131	0.901	Bacterial invasion of epithelial cells	Shigellosis
+hsa05100	hsa05132	0.899	Bacterial invasion of epithelial cells	Salmonella infection
+hsa05100	hsa05135	0.922	Bacterial invasion of epithelial cells	Yersinia infection
+hsa05100	hsa05205	0.9	Bacterial invasion of epithelial cells	Proteoglycans in cancer
+hsa05100	hsa05213	0.894	Bacterial invasion of epithelial cells	Endometrial cancer
+hsa05110	hsa04015	0.817	Vibrio cholerae infection	Rap1 signaling pathway
+hsa05110	hsa04145	0.811	Vibrio cholerae infection	Phagosome
+hsa05110	hsa04261	0.808	Vibrio cholerae infection	Adrenergic signaling in cardiomyocytes
+hsa05110	hsa04530	0.832	Vibrio cholerae infection	Tight junction
+hsa05110	hsa04540	0.824	Vibrio cholerae infection	Gap junction
+hsa05110	hsa04611	0.823	Vibrio cholerae infection	Platelet activation
+hsa05110	hsa04670	0.828	Vibrio cholerae infection	Leukocyte transendothelial migration
+hsa05110	hsa04713	0.81	Vibrio cholerae infection	Circadian entrainment
+hsa05110	hsa04725	0.815	Vibrio cholerae infection	Cholinergic synapse
+hsa05110	hsa04750	0.814	Vibrio cholerae infection	Inflammatory mediator regulation of TRP channels
+hsa05110	hsa04911	0.81	Vibrio cholerae infection	Insulin secretion
+hsa05110	hsa04912	0.815	Vibrio cholerae infection	GnRH signaling pathway
+hsa05110	hsa04915	0.809	Vibrio cholerae infection	Estrogen signaling pathway
+hsa05110	hsa04918	0.82	Vibrio cholerae infection	Thyroid hormone synthesis
+hsa05110	hsa04921	0.815	Vibrio cholerae infection	Oxytocin signaling pathway
+hsa05110	hsa04961	0.819	Vibrio cholerae infection	Endocrine and other factor-regulated calcium reabsorption
+hsa05110	hsa04970	0.829	Vibrio cholerae infection	Salivary secretion
+hsa05110	hsa04971	0.87	Vibrio cholerae infection	Gastric acid secretion
+hsa05110	hsa04972	0.825	Vibrio cholerae infection	Pancreatic secretion
+hsa05110	hsa05120	0.847	Vibrio cholerae infection	Epithelial cell signaling in Helicobacter pylori infection
+hsa05120	hsa04012	0.906	Epithelial cell signaling in Helicobacter pylori infection	ErbB signaling pathway
+hsa05120	hsa04014	0.902	Epithelial cell signaling in Helicobacter pylori infection	Ras signaling pathway
+hsa05120	hsa04062	0.926	Epithelial cell signaling in Helicobacter pylori infection	Chemokine signaling pathway
+hsa05120	hsa04064	0.905	Epithelial cell signaling in Helicobacter pylori infection	NF-kappa B signaling pathway
+hsa05120	hsa04360	0.901	Epithelial cell signaling in Helicobacter pylori infection	Axon guidance
+hsa05120	hsa04620	0.911	Epithelial cell signaling in Helicobacter pylori infection	Toll-like receptor signaling pathway
+hsa05120	hsa04625	0.905	Epithelial cell signaling in Helicobacter pylori infection	C-type lectin receptor signaling pathway
+hsa05120	hsa04660	0.91	Epithelial cell signaling in Helicobacter pylori infection	T cell receptor signaling pathway
+hsa05120	hsa04662	0.901	Epithelial cell signaling in Helicobacter pylori infection	B cell receptor signaling pathway
+hsa05120	hsa04668	0.906	Epithelial cell signaling in Helicobacter pylori infection	TNF signaling pathway
+hsa05120	hsa04722	0.913	Epithelial cell signaling in Helicobacter pylori infection	Neurotrophin signaling pathway
+hsa05120	hsa05130	0.906	Epithelial cell signaling in Helicobacter pylori infection	Pathogenic Escherichia coli infection
+hsa05120	hsa05131	0.899	Epithelial cell signaling in Helicobacter pylori infection	Shigellosis
+hsa05120	hsa05135	0.919	Epithelial cell signaling in Helicobacter pylori infection	Yersinia infection
+hsa05120	hsa05161	0.907	Epithelial cell signaling in Helicobacter pylori infection	Hepatitis B
+hsa05120	hsa05163	0.899	Epithelial cell signaling in Helicobacter pylori infection	Human cytomegalovirus infection
+hsa05120	hsa05167	0.899	Epithelial cell signaling in Helicobacter pylori infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05120	hsa05168	0.906	Epithelial cell signaling in Helicobacter pylori infection	Herpes simplex virus 1 infection
+hsa05120	hsa05212	0.9	Epithelial cell signaling in Helicobacter pylori infection	Pancreatic cancer
+hsa05120	hsa05235	0.906	Epithelial cell signaling in Helicobacter pylori infection	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05120	hsa05323	0.9	Epithelial cell signaling in Helicobacter pylori infection	Rheumatoid arthritis
+hsa05130	hsa04010	0.93	Pathogenic Escherichia coli infection	MAPK signaling pathway
+hsa05130	hsa04210	0.93	Pathogenic Escherichia coli infection	Apoptosis
+hsa05130	hsa04510	0.929	Pathogenic Escherichia coli infection	Focal adhesion
+hsa05130	hsa04530	0.939	Pathogenic Escherichia coli infection	Tight junction
+hsa05130	hsa04621	0.937	Pathogenic Escherichia coli infection	NOD-like receptor signaling pathway
+hsa05130	hsa04660	0.927	Pathogenic Escherichia coli infection	T cell receptor signaling pathway
+hsa05130	hsa04810	0.939	Pathogenic Escherichia coli infection	Regulation of actin cytoskeleton
+hsa05130	hsa05131	0.953	Pathogenic Escherichia coli infection	Shigellosis
+hsa05130	hsa05132	0.964	Pathogenic Escherichia coli infection	Salmonella infection
+hsa05130	hsa05135	0.96	Pathogenic Escherichia coli infection	Yersinia infection
+hsa05130	hsa05152	0.926	Pathogenic Escherichia coli infection	Tuberculosis
+hsa05130	hsa05160	0.928	Pathogenic Escherichia coli infection	Hepatitis C
+hsa05130	hsa05161	0.931	Pathogenic Escherichia coli infection	Hepatitis B
+hsa05130	hsa05163	0.936	Pathogenic Escherichia coli infection	Human cytomegalovirus infection
+hsa05130	hsa05164	0.926	Pathogenic Escherichia coli infection	Influenza A
+hsa05130	hsa05168	0.936	Pathogenic Escherichia coli infection	Herpes simplex virus 1 infection
+hsa05130	hsa05170	0.931	Pathogenic Escherichia coli infection	Human immunodeficiency virus 1 infection
+hsa05130	hsa05171	0.93	Pathogenic Escherichia coli infection	Coronavirus disease - COVID-19
+hsa05130	hsa05205	0.932	Pathogenic Escherichia coli infection	Proteoglycans in cancer
+hsa05130	hsa05417	0.931	Pathogenic Escherichia coli infection	Lipid and atherosclerosis
+hsa05131	hsa04062	0.943	Shigellosis	Chemokine signaling pathway
+hsa05131	hsa04151	0.936	Shigellosis	PI3K-Akt signaling pathway
+hsa05131	hsa04210	0.941	Shigellosis	Apoptosis
+hsa05131	hsa04510	0.937	Shigellosis	Focal adhesion
+hsa05131	hsa04621	0.949	Shigellosis	NOD-like receptor signaling pathway
+hsa05131	hsa04625	0.936	Shigellosis	C-type lectin receptor signaling pathway
+hsa05131	hsa04722	0.938	Shigellosis	Neurotrophin signaling pathway
+hsa05131	hsa05130	0.953	Shigellosis	Pathogenic Escherichia coli infection
+hsa05131	hsa05132	0.96	Shigellosis	Salmonella infection
+hsa05131	hsa05135	0.961	Shigellosis	Yersinia infection
+hsa05131	hsa05160	0.938	Shigellosis	Hepatitis C
+hsa05131	hsa05161	0.941	Shigellosis	Hepatitis B
+hsa05131	hsa05163	0.954	Shigellosis	Human cytomegalovirus infection
+hsa05131	hsa05167	0.951	Shigellosis	Kaposi sarcoma-associated herpesvirus infection
+hsa05131	hsa05168	0.947	Shigellosis	Herpes simplex virus 1 infection
+hsa05131	hsa05170	0.949	Shigellosis	Human immunodeficiency virus 1 infection
+hsa05131	hsa05171	0.936	Shigellosis	Coronavirus disease - COVID-19
+hsa05131	hsa05203	0.937	Shigellosis	Viral carcinogenesis
+hsa05131	hsa05205	0.945	Shigellosis	Proteoglycans in cancer
+hsa05131	hsa05417	0.948	Shigellosis	Lipid and atherosclerosis
+hsa05131	hsa05418	0.937	Shigellosis	Fluid shear stress and atherosclerosis
+hsa05132	hsa04010	0.935	Salmonella infection	MAPK signaling pathway
+hsa05132	hsa04210	0.938	Salmonella infection	Apoptosis
+hsa05132	hsa04510	0.931	Salmonella infection	Focal adhesion
+hsa05132	hsa04621	0.943	Salmonella infection	NOD-like receptor signaling pathway
+hsa05132	hsa05130	0.964	Salmonella infection	Pathogenic Escherichia coli infection
+hsa05132	hsa05131	0.96	Salmonella infection	Shigellosis
+hsa05132	hsa05135	0.957	Salmonella infection	Yersinia infection
+hsa05132	hsa05152	0.935	Salmonella infection	Tuberculosis
+hsa05132	hsa05160	0.932	Salmonella infection	Hepatitis C
+hsa05132	hsa05161	0.939	Salmonella infection	Hepatitis B
+hsa05132	hsa05162	0.933	Salmonella infection	Measles
+hsa05132	hsa05163	0.939	Salmonella infection	Human cytomegalovirus infection
+hsa05132	hsa05164	0.935	Salmonella infection	Influenza A
+hsa05132	hsa05167	0.936	Salmonella infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05132	hsa05168	0.939	Salmonella infection	Herpes simplex virus 1 infection
+hsa05132	hsa05170	0.94	Salmonella infection	Human immunodeficiency virus 1 infection
+hsa05132	hsa05200	0.931	Salmonella infection	Pathways in cancer
+hsa05132	hsa05205	0.938	Salmonella infection	Proteoglycans in cancer
+hsa05132	hsa05417	0.941	Salmonella infection	Lipid and atherosclerosis
+hsa05132	hsa05418	0.934	Salmonella infection	Fluid shear stress and atherosclerosis
+hsa05133	hsa04064	0.92	Pertussis	NF-kappa B signaling pathway
+hsa05133	hsa04620	0.941	Pertussis	Toll-like receptor signaling pathway
+hsa05133	hsa04621	0.924	Pertussis	NOD-like receptor signaling pathway
+hsa05133	hsa04625	0.937	Pertussis	C-type lectin receptor signaling pathway
+hsa05133	hsa04657	0.927	Pertussis	IL-17 signaling pathway
+hsa05133	hsa04660	0.914	Pertussis	T cell receptor signaling pathway
+hsa05133	hsa04668	0.925	Pertussis	TNF signaling pathway
+hsa05133	hsa04722	0.911	Pertussis	Neurotrophin signaling pathway
+hsa05133	hsa04936	0.915	Pertussis	Alcoholic liver disease
+hsa05133	hsa05130	0.919	Pertussis	Pathogenic Escherichia coli infection
+hsa05133	hsa05134	0.928	Pertussis	Legionellosis
+hsa05133	hsa05135	0.934	Pertussis	Yersinia infection
+hsa05133	hsa05140	0.926	Pertussis	Leishmaniasis
+hsa05133	hsa05142	0.929	Pertussis	Chagas disease
+hsa05133	hsa05145	0.916	Pertussis	Toxoplasmosis
+hsa05133	hsa05152	0.923	Pertussis	Tuberculosis
+hsa05133	hsa05161	0.917	Pertussis	Hepatitis B
+hsa05133	hsa05162	0.912	Pertussis	Measles
+hsa05133	hsa05168	0.92	Pertussis	Herpes simplex virus 1 infection
+hsa05133	hsa05417	0.918	Pertussis	Lipid and atherosclerosis
+hsa05134	hsa04064	0.91	Legionellosis	NF-kappa B signaling pathway
+hsa05134	hsa04620	0.917	Legionellosis	Toll-like receptor signaling pathway
+hsa05134	hsa04621	0.909	Legionellosis	NOD-like receptor signaling pathway
+hsa05134	hsa04622	0.901	Legionellosis	RIG-I-like receptor signaling pathway
+hsa05134	hsa04625	0.895	Legionellosis	C-type lectin receptor signaling pathway
+hsa05134	hsa04657	0.91	Legionellosis	IL-17 signaling pathway
+hsa05134	hsa04668	0.901	Legionellosis	TNF signaling pathway
+hsa05134	hsa04936	0.89	Legionellosis	Alcoholic liver disease
+hsa05134	hsa05133	0.928	Legionellosis	Pertussis
+hsa05134	hsa05135	0.893	Legionellosis	Yersinia infection
+hsa05134	hsa05140	0.904	Legionellosis	Leishmaniasis
+hsa05134	hsa05142	0.897	Legionellosis	Chagas disease
+hsa05134	hsa05145	0.908	Legionellosis	Toxoplasmosis
+hsa05134	hsa05152	0.904	Legionellosis	Tuberculosis
+hsa05134	hsa05162	0.915	Legionellosis	Measles
+hsa05134	hsa05164	0.906	Legionellosis	Influenza A
+hsa05134	hsa05168	0.921	Legionellosis	Herpes simplex virus 1 infection
+hsa05134	hsa05169	0.893	Legionellosis	Epstein-Barr virus infection
+hsa05134	hsa05171	0.887	Legionellosis	Coronavirus disease - COVID-19
+hsa05134	hsa05417	0.896	Legionellosis	Lipid and atherosclerosis
+hsa05135	hsa04062	0.956	Yersinia infection	Chemokine signaling pathway
+hsa05135	hsa04380	0.945	Yersinia infection	Osteoclast differentiation
+hsa05135	hsa04510	0.949	Yersinia infection	Focal adhesion
+hsa05135	hsa04620	0.954	Yersinia infection	Toll-like receptor signaling pathway
+hsa05135	hsa04625	0.949	Yersinia infection	C-type lectin receptor signaling pathway
+hsa05135	hsa04660	0.959	Yersinia infection	T cell receptor signaling pathway
+hsa05135	hsa04668	0.949	Yersinia infection	TNF signaling pathway
+hsa05135	hsa04722	0.949	Yersinia infection	Neurotrophin signaling pathway
+hsa05135	hsa04810	0.942	Yersinia infection	Regulation of actin cytoskeleton
+hsa05135	hsa05130	0.96	Yersinia infection	Pathogenic Escherichia coli infection
+hsa05135	hsa05131	0.961	Yersinia infection	Shigellosis
+hsa05135	hsa05132	0.957	Yersinia infection	Salmonella infection
+hsa05135	hsa05161	0.95	Yersinia infection	Hepatitis B
+hsa05135	hsa05163	0.951	Yersinia infection	Human cytomegalovirus infection
+hsa05135	hsa05164	0.942	Yersinia infection	Influenza A
+hsa05135	hsa05167	0.945	Yersinia infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05135	hsa05168	0.949	Yersinia infection	Herpes simplex virus 1 infection
+hsa05135	hsa05170	0.946	Yersinia infection	Human immunodeficiency virus 1 infection
+hsa05135	hsa05235	0.945	Yersinia infection	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05135	hsa05417	0.945	Yersinia infection	Lipid and atherosclerosis
+hsa05140	hsa04060	0.906	Leishmaniasis	Cytokine-cytokine receptor interaction
+hsa05140	hsa04064	0.911	Leishmaniasis	NF-kappa B signaling pathway
+hsa05140	hsa04380	0.929	Leishmaniasis	Osteoclast differentiation
+hsa05140	hsa04620	0.922	Leishmaniasis	Toll-like receptor signaling pathway
+hsa05140	hsa04658	0.934	Leishmaniasis	Th1 and Th2 cell differentiation
+hsa05140	hsa04659	0.941	Leishmaniasis	Th17 cell differentiation
+hsa05140	hsa04933	0.909	Leishmaniasis	AGE-RAGE signaling pathway in diabetic complications
+hsa05140	hsa05133	0.926	Leishmaniasis	Pertussis
+hsa05140	hsa05135	0.915	Leishmaniasis	Yersinia infection
+hsa05140	hsa05142	0.925	Leishmaniasis	Chagas disease
+hsa05140	hsa05145	0.946	Leishmaniasis	Toxoplasmosis
+hsa05140	hsa05146	0.913	Leishmaniasis	Amoebiasis
+hsa05140	hsa05152	0.933	Leishmaniasis	Tuberculosis
+hsa05140	hsa05161	0.918	Leishmaniasis	Hepatitis B
+hsa05140	hsa05162	0.906	Leishmaniasis	Measles
+hsa05140	hsa05164	0.911	Leishmaniasis	Influenza A
+hsa05140	hsa05168	0.934	Leishmaniasis	Herpes simplex virus 1 infection
+hsa05140	hsa05169	0.908	Leishmaniasis	Epstein-Barr virus infection
+hsa05140	hsa05235	0.92	Leishmaniasis	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05140	hsa05321	0.941	Leishmaniasis	Inflammatory bowel disease
+hsa05140	hsa05323	0.916	Leishmaniasis	Rheumatoid arthritis
+hsa05142	hsa04062	0.934	Chagas disease	Chemokine signaling pathway
+hsa05142	hsa04380	0.948	Chagas disease	Osteoclast differentiation
+hsa05142	hsa04620	0.961	Chagas disease	Toll-like receptor signaling pathway
+hsa05142	hsa04625	0.941	Chagas disease	C-type lectin receptor signaling pathway
+hsa05142	hsa04660	0.934	Chagas disease	T cell receptor signaling pathway
+hsa05142	hsa04668	0.952	Chagas disease	TNF signaling pathway
+hsa05142	hsa04926	0.94	Chagas disease	Relaxin signaling pathway
+hsa05142	hsa04933	0.946	Chagas disease	AGE-RAGE signaling pathway in diabetic complications
+hsa05142	hsa05135	0.94	Chagas disease	Yersinia infection
+hsa05142	hsa05145	0.943	Chagas disease	Toxoplasmosis
+hsa05142	hsa05146	0.935	Chagas disease	Amoebiasis
+hsa05142	hsa05152	0.935	Chagas disease	Tuberculosis
+hsa05142	hsa05160	0.937	Chagas disease	Hepatitis C
+hsa05142	hsa05161	0.952	Chagas disease	Hepatitis B
+hsa05142	hsa05162	0.939	Chagas disease	Measles
+hsa05142	hsa05163	0.939	Chagas disease	Human cytomegalovirus infection
+hsa05142	hsa05167	0.934	Chagas disease	Kaposi sarcoma-associated herpesvirus infection
+hsa05142	hsa05168	0.949	Chagas disease	Herpes simplex virus 1 infection
+hsa05142	hsa05170	0.934	Chagas disease	Human immunodeficiency virus 1 infection
+hsa05142	hsa05235	0.941	Chagas disease	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05142	hsa05417	0.935	Chagas disease	Lipid and atherosclerosis
+hsa05143	hsa04060	0.891	African trypanosomiasis	Cytokine-cytokine receptor interaction
+hsa05143	hsa04061	0.874	African trypanosomiasis	Viral protein interaction with cytokine and cytokine receptor
+hsa05143	hsa04064	0.876	African trypanosomiasis	NF-kappa B signaling pathway
+hsa05143	hsa04620	0.882	African trypanosomiasis	Toll-like receptor signaling pathway
+hsa05143	hsa04621	0.859	African trypanosomiasis	NOD-like receptor signaling pathway
+hsa05143	hsa04630	0.868	African trypanosomiasis	JAK-STAT signaling pathway
+hsa05143	hsa04640	0.857	African trypanosomiasis	Hematopoietic cell lineage
+hsa05143	hsa04650	0.862	African trypanosomiasis	Natural killer cell mediated cytotoxicity
+hsa05143	hsa04657	0.868	African trypanosomiasis	IL-17 signaling pathway
+hsa05143	hsa04668	0.867	African trypanosomiasis	TNF signaling pathway
+hsa05143	hsa04933	0.857	African trypanosomiasis	AGE-RAGE signaling pathway in diabetic complications
+hsa05143	hsa05133	0.87	African trypanosomiasis	Pertussis
+hsa05143	hsa05134	0.859	African trypanosomiasis	Legionellosis
+hsa05143	hsa05140	0.864	African trypanosomiasis	Leishmaniasis
+hsa05143	hsa05142	0.878	African trypanosomiasis	Chagas disease
+hsa05143	hsa05144	0.904	African trypanosomiasis	Malaria
+hsa05143	hsa05145	0.859	African trypanosomiasis	Toxoplasmosis
+hsa05143	hsa05146	0.883	African trypanosomiasis	Amoebiasis
+hsa05143	hsa05164	0.856	African trypanosomiasis	Influenza A
+hsa05143	hsa05171	0.857	African trypanosomiasis	Coronavirus disease - COVID-19
+hsa05144	hsa04060	0.917	Malaria	Cytokine-cytokine receptor interaction
+hsa05144	hsa04061	0.892	Malaria	Viral protein interaction with cytokine and cytokine receptor
+hsa05144	hsa04064	0.878	Malaria	NF-kappa B signaling pathway
+hsa05144	hsa04512	0.873	Malaria	ECM-receptor interaction
+hsa05144	hsa04514	0.87	Malaria	Cell adhesion molecules
+hsa05144	hsa04620	0.89	Malaria	Toll-like receptor signaling pathway
+hsa05144	hsa04640	0.903	Malaria	Hematopoietic cell lineage
+hsa05144	hsa04657	0.872	Malaria	IL-17 signaling pathway
+hsa05144	hsa04933	0.867	Malaria	AGE-RAGE signaling pathway in diabetic complications
+hsa05144	hsa05133	0.88	Malaria	Pertussis
+hsa05144	hsa05134	0.868	Malaria	Legionellosis
+hsa05144	hsa05140	0.903	Malaria	Leishmaniasis
+hsa05144	hsa05142	0.884	Malaria	Chagas disease
+hsa05144	hsa05143	0.904	Malaria	African trypanosomiasis
+hsa05144	hsa05145	0.88	Malaria	Toxoplasmosis
+hsa05144	hsa05146	0.892	Malaria	Amoebiasis
+hsa05144	hsa05152	0.877	Malaria	Tuberculosis
+hsa05144	hsa05171	0.867	Malaria	Coronavirus disease - COVID-19
+hsa05144	hsa05321	0.882	Malaria	Inflammatory bowel disease
+hsa05144	hsa05323	0.906	Malaria	Rheumatoid arthritis
+hsa05145	hsa04380	0.933	Toxoplasmosis	Osteoclast differentiation
+hsa05145	hsa04620	0.932	Toxoplasmosis	Toll-like receptor signaling pathway
+hsa05145	hsa04659	0.935	Toxoplasmosis	Th17 cell differentiation
+hsa05145	hsa04668	0.929	Toxoplasmosis	TNF signaling pathway
+hsa05145	hsa04933	0.93	Toxoplasmosis	AGE-RAGE signaling pathway in diabetic complications
+hsa05145	hsa05135	0.932	Toxoplasmosis	Yersinia infection
+hsa05145	hsa05140	0.946	Toxoplasmosis	Leishmaniasis
+hsa05145	hsa05142	0.943	Toxoplasmosis	Chagas disease
+hsa05145	hsa05146	0.929	Toxoplasmosis	Amoebiasis
+hsa05145	hsa05152	0.948	Toxoplasmosis	Tuberculosis
+hsa05145	hsa05160	0.928	Toxoplasmosis	Hepatitis C
+hsa05145	hsa05161	0.944	Toxoplasmosis	Hepatitis B
+hsa05145	hsa05162	0.944	Toxoplasmosis	Measles
+hsa05145	hsa05164	0.94	Toxoplasmosis	Influenza A
+hsa05145	hsa05166	0.927	Toxoplasmosis	Human T-cell leukemia virus 1 infection
+hsa05145	hsa05167	0.929	Toxoplasmosis	Kaposi sarcoma-associated herpesvirus infection
+hsa05145	hsa05168	0.952	Toxoplasmosis	Herpes simplex virus 1 infection
+hsa05145	hsa05169	0.938	Toxoplasmosis	Epstein-Barr virus infection
+hsa05145	hsa05170	0.93	Toxoplasmosis	Human immunodeficiency virus 1 infection
+hsa05145	hsa05417	0.937	Toxoplasmosis	Lipid and atherosclerosis
+hsa05146	hsa04060	0.912	Amoebiasis	Cytokine-cytokine receptor interaction
+hsa05146	hsa04062	0.917	Amoebiasis	Chemokine signaling pathway
+hsa05146	hsa04151	0.916	Amoebiasis	PI3K-Akt signaling pathway
+hsa05146	hsa04380	0.914	Amoebiasis	Osteoclast differentiation
+hsa05146	hsa04510	0.912	Amoebiasis	Focal adhesion
+hsa05146	hsa04620	0.92	Amoebiasis	Toll-like receptor signaling pathway
+hsa05146	hsa04668	0.913	Amoebiasis	TNF signaling pathway
+hsa05146	hsa04926	0.928	Amoebiasis	Relaxin signaling pathway
+hsa05146	hsa04933	0.936	Amoebiasis	AGE-RAGE signaling pathway in diabetic complications
+hsa05146	hsa05133	0.91	Amoebiasis	Pertussis
+hsa05146	hsa05135	0.926	Amoebiasis	Yersinia infection
+hsa05146	hsa05140	0.913	Amoebiasis	Leishmaniasis
+hsa05146	hsa05142	0.935	Amoebiasis	Chagas disease
+hsa05146	hsa05145	0.929	Amoebiasis	Toxoplasmosis
+hsa05146	hsa05152	0.917	Amoebiasis	Tuberculosis
+hsa05146	hsa05161	0.92	Amoebiasis	Hepatitis B
+hsa05146	hsa05163	0.911	Amoebiasis	Human cytomegalovirus infection
+hsa05146	hsa05168	0.92	Amoebiasis	Herpes simplex virus 1 infection
+hsa05146	hsa05205	0.916	Amoebiasis	Proteoglycans in cancer
+hsa05146	hsa05417	0.91	Amoebiasis	Lipid and atherosclerosis
+hsa05150	hsa04145	0.839	Staphylococcus aureus infection	Phagosome
+hsa05150	hsa04514	0.879	Staphylococcus aureus infection	Cell adhesion molecules
+hsa05150	hsa04610	0.888	Staphylococcus aureus infection	Complement and coagulation cascades
+hsa05150	hsa04612	0.832	Staphylococcus aureus infection	Antigen processing and presentation
+hsa05150	hsa04640	0.876	Staphylococcus aureus infection	Hematopoietic cell lineage
+hsa05150	hsa04650	0.82	Staphylococcus aureus infection	Natural killer cell mediated cytotoxicity
+hsa05150	hsa04672	0.867	Staphylococcus aureus infection	Intestinal immune network for IgA production
+hsa05150	hsa04940	0.857	Staphylococcus aureus infection	Type I diabetes mellitus
+hsa05150	hsa05133	0.828	Staphylococcus aureus infection	Pertussis
+hsa05150	hsa05140	0.849	Staphylococcus aureus infection	Leishmaniasis
+hsa05150	hsa05144	0.85	Staphylococcus aureus infection	Malaria
+hsa05150	hsa05152	0.82	Staphylococcus aureus infection	Tuberculosis
+hsa05150	hsa05310	0.86	Staphylococcus aureus infection	Asthma
+hsa05150	hsa05320	0.87	Staphylococcus aureus infection	Autoimmune thyroid disease
+hsa05150	hsa05321	0.828	Staphylococcus aureus infection	Inflammatory bowel disease
+hsa05150	hsa05322	0.869	Staphylococcus aureus infection	Systemic lupus erythematosus
+hsa05150	hsa05323	0.857	Staphylococcus aureus infection	Rheumatoid arthritis
+hsa05150	hsa05330	0.865	Staphylococcus aureus infection	Allograft rejection
+hsa05150	hsa05332	0.859	Staphylococcus aureus infection	Graft-versus-host disease
+hsa05150	hsa05416	0.85	Staphylococcus aureus infection	Viral myocarditis
+hsa05152	hsa04010	0.931	Tuberculosis	MAPK signaling pathway
+hsa05152	hsa04380	0.937	Tuberculosis	Osteoclast differentiation
+hsa05152	hsa04621	0.933	Tuberculosis	NOD-like receptor signaling pathway
+hsa05152	hsa04625	0.94	Tuberculosis	C-type lectin receptor signaling pathway
+hsa05152	hsa05132	0.935	Tuberculosis	Salmonella infection
+hsa05152	hsa05135	0.933	Tuberculosis	Yersinia infection
+hsa05152	hsa05140	0.933	Tuberculosis	Leishmaniasis
+hsa05152	hsa05142	0.935	Tuberculosis	Chagas disease
+hsa05152	hsa05145	0.948	Tuberculosis	Toxoplasmosis
+hsa05152	hsa05160	0.931	Tuberculosis	Hepatitis C
+hsa05152	hsa05161	0.949	Tuberculosis	Hepatitis B
+hsa05152	hsa05162	0.939	Tuberculosis	Measles
+hsa05152	hsa05163	0.94	Tuberculosis	Human cytomegalovirus infection
+hsa05152	hsa05164	0.944	Tuberculosis	Influenza A
+hsa05152	hsa05166	0.936	Tuberculosis	Human T-cell leukemia virus 1 infection
+hsa05152	hsa05167	0.944	Tuberculosis	Kaposi sarcoma-associated herpesvirus infection
+hsa05152	hsa05168	0.956	Tuberculosis	Herpes simplex virus 1 infection
+hsa05152	hsa05169	0.938	Tuberculosis	Epstein-Barr virus infection
+hsa05152	hsa05170	0.938	Tuberculosis	Human immunodeficiency virus 1 infection
+hsa05152	hsa05417	0.949	Tuberculosis	Lipid and atherosclerosis
+hsa05160	hsa04151	0.94	Hepatitis C	PI3K-Akt signaling pathway
+hsa05160	hsa04210	0.941	Hepatitis C	Apoptosis
+hsa05160	hsa04620	0.945	Hepatitis C	Toll-like receptor signaling pathway
+hsa05160	hsa04660	0.943	Hepatitis C	T cell receptor signaling pathway
+hsa05160	hsa04668	0.942	Hepatitis C	TNF signaling pathway
+hsa05160	hsa04722	0.941	Hepatitis C	Neurotrophin signaling pathway
+hsa05160	hsa05135	0.941	Hepatitis C	Yersinia infection
+hsa05160	hsa05161	0.963	Hepatitis C	Hepatitis B
+hsa05160	hsa05162	0.963	Hepatitis C	Measles
+hsa05160	hsa05163	0.946	Hepatitis C	Human cytomegalovirus infection
+hsa05160	hsa05164	0.953	Hepatitis C	Influenza A
+hsa05160	hsa05167	0.954	Hepatitis C	Kaposi sarcoma-associated herpesvirus infection
+hsa05160	hsa05168	0.958	Hepatitis C	Herpes simplex virus 1 infection
+hsa05160	hsa05169	0.953	Hepatitis C	Epstein-Barr virus infection
+hsa05160	hsa05210	0.94	Hepatitis C	Colorectal cancer
+hsa05160	hsa05212	0.944	Hepatitis C	Pancreatic cancer
+hsa05160	hsa05215	0.943	Hepatitis C	Prostate cancer
+hsa05160	hsa05223	0.941	Hepatitis C	Non-small cell lung cancer
+hsa05160	hsa05235	0.941	Hepatitis C	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05160	hsa05417	0.943	Hepatitis C	Lipid and atherosclerosis
+hsa05161	hsa04068	0.951	Hepatitis B	FoxO signaling pathway
+hsa05161	hsa04380	0.951	Hepatitis B	Osteoclast differentiation
+hsa05161	hsa04620	0.956	Hepatitis B	Toll-like receptor signaling pathway
+hsa05161	hsa04668	0.955	Hepatitis B	TNF signaling pathway
+hsa05161	hsa04933	0.955	Hepatitis B	AGE-RAGE signaling pathway in diabetic complications
+hsa05161	hsa05135	0.95	Hepatitis B	Yersinia infection
+hsa05161	hsa05142	0.952	Hepatitis B	Chagas disease
+hsa05161	hsa05152	0.949	Hepatitis B	Tuberculosis
+hsa05161	hsa05160	0.963	Hepatitis B	Hepatitis C
+hsa05161	hsa05162	0.961	Hepatitis B	Measles
+hsa05161	hsa05163	0.95	Hepatitis B	Human cytomegalovirus infection
+hsa05161	hsa05164	0.955	Hepatitis B	Influenza A
+hsa05161	hsa05166	0.953	Hepatitis B	Human T-cell leukemia virus 1 infection
+hsa05161	hsa05167	0.959	Hepatitis B	Kaposi sarcoma-associated herpesvirus infection
+hsa05161	hsa05168	0.956	Hepatitis B	Herpes simplex virus 1 infection
+hsa05161	hsa05169	0.953	Hepatitis B	Epstein-Barr virus infection
+hsa05161	hsa05210	0.952	Hepatitis B	Colorectal cancer
+hsa05161	hsa05212	0.959	Hepatitis B	Pancreatic cancer
+hsa05161	hsa05215	0.949	Hepatitis B	Prostate cancer
+hsa05161	hsa05220	0.953	Hepatitis B	Chronic myeloid leukemia
+hsa05162	hsa04210	0.938	Measles	Apoptosis
+hsa05162	hsa04620	0.953	Measles	Toll-like receptor signaling pathway
+hsa05162	hsa04621	0.938	Measles	NOD-like receptor signaling pathway
+hsa05162	hsa04625	0.939	Measles	C-type lectin receptor signaling pathway
+hsa05162	hsa04630	0.936	Measles	JAK-STAT signaling pathway
+hsa05162	hsa04668	0.945	Measles	TNF signaling pathway
+hsa05162	hsa05135	0.941	Measles	Yersinia infection
+hsa05162	hsa05142	0.939	Measles	Chagas disease
+hsa05162	hsa05145	0.944	Measles	Toxoplasmosis
+hsa05162	hsa05152	0.939	Measles	Tuberculosis
+hsa05162	hsa05160	0.963	Measles	Hepatitis C
+hsa05162	hsa05161	0.961	Measles	Hepatitis B
+hsa05162	hsa05164	0.956	Measles	Influenza A
+hsa05162	hsa05167	0.947	Measles	Kaposi sarcoma-associated herpesvirus infection
+hsa05162	hsa05168	0.964	Measles	Herpes simplex virus 1 infection
+hsa05162	hsa05169	0.958	Measles	Epstein-Barr virus infection
+hsa05162	hsa05170	0.939	Measles	Human immunodeficiency virus 1 infection
+hsa05162	hsa05171	0.942	Measles	Coronavirus disease - COVID-19
+hsa05162	hsa05235	0.938	Measles	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05162	hsa05417	0.944	Measles	Lipid and atherosclerosis
+hsa05163	hsa04010	0.949	Human cytomegalovirus infection	MAPK signaling pathway
+hsa05163	hsa04014	0.944	Human cytomegalovirus infection	Ras signaling pathway
+hsa05163	hsa04062	0.958	Human cytomegalovirus infection	Chemokine signaling pathway
+hsa05163	hsa04151	0.958	Human cytomegalovirus infection	PI3K-Akt signaling pathway
+hsa05163	hsa04218	0.942	Human cytomegalovirus infection	Cellular senescence
+hsa05163	hsa04625	0.945	Human cytomegalovirus infection	C-type lectin receptor signaling pathway
+hsa05163	hsa05131	0.954	Human cytomegalovirus infection	Shigellosis
+hsa05163	hsa05135	0.951	Human cytomegalovirus infection	Yersinia infection
+hsa05163	hsa05160	0.946	Human cytomegalovirus infection	Hepatitis C
+hsa05163	hsa05161	0.95	Human cytomegalovirus infection	Hepatitis B
+hsa05163	hsa05165	0.954	Human cytomegalovirus infection	Human papillomavirus infection
+hsa05163	hsa05166	0.95	Human cytomegalovirus infection	Human T-cell leukemia virus 1 infection
+hsa05163	hsa05167	0.974	Human cytomegalovirus infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05163	hsa05168	0.963	Human cytomegalovirus infection	Herpes simplex virus 1 infection
+hsa05163	hsa05169	0.95	Human cytomegalovirus infection	Epstein-Barr virus infection
+hsa05163	hsa05170	0.968	Human cytomegalovirus infection	Human immunodeficiency virus 1 infection
+hsa05163	hsa05200	0.958	Human cytomegalovirus infection	Pathways in cancer
+hsa05163	hsa05205	0.951	Human cytomegalovirus infection	Proteoglycans in cancer
+hsa05163	hsa05417	0.954	Human cytomegalovirus infection	Lipid and atherosclerosis
+hsa05163	hsa05418	0.941	Human cytomegalovirus infection	Fluid shear stress and atherosclerosis
+hsa05164	hsa04210	0.935	Influenza A	Apoptosis
+hsa05164	hsa04620	0.948	Influenza A	Toll-like receptor signaling pathway
+hsa05164	hsa04621	0.942	Influenza A	NOD-like receptor signaling pathway
+hsa05164	hsa04668	0.941	Influenza A	TNF signaling pathway
+hsa05164	hsa05131	0.934	Influenza A	Shigellosis
+hsa05164	hsa05132	0.935	Influenza A	Salmonella infection
+hsa05164	hsa05135	0.942	Influenza A	Yersinia infection
+hsa05164	hsa05145	0.94	Influenza A	Toxoplasmosis
+hsa05164	hsa05152	0.944	Influenza A	Tuberculosis
+hsa05164	hsa05160	0.953	Influenza A	Hepatitis C
+hsa05164	hsa05161	0.955	Influenza A	Hepatitis B
+hsa05164	hsa05162	0.956	Influenza A	Measles
+hsa05164	hsa05163	0.938	Influenza A	Human cytomegalovirus infection
+hsa05164	hsa05166	0.939	Influenza A	Human T-cell leukemia virus 1 infection
+hsa05164	hsa05167	0.945	Influenza A	Kaposi sarcoma-associated herpesvirus infection
+hsa05164	hsa05168	0.968	Influenza A	Herpes simplex virus 1 infection
+hsa05164	hsa05169	0.951	Influenza A	Epstein-Barr virus infection
+hsa05164	hsa05170	0.937	Influenza A	Human immunodeficiency virus 1 infection
+hsa05164	hsa05171	0.934	Influenza A	Coronavirus disease - COVID-19
+hsa05164	hsa05417	0.938	Influenza A	Lipid and atherosclerosis
+hsa05165	hsa04010	0.942	Human papillomavirus infection	MAPK signaling pathway
+hsa05165	hsa04151	0.963	Human papillomavirus infection	PI3K-Akt signaling pathway
+hsa05165	hsa04310	0.93	Human papillomavirus infection	Wnt signaling pathway
+hsa05165	hsa04510	0.951	Human papillomavirus infection	Focal adhesion
+hsa05165	hsa05131	0.933	Human papillomavirus infection	Shigellosis
+hsa05165	hsa05160	0.938	Human papillomavirus infection	Hepatitis C
+hsa05165	hsa05161	0.942	Human papillomavirus infection	Hepatitis B
+hsa05165	hsa05163	0.954	Human papillomavirus infection	Human cytomegalovirus infection
+hsa05165	hsa05166	0.946	Human papillomavirus infection	Human T-cell leukemia virus 1 infection
+hsa05165	hsa05167	0.947	Human papillomavirus infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05165	hsa05168	0.941	Human papillomavirus infection	Herpes simplex virus 1 infection
+hsa05165	hsa05169	0.94	Human papillomavirus infection	Epstein-Barr virus infection
+hsa05165	hsa05170	0.935	Human papillomavirus infection	Human immunodeficiency virus 1 infection
+hsa05165	hsa05200	0.964	Human papillomavirus infection	Pathways in cancer
+hsa05165	hsa05203	0.942	Human papillomavirus infection	Viral carcinogenesis
+hsa05165	hsa05205	0.957	Human papillomavirus infection	Proteoglycans in cancer
+hsa05165	hsa05206	0.947	Human papillomavirus infection	MicroRNAs in cancer
+hsa05165	hsa05215	0.93	Human papillomavirus infection	Prostate cancer
+hsa05165	hsa05224	0.943	Human papillomavirus infection	Breast cancer
+hsa05165	hsa05225	0.939	Human papillomavirus infection	Hepatocellular carcinoma
+hsa05165	hsa05226	0.939	Human papillomavirus infection	Gastric cancer
+hsa05165	hsa05418	0.93	Human papillomavirus infection	Fluid shear stress and atherosclerosis
+hsa05166	hsa04010	0.937	Human T-cell leukemia virus 1 infection	MAPK signaling pathway
+hsa05166	hsa04068	0.941	Human T-cell leukemia virus 1 infection	FoxO signaling pathway
+hsa05166	hsa04151	0.94	Human T-cell leukemia virus 1 infection	PI3K-Akt signaling pathway
+hsa05166	hsa04218	0.952	Human T-cell leukemia virus 1 infection	Cellular senescence
+hsa05166	hsa05152	0.936	Human T-cell leukemia virus 1 infection	Tuberculosis
+hsa05166	hsa05160	0.933	Human T-cell leukemia virus 1 infection	Hepatitis C
+hsa05166	hsa05161	0.953	Human T-cell leukemia virus 1 infection	Hepatitis B
+hsa05166	hsa05163	0.95	Human T-cell leukemia virus 1 infection	Human cytomegalovirus infection
+hsa05166	hsa05164	0.939	Human T-cell leukemia virus 1 infection	Influenza A
+hsa05166	hsa05165	0.946	Human T-cell leukemia virus 1 infection	Human papillomavirus infection
+hsa05166	hsa05167	0.947	Human T-cell leukemia virus 1 infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05166	hsa05168	0.947	Human T-cell leukemia virus 1 infection	Herpes simplex virus 1 infection
+hsa05166	hsa05169	0.944	Human T-cell leukemia virus 1 infection	Epstein-Barr virus infection
+hsa05166	hsa05170	0.94	Human T-cell leukemia virus 1 infection	Human immunodeficiency virus 1 infection
+hsa05166	hsa05200	0.946	Human T-cell leukemia virus 1 infection	Pathways in cancer
+hsa05166	hsa05203	0.949	Human T-cell leukemia virus 1 infection	Viral carcinogenesis
+hsa05166	hsa05205	0.932	Human T-cell leukemia virus 1 infection	Proteoglycans in cancer
+hsa05166	hsa05212	0.936	Human T-cell leukemia virus 1 infection	Pancreatic cancer
+hsa05166	hsa05215	0.934	Human T-cell leukemia virus 1 infection	Prostate cancer
+hsa05166	hsa05225	0.937	Human T-cell leukemia virus 1 infection	Hepatocellular carcinoma
+hsa05167	hsa04062	0.947	Kaposi sarcoma-associated herpesvirus infection	Chemokine signaling pathway
+hsa05167	hsa04151	0.949	Kaposi sarcoma-associated herpesvirus infection	PI3K-Akt signaling pathway
+hsa05167	hsa04218	0.946	Kaposi sarcoma-associated herpesvirus infection	Cellular senescence
+hsa05167	hsa04625	0.951	Kaposi sarcoma-associated herpesvirus infection	C-type lectin receptor signaling pathway
+hsa05167	hsa05131	0.951	Kaposi sarcoma-associated herpesvirus infection	Shigellosis
+hsa05167	hsa05135	0.945	Kaposi sarcoma-associated herpesvirus infection	Yersinia infection
+hsa05167	hsa05152	0.944	Kaposi sarcoma-associated herpesvirus infection	Tuberculosis
+hsa05167	hsa05160	0.954	Kaposi sarcoma-associated herpesvirus infection	Hepatitis C
+hsa05167	hsa05161	0.959	Kaposi sarcoma-associated herpesvirus infection	Hepatitis B
+hsa05167	hsa05162	0.947	Kaposi sarcoma-associated herpesvirus infection	Measles
+hsa05167	hsa05163	0.974	Kaposi sarcoma-associated herpesvirus infection	Human cytomegalovirus infection
+hsa05167	hsa05164	0.945	Kaposi sarcoma-associated herpesvirus infection	Influenza A
+hsa05167	hsa05165	0.947	Kaposi sarcoma-associated herpesvirus infection	Human papillomavirus infection
+hsa05167	hsa05166	0.947	Kaposi sarcoma-associated herpesvirus infection	Human T-cell leukemia virus 1 infection
+hsa05167	hsa05168	0.959	Kaposi sarcoma-associated herpesvirus infection	Herpes simplex virus 1 infection
+hsa05167	hsa05169	0.953	Kaposi sarcoma-associated herpesvirus infection	Epstein-Barr virus infection
+hsa05167	hsa05170	0.962	Kaposi sarcoma-associated herpesvirus infection	Human immunodeficiency virus 1 infection
+hsa05167	hsa05200	0.948	Kaposi sarcoma-associated herpesvirus infection	Pathways in cancer
+hsa05167	hsa05203	0.947	Kaposi sarcoma-associated herpesvirus infection	Viral carcinogenesis
+hsa05167	hsa05417	0.951	Kaposi sarcoma-associated herpesvirus infection	Lipid and atherosclerosis
+hsa05168	hsa04210	0.945	Herpes simplex virus 1 infection	Apoptosis
+hsa05168	hsa04620	0.951	Herpes simplex virus 1 infection	Toll-like receptor signaling pathway
+hsa05168	hsa04621	0.947	Herpes simplex virus 1 infection	NOD-like receptor signaling pathway
+hsa05168	hsa04668	0.947	Herpes simplex virus 1 infection	TNF signaling pathway
+hsa05168	hsa05131	0.947	Herpes simplex virus 1 infection	Shigellosis
+hsa05168	hsa05135	0.949	Herpes simplex virus 1 infection	Yersinia infection
+hsa05168	hsa05142	0.949	Herpes simplex virus 1 infection	Chagas disease
+hsa05168	hsa05145	0.952	Herpes simplex virus 1 infection	Toxoplasmosis
+hsa05168	hsa05152	0.956	Herpes simplex virus 1 infection	Tuberculosis
+hsa05168	hsa05160	0.958	Herpes simplex virus 1 infection	Hepatitis C
+hsa05168	hsa05161	0.956	Herpes simplex virus 1 infection	Hepatitis B
+hsa05168	hsa05162	0.964	Herpes simplex virus 1 infection	Measles
+hsa05168	hsa05163	0.963	Herpes simplex virus 1 infection	Human cytomegalovirus infection
+hsa05168	hsa05164	0.968	Herpes simplex virus 1 infection	Influenza A
+hsa05168	hsa05166	0.947	Herpes simplex virus 1 infection	Human T-cell leukemia virus 1 infection
+hsa05168	hsa05167	0.959	Herpes simplex virus 1 infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05168	hsa05169	0.969	Herpes simplex virus 1 infection	Epstein-Barr virus infection
+hsa05168	hsa05170	0.96	Herpes simplex virus 1 infection	Human immunodeficiency virus 1 infection
+hsa05168	hsa05171	0.949	Herpes simplex virus 1 infection	Coronavirus disease - COVID-19
+hsa05168	hsa05417	0.951	Herpes simplex virus 1 infection	Lipid and atherosclerosis
+hsa05169	hsa04620	0.937	Epstein-Barr virus infection	Toll-like receptor signaling pathway
+hsa05169	hsa04621	0.933	Epstein-Barr virus infection	NOD-like receptor signaling pathway
+hsa05169	hsa04668	0.934	Epstein-Barr virus infection	TNF signaling pathway
+hsa05169	hsa05131	0.934	Epstein-Barr virus infection	Shigellosis
+hsa05169	hsa05135	0.936	Epstein-Barr virus infection	Yersinia infection
+hsa05169	hsa05145	0.938	Epstein-Barr virus infection	Toxoplasmosis
+hsa05169	hsa05152	0.938	Epstein-Barr virus infection	Tuberculosis
+hsa05169	hsa05160	0.953	Epstein-Barr virus infection	Hepatitis C
+hsa05169	hsa05161	0.953	Epstein-Barr virus infection	Hepatitis B
+hsa05169	hsa05162	0.958	Epstein-Barr virus infection	Measles
+hsa05169	hsa05163	0.95	Epstein-Barr virus infection	Human cytomegalovirus infection
+hsa05169	hsa05164	0.951	Epstein-Barr virus infection	Influenza A
+hsa05169	hsa05165	0.94	Epstein-Barr virus infection	Human papillomavirus infection
+hsa05169	hsa05166	0.944	Epstein-Barr virus infection	Human T-cell leukemia virus 1 infection
+hsa05169	hsa05167	0.953	Epstein-Barr virus infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05169	hsa05168	0.969	Epstein-Barr virus infection	Herpes simplex virus 1 infection
+hsa05169	hsa05170	0.953	Epstein-Barr virus infection	Human immunodeficiency virus 1 infection
+hsa05169	hsa05171	0.933	Epstein-Barr virus infection	Coronavirus disease - COVID-19
+hsa05169	hsa05203	0.95	Epstein-Barr virus infection	Viral carcinogenesis
+hsa05169	hsa05417	0.936	Epstein-Barr virus infection	Lipid and atherosclerosis
+hsa05170	hsa04210	0.938	Human immunodeficiency virus 1 infection	Apoptosis
+hsa05170	hsa04218	0.94	Human immunodeficiency virus 1 infection	Cellular senescence
+hsa05170	hsa04621	0.936	Human immunodeficiency virus 1 infection	NOD-like receptor signaling pathway
+hsa05170	hsa04625	0.943	Human immunodeficiency virus 1 infection	C-type lectin receptor signaling pathway
+hsa05170	hsa04660	0.938	Human immunodeficiency virus 1 infection	T cell receptor signaling pathway
+hsa05170	hsa04722	0.938	Human immunodeficiency virus 1 infection	Neurotrophin signaling pathway
+hsa05170	hsa05131	0.949	Human immunodeficiency virus 1 infection	Shigellosis
+hsa05170	hsa05132	0.94	Human immunodeficiency virus 1 infection	Salmonella infection
+hsa05170	hsa05135	0.946	Human immunodeficiency virus 1 infection	Yersinia infection
+hsa05170	hsa05152	0.938	Human immunodeficiency virus 1 infection	Tuberculosis
+hsa05170	hsa05160	0.939	Human immunodeficiency virus 1 infection	Hepatitis C
+hsa05170	hsa05161	0.947	Human immunodeficiency virus 1 infection	Hepatitis B
+hsa05170	hsa05162	0.939	Human immunodeficiency virus 1 infection	Measles
+hsa05170	hsa05163	0.968	Human immunodeficiency virus 1 infection	Human cytomegalovirus infection
+hsa05170	hsa05164	0.937	Human immunodeficiency virus 1 infection	Influenza A
+hsa05170	hsa05166	0.94	Human immunodeficiency virus 1 infection	Human T-cell leukemia virus 1 infection
+hsa05170	hsa05167	0.962	Human immunodeficiency virus 1 infection	Kaposi sarcoma-associated herpesvirus infection
+hsa05170	hsa05168	0.96	Human immunodeficiency virus 1 infection	Herpes simplex virus 1 infection
+hsa05170	hsa05169	0.953	Human immunodeficiency virus 1 infection	Epstein-Barr virus infection
+hsa05170	hsa05417	0.946	Human immunodeficiency virus 1 infection	Lipid and atherosclerosis
+hsa05171	hsa04066	0.922	Coronavirus disease - COVID-19	HIF-1 signaling pathway
+hsa05171	hsa04151	0.933	Coronavirus disease - COVID-19	PI3K-Akt signaling pathway
+hsa05171	hsa04620	0.93	Coronavirus disease - COVID-19	Toll-like receptor signaling pathway
+hsa05171	hsa04621	0.928	Coronavirus disease - COVID-19	NOD-like receptor signaling pathway
+hsa05171	hsa04668	0.928	Coronavirus disease - COVID-19	TNF signaling pathway
+hsa05171	hsa05130	0.93	Coronavirus disease - COVID-19	Pathogenic Escherichia coli infection
+hsa05171	hsa05131	0.936	Coronavirus disease - COVID-19	Shigellosis
+hsa05171	hsa05132	0.929	Coronavirus disease - COVID-19	Salmonella infection
+hsa05171	hsa05135	0.929	Coronavirus disease - COVID-19	Yersinia infection
+hsa05171	hsa05142	0.923	Coronavirus disease - COVID-19	Chagas disease
+hsa05171	hsa05160	0.934	Coronavirus disease - COVID-19	Hepatitis C
+hsa05171	hsa05161	0.934	Coronavirus disease - COVID-19	Hepatitis B
+hsa05171	hsa05162	0.942	Coronavirus disease - COVID-19	Measles
+hsa05171	hsa05163	0.925	Coronavirus disease - COVID-19	Human cytomegalovirus infection
+hsa05171	hsa05164	0.934	Coronavirus disease - COVID-19	Influenza A
+hsa05171	hsa05167	0.941	Coronavirus disease - COVID-19	Kaposi sarcoma-associated herpesvirus infection
+hsa05171	hsa05168	0.949	Coronavirus disease - COVID-19	Herpes simplex virus 1 infection
+hsa05171	hsa05169	0.933	Coronavirus disease - COVID-19	Epstein-Barr virus infection
+hsa05171	hsa05205	0.923	Coronavirus disease - COVID-19	Proteoglycans in cancer
+hsa05171	hsa05417	0.925	Coronavirus disease - COVID-19	Lipid and atherosclerosis
+hsa05200	hsa04010	0.953	Pathways in cancer	MAPK signaling pathway
+hsa05200	hsa04014	0.939	Pathways in cancer	Ras signaling pathway
+hsa05200	hsa04151	0.967	Pathways in cancer	PI3K-Akt signaling pathway
+hsa05200	hsa04310	0.935	Pathways in cancer	Wnt signaling pathway
+hsa05200	hsa04510	0.941	Pathways in cancer	Focal adhesion
+hsa05200	hsa04933	0.936	Pathways in cancer	AGE-RAGE signaling pathway in diabetic complications
+hsa05200	hsa05161	0.944	Pathways in cancer	Hepatitis B
+hsa05200	hsa05163	0.958	Pathways in cancer	Human cytomegalovirus infection
+hsa05200	hsa05165	0.964	Pathways in cancer	Human papillomavirus infection
+hsa05200	hsa05166	0.946	Pathways in cancer	Human T-cell leukemia virus 1 infection
+hsa05200	hsa05167	0.948	Pathways in cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05200	hsa05205	0.961	Pathways in cancer	Proteoglycans in cancer
+hsa05200	hsa05206	0.954	Pathways in cancer	MicroRNAs in cancer
+hsa05200	hsa05207	0.942	Pathways in cancer	Chemical carcinogenesis - receptor activation
+hsa05200	hsa05215	0.936	Pathways in cancer	Prostate cancer
+hsa05200	hsa05224	0.942	Pathways in cancer	Breast cancer
+hsa05200	hsa05225	0.949	Pathways in cancer	Hepatocellular carcinoma
+hsa05200	hsa05226	0.946	Pathways in cancer	Gastric cancer
+hsa05200	hsa05417	0.944	Pathways in cancer	Lipid and atherosclerosis
+hsa05200	hsa05418	0.945	Pathways in cancer	Fluid shear stress and atherosclerosis
+hsa05202	hsa04068	0.923	Transcriptional misregulation in cancer	FoxO signaling pathway
+hsa05202	hsa04210	0.917	Transcriptional misregulation in cancer	Apoptosis
+hsa05202	hsa04218	0.924	Transcriptional misregulation in cancer	Cellular senescence
+hsa05202	hsa04550	0.925	Transcriptional misregulation in cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05202	hsa05161	0.936	Transcriptional misregulation in cancer	Hepatitis B
+hsa05202	hsa05162	0.917	Transcriptional misregulation in cancer	Measles
+hsa05202	hsa05166	0.928	Transcriptional misregulation in cancer	Human T-cell leukemia virus 1 infection
+hsa05202	hsa05169	0.923	Transcriptional misregulation in cancer	Epstein-Barr virus infection
+hsa05202	hsa05200	0.932	Transcriptional misregulation in cancer	Pathways in cancer
+hsa05202	hsa05206	0.925	Transcriptional misregulation in cancer	MicroRNAs in cancer
+hsa05202	hsa05210	0.917	Transcriptional misregulation in cancer	Colorectal cancer
+hsa05202	hsa05212	0.921	Transcriptional misregulation in cancer	Pancreatic cancer
+hsa05202	hsa05215	0.931	Transcriptional misregulation in cancer	Prostate cancer
+hsa05202	hsa05220	0.929	Transcriptional misregulation in cancer	Chronic myeloid leukemia
+hsa05202	hsa05221	0.921	Transcriptional misregulation in cancer	Acute myeloid leukemia
+hsa05202	hsa05222	0.922	Transcriptional misregulation in cancer	Small cell lung cancer
+hsa05202	hsa05224	0.929	Transcriptional misregulation in cancer	Breast cancer
+hsa05202	hsa05225	0.926	Transcriptional misregulation in cancer	Hepatocellular carcinoma
+hsa05202	hsa05226	0.929	Transcriptional misregulation in cancer	Gastric cancer
+hsa05202	hsa05418	0.916	Transcriptional misregulation in cancer	Fluid shear stress and atherosclerosis
+hsa05203	hsa04218	0.934	Viral carcinogenesis	Cellular senescence
+hsa05203	hsa04613	0.931	Viral carcinogenesis	Neutrophil extracellular trap formation
+hsa05203	hsa04919	0.928	Viral carcinogenesis	Thyroid hormone signaling pathway
+hsa05203	hsa05131	0.937	Viral carcinogenesis	Shigellosis
+hsa05203	hsa05135	0.928	Viral carcinogenesis	Yersinia infection
+hsa05203	hsa05160	0.936	Viral carcinogenesis	Hepatitis C
+hsa05203	hsa05161	0.947	Viral carcinogenesis	Hepatitis B
+hsa05203	hsa05162	0.93	Viral carcinogenesis	Measles
+hsa05203	hsa05163	0.941	Viral carcinogenesis	Human cytomegalovirus infection
+hsa05203	hsa05165	0.942	Viral carcinogenesis	Human papillomavirus infection
+hsa05203	hsa05166	0.949	Viral carcinogenesis	Human T-cell leukemia virus 1 infection
+hsa05203	hsa05167	0.947	Viral carcinogenesis	Kaposi sarcoma-associated herpesvirus infection
+hsa05203	hsa05168	0.941	Viral carcinogenesis	Herpes simplex virus 1 infection
+hsa05203	hsa05169	0.95	Viral carcinogenesis	Epstein-Barr virus infection
+hsa05203	hsa05170	0.934	Viral carcinogenesis	Human immunodeficiency virus 1 infection
+hsa05203	hsa05200	0.93	Viral carcinogenesis	Pathways in cancer
+hsa05203	hsa05206	0.93	Viral carcinogenesis	MicroRNAs in cancer
+hsa05203	hsa05212	0.929	Viral carcinogenesis	Pancreatic cancer
+hsa05203	hsa05215	0.928	Viral carcinogenesis	Prostate cancer
+hsa05203	hsa05220	0.928	Viral carcinogenesis	Chronic myeloid leukemia
+hsa05204	hsa00040	0.81	Chemical carcinogenesis - DNA adducts	Pentose and glucuronate interconversions
+hsa05204	hsa00053	0.801	Chemical carcinogenesis - DNA adducts	Ascorbate and aldarate metabolism
+hsa05204	hsa00140	0.913	Chemical carcinogenesis - DNA adducts	Steroid hormone biosynthesis
+hsa05204	hsa00480	0.831	Chemical carcinogenesis - DNA adducts	Glutathione metabolism
+hsa05204	hsa00590	0.837	Chemical carcinogenesis - DNA adducts	Arachidonic acid metabolism
+hsa05204	hsa00591	0.81	Chemical carcinogenesis - DNA adducts	Linoleic acid metabolism
+hsa05204	hsa00830	0.887	Chemical carcinogenesis - DNA adducts	Retinol metabolism
+hsa05204	hsa00980	0.972	Chemical carcinogenesis - DNA adducts	Metabolism of xenobiotics by cytochrome P450
+hsa05204	hsa00982	0.95	Chemical carcinogenesis - DNA adducts	Drug metabolism - cytochrome P450
+hsa05204	hsa00983	0.908	Chemical carcinogenesis - DNA adducts	Drug metabolism - other enzymes
+hsa05204	hsa04726	0.719	Chemical carcinogenesis - DNA adducts	Serotonergic synapse
+hsa05204	hsa04913	0.777	Chemical carcinogenesis - DNA adducts	Ovarian steroidogenesis
+hsa05204	hsa04976	0.714	Chemical carcinogenesis - DNA adducts	Bile secretion
+hsa05204	hsa05208	0.735	Chemical carcinogenesis - DNA adducts	Chemical carcinogenesis - reactive oxygen species
+hsa05205	hsa04010	0.955	Proteoglycans in cancer	MAPK signaling pathway
+hsa05205	hsa04014	0.943	Proteoglycans in cancer	Ras signaling pathway
+hsa05205	hsa04015	0.949	Proteoglycans in cancer	Rap1 signaling pathway
+hsa05205	hsa04151	0.96	Proteoglycans in cancer	PI3K-Akt signaling pathway
+hsa05205	hsa04360	0.946	Proteoglycans in cancer	Axon guidance
+hsa05205	hsa04510	0.965	Proteoglycans in cancer	Focal adhesion
+hsa05205	hsa04810	0.947	Proteoglycans in cancer	Regulation of actin cytoskeleton
+hsa05205	hsa04933	0.939	Proteoglycans in cancer	AGE-RAGE signaling pathway in diabetic complications
+hsa05205	hsa05131	0.945	Proteoglycans in cancer	Shigellosis
+hsa05205	hsa05135	0.94	Proteoglycans in cancer	Yersinia infection
+hsa05205	hsa05161	0.939	Proteoglycans in cancer	Hepatitis B
+hsa05205	hsa05163	0.951	Proteoglycans in cancer	Human cytomegalovirus infection
+hsa05205	hsa05165	0.957	Proteoglycans in cancer	Human papillomavirus infection
+hsa05205	hsa05167	0.941	Proteoglycans in cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05205	hsa05200	0.961	Proteoglycans in cancer	Pathways in cancer
+hsa05205	hsa05206	0.954	Proteoglycans in cancer	MicroRNAs in cancer
+hsa05205	hsa05224	0.945	Proteoglycans in cancer	Breast cancer
+hsa05205	hsa05225	0.946	Proteoglycans in cancer	Hepatocellular carcinoma
+hsa05205	hsa05226	0.947	Proteoglycans in cancer	Gastric cancer
+hsa05205	hsa05418	0.948	Proteoglycans in cancer	Fluid shear stress and atherosclerosis
+hsa05206	hsa04010	0.934	MicroRNAs in cancer	MAPK signaling pathway
+hsa05206	hsa04014	0.926	MicroRNAs in cancer	Ras signaling pathway
+hsa05206	hsa04068	0.929	MicroRNAs in cancer	FoxO signaling pathway
+hsa05206	hsa04151	0.947	MicroRNAs in cancer	PI3K-Akt signaling pathway
+hsa05206	hsa04218	0.928	MicroRNAs in cancer	Cellular senescence
+hsa05206	hsa04510	0.936	MicroRNAs in cancer	Focal adhesion
+hsa05206	hsa05131	0.927	MicroRNAs in cancer	Shigellosis
+hsa05206	hsa05161	0.933	MicroRNAs in cancer	Hepatitis B
+hsa05206	hsa05163	0.936	MicroRNAs in cancer	Human cytomegalovirus infection
+hsa05206	hsa05165	0.947	MicroRNAs in cancer	Human papillomavirus infection
+hsa05206	hsa05166	0.93	MicroRNAs in cancer	Human T-cell leukemia virus 1 infection
+hsa05206	hsa05167	0.932	MicroRNAs in cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05206	hsa05200	0.954	MicroRNAs in cancer	Pathways in cancer
+hsa05206	hsa05203	0.93	MicroRNAs in cancer	Viral carcinogenesis
+hsa05206	hsa05205	0.954	MicroRNAs in cancer	Proteoglycans in cancer
+hsa05206	hsa05207	0.926	MicroRNAs in cancer	Chemical carcinogenesis - receptor activation
+hsa05206	hsa05215	0.934	MicroRNAs in cancer	Prostate cancer
+hsa05206	hsa05224	0.935	MicroRNAs in cancer	Breast cancer
+hsa05206	hsa05225	0.93	MicroRNAs in cancer	Hepatocellular carcinoma
+hsa05206	hsa05226	0.932	MicroRNAs in cancer	Gastric cancer
+hsa05206	hsa05418	0.932	MicroRNAs in cancer	Fluid shear stress and atherosclerosis
+hsa05207	hsa04010	0.937	Chemical carcinogenesis - receptor activation	MAPK signaling pathway
+hsa05207	hsa04014	0.928	Chemical carcinogenesis - receptor activation	Ras signaling pathway
+hsa05207	hsa04062	0.922	Chemical carcinogenesis - receptor activation	Chemokine signaling pathway
+hsa05207	hsa04151	0.938	Chemical carcinogenesis - receptor activation	PI3K-Akt signaling pathway
+hsa05207	hsa04915	0.929	Chemical carcinogenesis - receptor activation	Estrogen signaling pathway
+hsa05207	hsa04926	0.927	Chemical carcinogenesis - receptor activation	Relaxin signaling pathway
+hsa05207	hsa04935	0.927	Chemical carcinogenesis - receptor activation	Growth hormone synthesis, secretion and action
+hsa05207	hsa05161	0.93	Chemical carcinogenesis - receptor activation	Hepatitis B
+hsa05207	hsa05163	0.934	Chemical carcinogenesis - receptor activation	Human cytomegalovirus infection
+hsa05207	hsa05165	0.924	Chemical carcinogenesis - receptor activation	Human papillomavirus infection
+hsa05207	hsa05166	0.922	Chemical carcinogenesis - receptor activation	Human T-cell leukemia virus 1 infection
+hsa05207	hsa05167	0.926	Chemical carcinogenesis - receptor activation	Kaposi sarcoma-associated herpesvirus infection
+hsa05207	hsa05200	0.942	Chemical carcinogenesis - receptor activation	Pathways in cancer
+hsa05207	hsa05205	0.928	Chemical carcinogenesis - receptor activation	Proteoglycans in cancer
+hsa05207	hsa05206	0.926	Chemical carcinogenesis - receptor activation	MicroRNAs in cancer
+hsa05207	hsa05215	0.932	Chemical carcinogenesis - receptor activation	Prostate cancer
+hsa05207	hsa05224	0.928	Chemical carcinogenesis - receptor activation	Breast cancer
+hsa05207	hsa05225	0.927	Chemical carcinogenesis - receptor activation	Hepatocellular carcinoma
+hsa05207	hsa05226	0.923	Chemical carcinogenesis - receptor activation	Gastric cancer
+hsa05207	hsa05417	0.927	Chemical carcinogenesis - receptor activation	Lipid and atherosclerosis
+hsa05207	hsa05418	0.928	Chemical carcinogenesis - receptor activation	Fluid shear stress and atherosclerosis
+hsa05208	hsa04010	0.904	Chemical carcinogenesis - reactive oxygen species	MAPK signaling pathway
+hsa05208	hsa04014	0.906	Chemical carcinogenesis - reactive oxygen species	Ras signaling pathway
+hsa05208	hsa04062	0.897	Chemical carcinogenesis - reactive oxygen species	Chemokine signaling pathway
+hsa05208	hsa04510	0.895	Chemical carcinogenesis - reactive oxygen species	Focal adhesion
+hsa05208	hsa04714	0.898	Chemical carcinogenesis - reactive oxygen species	Thermogenesis
+hsa05208	hsa04926	0.896	Chemical carcinogenesis - reactive oxygen species	Relaxin signaling pathway
+hsa05208	hsa04932	0.928	Chemical carcinogenesis - reactive oxygen species	Non-alcoholic fatty liver disease
+hsa05208	hsa05010	0.912	Chemical carcinogenesis - reactive oxygen species	Alzheimer disease
+hsa05208	hsa05012	0.9	Chemical carcinogenesis - reactive oxygen species	Parkinson disease
+hsa05208	hsa05014	0.899	Chemical carcinogenesis - reactive oxygen species	Amyotrophic lateral sclerosis
+hsa05208	hsa05016	0.896	Chemical carcinogenesis - reactive oxygen species	Huntington disease
+hsa05208	hsa05020	0.917	Chemical carcinogenesis - reactive oxygen species	Prion disease
+hsa05208	hsa05022	0.904	Chemical carcinogenesis - reactive oxygen species	Pathways of neurodegeneration - multiple diseases
+hsa05208	hsa05163	0.901	Chemical carcinogenesis - reactive oxygen species	Human cytomegalovirus infection
+hsa05208	hsa05200	0.912	Chemical carcinogenesis - reactive oxygen species	Pathways in cancer
+hsa05208	hsa05207	0.915	Chemical carcinogenesis - reactive oxygen species	Chemical carcinogenesis - receptor activation
+hsa05208	hsa05225	0.901	Chemical carcinogenesis - reactive oxygen species	Hepatocellular carcinoma
+hsa05208	hsa05415	0.93	Chemical carcinogenesis - reactive oxygen species	Diabetic cardiomyopathy
+hsa05208	hsa05417	0.912	Chemical carcinogenesis - reactive oxygen species	Lipid and atherosclerosis
+hsa05208	hsa05418	0.915	Chemical carcinogenesis - reactive oxygen species	Fluid shear stress and atherosclerosis
+hsa05210	hsa04012	0.947	Colorectal cancer	ErbB signaling pathway
+hsa05210	hsa04068	0.943	Colorectal cancer	FoxO signaling pathway
+hsa05210	hsa04218	0.933	Colorectal cancer	Cellular senescence
+hsa05210	hsa04550	0.944	Colorectal cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05210	hsa04722	0.942	Colorectal cancer	Neurotrophin signaling pathway
+hsa05210	hsa04933	0.938	Colorectal cancer	AGE-RAGE signaling pathway in diabetic complications
+hsa05210	hsa05160	0.94	Colorectal cancer	Hepatitis C
+hsa05210	hsa05161	0.952	Colorectal cancer	Hepatitis B
+hsa05210	hsa05167	0.935	Colorectal cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05210	hsa05211	0.94	Colorectal cancer	Renal cell carcinoma
+hsa05210	hsa05212	0.972	Colorectal cancer	Pancreatic cancer
+hsa05210	hsa05213	0.961	Colorectal cancer	Endometrial cancer
+hsa05210	hsa05214	0.936	Colorectal cancer	Glioma
+hsa05210	hsa05215	0.949	Colorectal cancer	Prostate cancer
+hsa05210	hsa05218	0.937	Colorectal cancer	Melanoma
+hsa05210	hsa05220	0.956	Colorectal cancer	Chronic myeloid leukemia
+hsa05210	hsa05223	0.944	Colorectal cancer	Non-small cell lung cancer
+hsa05210	hsa05224	0.954	Colorectal cancer	Breast cancer
+hsa05210	hsa05225	0.951	Colorectal cancer	Hepatocellular carcinoma
+hsa05210	hsa05226	0.965	Colorectal cancer	Gastric cancer
+hsa05211	hsa04012	0.938	Renal cell carcinoma	ErbB signaling pathway
+hsa05211	hsa04014	0.927	Renal cell carcinoma	Ras signaling pathway
+hsa05211	hsa04066	0.927	Renal cell carcinoma	HIF-1 signaling pathway
+hsa05211	hsa04068	0.933	Renal cell carcinoma	FoxO signaling pathway
+hsa05211	hsa04660	0.924	Renal cell carcinoma	T cell receptor signaling pathway
+hsa05211	hsa04722	0.93	Renal cell carcinoma	Neurotrophin signaling pathway
+hsa05211	hsa04926	0.922	Renal cell carcinoma	Relaxin signaling pathway
+hsa05211	hsa04933	0.926	Renal cell carcinoma	AGE-RAGE signaling pathway in diabetic complications
+hsa05211	hsa05161	0.933	Renal cell carcinoma	Hepatitis B
+hsa05211	hsa05210	0.94	Renal cell carcinoma	Colorectal cancer
+hsa05211	hsa05212	0.949	Renal cell carcinoma	Pancreatic cancer
+hsa05211	hsa05213	0.926	Renal cell carcinoma	Endometrial cancer
+hsa05211	hsa05214	0.927	Renal cell carcinoma	Glioma
+hsa05211	hsa05215	0.937	Renal cell carcinoma	Prostate cancer
+hsa05211	hsa05218	0.936	Renal cell carcinoma	Melanoma
+hsa05211	hsa05220	0.944	Renal cell carcinoma	Chronic myeloid leukemia
+hsa05211	hsa05221	0.925	Renal cell carcinoma	Acute myeloid leukemia
+hsa05211	hsa05223	0.93	Renal cell carcinoma	Non-small cell lung cancer
+hsa05211	hsa05224	0.928	Renal cell carcinoma	Breast cancer
+hsa05211	hsa05226	0.928	Renal cell carcinoma	Gastric cancer
+hsa05212	hsa04012	0.941	Pancreatic cancer	ErbB signaling pathway
+hsa05212	hsa04068	0.945	Pancreatic cancer	FoxO signaling pathway
+hsa05212	hsa04218	0.939	Pancreatic cancer	Cellular senescence
+hsa05212	hsa04380	0.938	Pancreatic cancer	Osteoclast differentiation
+hsa05212	hsa04722	0.94	Pancreatic cancer	Neurotrophin signaling pathway
+hsa05212	hsa04933	0.952	Pancreatic cancer	AGE-RAGE signaling pathway in diabetic complications
+hsa05212	hsa05160	0.944	Pancreatic cancer	Hepatitis C
+hsa05212	hsa05161	0.959	Pancreatic cancer	Hepatitis B
+hsa05212	hsa05167	0.939	Pancreatic cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05212	hsa05210	0.972	Pancreatic cancer	Colorectal cancer
+hsa05212	hsa05211	0.949	Pancreatic cancer	Renal cell carcinoma
+hsa05212	hsa05213	0.939	Pancreatic cancer	Endometrial cancer
+hsa05212	hsa05214	0.941	Pancreatic cancer	Glioma
+hsa05212	hsa05215	0.948	Pancreatic cancer	Prostate cancer
+hsa05212	hsa05218	0.941	Pancreatic cancer	Melanoma
+hsa05212	hsa05220	0.966	Pancreatic cancer	Chronic myeloid leukemia
+hsa05212	hsa05223	0.951	Pancreatic cancer	Non-small cell lung cancer
+hsa05212	hsa05224	0.945	Pancreatic cancer	Breast cancer
+hsa05212	hsa05225	0.943	Pancreatic cancer	Hepatocellular carcinoma
+hsa05212	hsa05226	0.953	Pancreatic cancer	Gastric cancer
+hsa05213	hsa04012	0.954	Endometrial cancer	ErbB signaling pathway
+hsa05213	hsa04550	0.927	Endometrial cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05213	hsa04660	0.93	Endometrial cancer	T cell receptor signaling pathway
+hsa05213	hsa04722	0.94	Endometrial cancer	Neurotrophin signaling pathway
+hsa05213	hsa04917	0.93	Endometrial cancer	Prolactin signaling pathway
+hsa05213	hsa05160	0.938	Endometrial cancer	Hepatitis C
+hsa05213	hsa05210	0.961	Endometrial cancer	Colorectal cancer
+hsa05213	hsa05211	0.926	Endometrial cancer	Renal cell carcinoma
+hsa05213	hsa05212	0.939	Endometrial cancer	Pancreatic cancer
+hsa05213	hsa05214	0.951	Endometrial cancer	Glioma
+hsa05213	hsa05215	0.953	Endometrial cancer	Prostate cancer
+hsa05213	hsa05216	0.933	Endometrial cancer	Thyroid cancer
+hsa05213	hsa05218	0.957	Endometrial cancer	Melanoma
+hsa05213	hsa05220	0.941	Endometrial cancer	Chronic myeloid leukemia
+hsa05213	hsa05221	0.943	Endometrial cancer	Acute myeloid leukemia
+hsa05213	hsa05223	0.96	Endometrial cancer	Non-small cell lung cancer
+hsa05213	hsa05224	0.95	Endometrial cancer	Breast cancer
+hsa05213	hsa05225	0.933	Endometrial cancer	Hepatocellular carcinoma
+hsa05213	hsa05226	0.942	Endometrial cancer	Gastric cancer
+hsa05213	hsa05235	0.929	Endometrial cancer	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05214	hsa04012	0.959	Glioma	ErbB signaling pathway
+hsa05214	hsa04014	0.934	Glioma	Ras signaling pathway
+hsa05214	hsa04068	0.931	Glioma	FoxO signaling pathway
+hsa05214	hsa04218	0.928	Glioma	Cellular senescence
+hsa05214	hsa04660	0.927	Glioma	T cell receptor signaling pathway
+hsa05214	hsa04722	0.95	Glioma	Neurotrophin signaling pathway
+hsa05214	hsa04935	0.927	Glioma	Growth hormone synthesis, secretion and action
+hsa05214	hsa05167	0.928	Glioma	Kaposi sarcoma-associated herpesvirus infection
+hsa05214	hsa05210	0.936	Glioma	Colorectal cancer
+hsa05214	hsa05212	0.941	Glioma	Pancreatic cancer
+hsa05214	hsa05213	0.951	Glioma	Endometrial cancer
+hsa05214	hsa05215	0.953	Glioma	Prostate cancer
+hsa05214	hsa05218	0.973	Glioma	Melanoma
+hsa05214	hsa05220	0.94	Glioma	Chronic myeloid leukemia
+hsa05214	hsa05221	0.93	Glioma	Acute myeloid leukemia
+hsa05214	hsa05223	0.959	Glioma	Non-small cell lung cancer
+hsa05214	hsa05224	0.943	Glioma	Breast cancer
+hsa05214	hsa05225	0.93	Glioma	Hepatocellular carcinoma
+hsa05214	hsa05226	0.929	Glioma	Gastric cancer
+hsa05214	hsa05235	0.935	Glioma	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05215	hsa04012	0.942	Prostate cancer	ErbB signaling pathway
+hsa05215	hsa04068	0.947	Prostate cancer	FoxO signaling pathway
+hsa05215	hsa04151	0.944	Prostate cancer	PI3K-Akt signaling pathway
+hsa05215	hsa04550	0.937	Prostate cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05215	hsa04722	0.941	Prostate cancer	Neurotrophin signaling pathway
+hsa05215	hsa05160	0.943	Prostate cancer	Hepatitis C
+hsa05215	hsa05161	0.949	Prostate cancer	Hepatitis B
+hsa05215	hsa05167	0.941	Prostate cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05215	hsa05210	0.949	Prostate cancer	Colorectal cancer
+hsa05215	hsa05211	0.937	Prostate cancer	Renal cell carcinoma
+hsa05215	hsa05212	0.948	Prostate cancer	Pancreatic cancer
+hsa05215	hsa05213	0.953	Prostate cancer	Endometrial cancer
+hsa05215	hsa05214	0.953	Prostate cancer	Glioma
+hsa05215	hsa05218	0.955	Prostate cancer	Melanoma
+hsa05215	hsa05220	0.939	Prostate cancer	Chronic myeloid leukemia
+hsa05215	hsa05221	0.937	Prostate cancer	Acute myeloid leukemia
+hsa05215	hsa05223	0.943	Prostate cancer	Non-small cell lung cancer
+hsa05215	hsa05224	0.954	Prostate cancer	Breast cancer
+hsa05215	hsa05225	0.946	Prostate cancer	Hepatocellular carcinoma
+hsa05215	hsa05226	0.949	Prostate cancer	Gastric cancer
+hsa05215	hsa05418	0.937	Prostate cancer	Fluid shear stress and atherosclerosis
+hsa05216	hsa04012	0.886	Thyroid cancer	ErbB signaling pathway
+hsa05216	hsa04137	0.883	Thyroid cancer	Mitophagy - animal
+hsa05216	hsa04550	0.883	Thyroid cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05216	hsa04722	0.886	Thyroid cancer	Neurotrophin signaling pathway
+hsa05216	hsa05160	0.887	Thyroid cancer	Hepatitis C
+hsa05216	hsa05161	0.884	Thyroid cancer	Hepatitis B
+hsa05216	hsa05202	0.902	Thyroid cancer	Transcriptional misregulation in cancer
+hsa05216	hsa05210	0.904	Thyroid cancer	Colorectal cancer
+hsa05216	hsa05212	0.892	Thyroid cancer	Pancreatic cancer
+hsa05216	hsa05213	0.933	Thyroid cancer	Endometrial cancer
+hsa05216	hsa05214	0.89	Thyroid cancer	Glioma
+hsa05216	hsa05215	0.896	Thyroid cancer	Prostate cancer
+hsa05216	hsa05217	0.892	Thyroid cancer	Basal cell carcinoma
+hsa05216	hsa05218	0.899	Thyroid cancer	Melanoma
+hsa05216	hsa05219	0.908	Thyroid cancer	Bladder cancer
+hsa05216	hsa05220	0.906	Thyroid cancer	Chronic myeloid leukemia
+hsa05216	hsa05221	0.907	Thyroid cancer	Acute myeloid leukemia
+hsa05216	hsa05223	0.916	Thyroid cancer	Non-small cell lung cancer
+hsa05216	hsa05224	0.896	Thyroid cancer	Breast cancer
+hsa05216	hsa05226	0.895	Thyroid cancer	Gastric cancer
+hsa05217	hsa04310	0.931	Basal cell carcinoma	Wnt signaling pathway
+hsa05217	hsa04340	0.899	Basal cell carcinoma	Hedgehog signaling pathway
+hsa05217	hsa04390	0.934	Basal cell carcinoma	Hippo signaling pathway
+hsa05217	hsa04550	0.929	Basal cell carcinoma	Signaling pathways regulating pluripotency of stem cells
+hsa05217	hsa04916	0.917	Basal cell carcinoma	Melanogenesis
+hsa05217	hsa04934	0.909	Basal cell carcinoma	Cushing syndrome
+hsa05217	hsa05160	0.888	Basal cell carcinoma	Hepatitis C
+hsa05217	hsa05200	0.887	Basal cell carcinoma	Pathways in cancer
+hsa05217	hsa05202	0.903	Basal cell carcinoma	Transcriptional misregulation in cancer
+hsa05217	hsa05205	0.886	Basal cell carcinoma	Proteoglycans in cancer
+hsa05217	hsa05210	0.909	Basal cell carcinoma	Colorectal cancer
+hsa05217	hsa05212	0.89	Basal cell carcinoma	Pancreatic cancer
+hsa05217	hsa05213	0.91	Basal cell carcinoma	Endometrial cancer
+hsa05217	hsa05216	0.892	Basal cell carcinoma	Thyroid cancer
+hsa05217	hsa05218	0.891	Basal cell carcinoma	Melanoma
+hsa05217	hsa05220	0.894	Basal cell carcinoma	Chronic myeloid leukemia
+hsa05217	hsa05223	0.887	Basal cell carcinoma	Non-small cell lung cancer
+hsa05217	hsa05224	0.936	Basal cell carcinoma	Breast cancer
+hsa05217	hsa05225	0.916	Basal cell carcinoma	Hepatocellular carcinoma
+hsa05217	hsa05226	0.936	Basal cell carcinoma	Gastric cancer
+hsa05218	hsa04012	0.944	Melanoma	ErbB signaling pathway
+hsa05218	hsa04014	0.93	Melanoma	Ras signaling pathway
+hsa05218	hsa04068	0.928	Melanoma	FoxO signaling pathway
+hsa05218	hsa04550	0.929	Melanoma	Signaling pathways regulating pluripotency of stem cells
+hsa05218	hsa04722	0.933	Melanoma	Neurotrophin signaling pathway
+hsa05218	hsa05160	0.926	Melanoma	Hepatitis C
+hsa05218	hsa05210	0.937	Melanoma	Colorectal cancer
+hsa05218	hsa05211	0.936	Melanoma	Renal cell carcinoma
+hsa05218	hsa05212	0.941	Melanoma	Pancreatic cancer
+hsa05218	hsa05213	0.957	Melanoma	Endometrial cancer
+hsa05218	hsa05214	0.973	Melanoma	Glioma
+hsa05218	hsa05215	0.955	Melanoma	Prostate cancer
+hsa05218	hsa05219	0.933	Melanoma	Bladder cancer
+hsa05218	hsa05220	0.944	Melanoma	Chronic myeloid leukemia
+hsa05218	hsa05221	0.931	Melanoma	Acute myeloid leukemia
+hsa05218	hsa05223	0.956	Melanoma	Non-small cell lung cancer
+hsa05218	hsa05224	0.956	Melanoma	Breast cancer
+hsa05218	hsa05225	0.928	Melanoma	Hepatocellular carcinoma
+hsa05218	hsa05226	0.945	Melanoma	Gastric cancer
+hsa05218	hsa05235	0.927	Melanoma	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05219	hsa04012	0.921	Bladder cancer	ErbB signaling pathway
+hsa05219	hsa04115	0.903	Bladder cancer	p53 signaling pathway
+hsa05219	hsa04510	0.899	Bladder cancer	Focal adhesion
+hsa05219	hsa04926	0.906	Bladder cancer	Relaxin signaling pathway
+hsa05219	hsa05160	0.9	Bladder cancer	Hepatitis C
+hsa05219	hsa05161	0.905	Bladder cancer	Hepatitis B
+hsa05219	hsa05202	0.903	Bladder cancer	Transcriptional misregulation in cancer
+hsa05219	hsa05210	0.907	Bladder cancer	Colorectal cancer
+hsa05219	hsa05211	0.901	Bladder cancer	Renal cell carcinoma
+hsa05219	hsa05212	0.916	Bladder cancer	Pancreatic cancer
+hsa05219	hsa05213	0.922	Bladder cancer	Endometrial cancer
+hsa05219	hsa05214	0.917	Bladder cancer	Glioma
+hsa05219	hsa05215	0.92	Bladder cancer	Prostate cancer
+hsa05219	hsa05216	0.908	Bladder cancer	Thyroid cancer
+hsa05219	hsa05218	0.933	Bladder cancer	Melanoma
+hsa05219	hsa05220	0.915	Bladder cancer	Chronic myeloid leukemia
+hsa05219	hsa05221	0.906	Bladder cancer	Acute myeloid leukemia
+hsa05219	hsa05223	0.926	Bladder cancer	Non-small cell lung cancer
+hsa05219	hsa05224	0.912	Bladder cancer	Breast cancer
+hsa05219	hsa05226	0.908	Bladder cancer	Gastric cancer
+hsa05220	hsa04012	0.939	Chronic myeloid leukemia	ErbB signaling pathway
+hsa05220	hsa04068	0.945	Chronic myeloid leukemia	FoxO signaling pathway
+hsa05220	hsa04110	0.931	Chronic myeloid leukemia	Cell cycle
+hsa05220	hsa04218	0.94	Chronic myeloid leukemia	Cellular senescence
+hsa05220	hsa04722	0.938	Chronic myeloid leukemia	Neurotrophin signaling pathway
+hsa05220	hsa04933	0.938	Chronic myeloid leukemia	AGE-RAGE signaling pathway in diabetic complications
+hsa05220	hsa05160	0.937	Chronic myeloid leukemia	Hepatitis C
+hsa05220	hsa05161	0.953	Chronic myeloid leukemia	Hepatitis B
+hsa05220	hsa05210	0.956	Chronic myeloid leukemia	Colorectal cancer
+hsa05220	hsa05211	0.944	Chronic myeloid leukemia	Renal cell carcinoma
+hsa05220	hsa05212	0.966	Chronic myeloid leukemia	Pancreatic cancer
+hsa05220	hsa05213	0.941	Chronic myeloid leukemia	Endometrial cancer
+hsa05220	hsa05214	0.94	Chronic myeloid leukemia	Glioma
+hsa05220	hsa05215	0.939	Chronic myeloid leukemia	Prostate cancer
+hsa05220	hsa05218	0.944	Chronic myeloid leukemia	Melanoma
+hsa05220	hsa05221	0.942	Chronic myeloid leukemia	Acute myeloid leukemia
+hsa05220	hsa05222	0.931	Chronic myeloid leukemia	Small cell lung cancer
+hsa05220	hsa05223	0.948	Chronic myeloid leukemia	Non-small cell lung cancer
+hsa05220	hsa05224	0.935	Chronic myeloid leukemia	Breast cancer
+hsa05220	hsa05225	0.938	Chronic myeloid leukemia	Hepatocellular carcinoma
+hsa05220	hsa05226	0.943	Chronic myeloid leukemia	Gastric cancer
+hsa05221	hsa04012	0.941	Acute myeloid leukemia	ErbB signaling pathway
+hsa05221	hsa04620	0.93	Acute myeloid leukemia	Toll-like receptor signaling pathway
+hsa05221	hsa04630	0.928	Acute myeloid leukemia	JAK-STAT signaling pathway
+hsa05221	hsa04660	0.935	Acute myeloid leukemia	T cell receptor signaling pathway
+hsa05221	hsa04662	0.932	Acute myeloid leukemia	B cell receptor signaling pathway
+hsa05221	hsa04722	0.929	Acute myeloid leukemia	Neurotrophin signaling pathway
+hsa05221	hsa04917	0.943	Acute myeloid leukemia	Prolactin signaling pathway
+hsa05221	hsa05160	0.931	Acute myeloid leukemia	Hepatitis C
+hsa05221	hsa05161	0.93	Acute myeloid leukemia	Hepatitis B
+hsa05221	hsa05210	0.93	Acute myeloid leukemia	Colorectal cancer
+hsa05221	hsa05211	0.925	Acute myeloid leukemia	Renal cell carcinoma
+hsa05221	hsa05212	0.934	Acute myeloid leukemia	Pancreatic cancer
+hsa05221	hsa05213	0.943	Acute myeloid leukemia	Endometrial cancer
+hsa05221	hsa05214	0.93	Acute myeloid leukemia	Glioma
+hsa05221	hsa05215	0.937	Acute myeloid leukemia	Prostate cancer
+hsa05221	hsa05218	0.931	Acute myeloid leukemia	Melanoma
+hsa05221	hsa05220	0.942	Acute myeloid leukemia	Chronic myeloid leukemia
+hsa05221	hsa05223	0.941	Acute myeloid leukemia	Non-small cell lung cancer
+hsa05221	hsa05224	0.93	Acute myeloid leukemia	Breast cancer
+hsa05221	hsa05235	0.946	Acute myeloid leukemia	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05222	hsa04151	0.919	Small cell lung cancer	PI3K-Akt signaling pathway
+hsa05222	hsa04210	0.921	Small cell lung cancer	Apoptosis
+hsa05222	hsa04510	0.926	Small cell lung cancer	Focal adhesion
+hsa05222	hsa04668	0.922	Small cell lung cancer	TNF signaling pathway
+hsa05222	hsa04933	0.92	Small cell lung cancer	AGE-RAGE signaling pathway in diabetic complications
+hsa05222	hsa05135	0.922	Small cell lung cancer	Yersinia infection
+hsa05222	hsa05160	0.927	Small cell lung cancer	Hepatitis C
+hsa05222	hsa05161	0.934	Small cell lung cancer	Hepatitis B
+hsa05222	hsa05162	0.923	Small cell lung cancer	Measles
+hsa05222	hsa05165	0.917	Small cell lung cancer	Human papillomavirus infection
+hsa05222	hsa05168	0.922	Small cell lung cancer	Herpes simplex virus 1 infection
+hsa05222	hsa05169	0.919	Small cell lung cancer	Epstein-Barr virus infection
+hsa05222	hsa05202	0.922	Small cell lung cancer	Transcriptional misregulation in cancer
+hsa05222	hsa05212	0.926	Small cell lung cancer	Pancreatic cancer
+hsa05222	hsa05213	0.917	Small cell lung cancer	Endometrial cancer
+hsa05222	hsa05214	0.919	Small cell lung cancer	Glioma
+hsa05222	hsa05215	0.928	Small cell lung cancer	Prostate cancer
+hsa05222	hsa05218	0.92	Small cell lung cancer	Melanoma
+hsa05222	hsa05220	0.931	Small cell lung cancer	Chronic myeloid leukemia
+hsa05222	hsa05223	0.923	Small cell lung cancer	Non-small cell lung cancer
+hsa05223	hsa04012	0.957	Non-small cell lung cancer	ErbB signaling pathway
+hsa05223	hsa04068	0.927	Non-small cell lung cancer	FoxO signaling pathway
+hsa05223	hsa04660	0.932	Non-small cell lung cancer	T cell receptor signaling pathway
+hsa05223	hsa04722	0.941	Non-small cell lung cancer	Neurotrophin signaling pathway
+hsa05223	hsa04917	0.935	Non-small cell lung cancer	Prolactin signaling pathway
+hsa05223	hsa05160	0.941	Non-small cell lung cancer	Hepatitis C
+hsa05223	hsa05161	0.939	Non-small cell lung cancer	Hepatitis B
+hsa05223	hsa05210	0.944	Non-small cell lung cancer	Colorectal cancer
+hsa05223	hsa05211	0.93	Non-small cell lung cancer	Renal cell carcinoma
+hsa05223	hsa05212	0.951	Non-small cell lung cancer	Pancreatic cancer
+hsa05223	hsa05213	0.96	Non-small cell lung cancer	Endometrial cancer
+hsa05223	hsa05214	0.959	Non-small cell lung cancer	Glioma
+hsa05223	hsa05215	0.943	Non-small cell lung cancer	Prostate cancer
+hsa05223	hsa05218	0.956	Non-small cell lung cancer	Melanoma
+hsa05223	hsa05220	0.948	Non-small cell lung cancer	Chronic myeloid leukemia
+hsa05223	hsa05221	0.941	Non-small cell lung cancer	Acute myeloid leukemia
+hsa05223	hsa05224	0.937	Non-small cell lung cancer	Breast cancer
+hsa05223	hsa05225	0.928	Non-small cell lung cancer	Hepatocellular carcinoma
+hsa05223	hsa05226	0.934	Non-small cell lung cancer	Gastric cancer
+hsa05223	hsa05235	0.937	Non-small cell lung cancer	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05224	hsa04012	0.941	Breast cancer	ErbB signaling pathway
+hsa05224	hsa04068	0.939	Breast cancer	FoxO signaling pathway
+hsa05224	hsa04151	0.941	Breast cancer	PI3K-Akt signaling pathway
+hsa05224	hsa04310	0.947	Breast cancer	Wnt signaling pathway
+hsa05224	hsa04390	0.941	Breast cancer	Hippo signaling pathway
+hsa05224	hsa04550	0.963	Breast cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05224	hsa05160	0.939	Breast cancer	Hepatitis C
+hsa05224	hsa05161	0.937	Breast cancer	Hepatitis B
+hsa05224	hsa05165	0.943	Breast cancer	Human papillomavirus infection
+hsa05224	hsa05200	0.942	Breast cancer	Pathways in cancer
+hsa05224	hsa05205	0.945	Breast cancer	Proteoglycans in cancer
+hsa05224	hsa05210	0.954	Breast cancer	Colorectal cancer
+hsa05224	hsa05212	0.945	Breast cancer	Pancreatic cancer
+hsa05224	hsa05213	0.95	Breast cancer	Endometrial cancer
+hsa05224	hsa05214	0.943	Breast cancer	Glioma
+hsa05224	hsa05215	0.954	Breast cancer	Prostate cancer
+hsa05224	hsa05218	0.956	Breast cancer	Melanoma
+hsa05224	hsa05223	0.937	Breast cancer	Non-small cell lung cancer
+hsa05224	hsa05225	0.966	Breast cancer	Hepatocellular carcinoma
+hsa05224	hsa05226	0.976	Breast cancer	Gastric cancer
+hsa05225	hsa04068	0.937	Hepatocellular carcinoma	FoxO signaling pathway
+hsa05225	hsa04218	0.934	Hepatocellular carcinoma	Cellular senescence
+hsa05225	hsa04310	0.939	Hepatocellular carcinoma	Wnt signaling pathway
+hsa05225	hsa04390	0.948	Hepatocellular carcinoma	Hippo signaling pathway
+hsa05225	hsa04510	0.933	Hepatocellular carcinoma	Focal adhesion
+hsa05225	hsa04550	0.948	Hepatocellular carcinoma	Signaling pathways regulating pluripotency of stem cells
+hsa05225	hsa05160	0.931	Hepatocellular carcinoma	Hepatitis C
+hsa05225	hsa05161	0.94	Hepatocellular carcinoma	Hepatitis B
+hsa05225	hsa05165	0.939	Hepatocellular carcinoma	Human papillomavirus infection
+hsa05225	hsa05166	0.937	Hepatocellular carcinoma	Human T-cell leukemia virus 1 infection
+hsa05225	hsa05200	0.949	Hepatocellular carcinoma	Pathways in cancer
+hsa05225	hsa05205	0.946	Hepatocellular carcinoma	Proteoglycans in cancer
+hsa05225	hsa05210	0.951	Hepatocellular carcinoma	Colorectal cancer
+hsa05225	hsa05212	0.943	Hepatocellular carcinoma	Pancreatic cancer
+hsa05225	hsa05213	0.933	Hepatocellular carcinoma	Endometrial cancer
+hsa05225	hsa05215	0.946	Hepatocellular carcinoma	Prostate cancer
+hsa05225	hsa05220	0.938	Hepatocellular carcinoma	Chronic myeloid leukemia
+hsa05225	hsa05224	0.966	Hepatocellular carcinoma	Breast cancer
+hsa05225	hsa05226	0.972	Hepatocellular carcinoma	Gastric cancer
+hsa05225	hsa05418	0.938	Hepatocellular carcinoma	Fluid shear stress and atherosclerosis
+hsa05226	hsa04068	0.939	Gastric cancer	FoxO signaling pathway
+hsa05226	hsa04151	0.937	Gastric cancer	PI3K-Akt signaling pathway
+hsa05226	hsa04310	0.944	Gastric cancer	Wnt signaling pathway
+hsa05226	hsa04390	0.949	Gastric cancer	Hippo signaling pathway
+hsa05226	hsa04550	0.962	Gastric cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05226	hsa05160	0.938	Gastric cancer	Hepatitis C
+hsa05226	hsa05161	0.944	Gastric cancer	Hepatitis B
+hsa05226	hsa05165	0.939	Gastric cancer	Human papillomavirus infection
+hsa05226	hsa05200	0.946	Gastric cancer	Pathways in cancer
+hsa05226	hsa05205	0.947	Gastric cancer	Proteoglycans in cancer
+hsa05226	hsa05210	0.965	Gastric cancer	Colorectal cancer
+hsa05226	hsa05212	0.953	Gastric cancer	Pancreatic cancer
+hsa05226	hsa05213	0.942	Gastric cancer	Endometrial cancer
+hsa05226	hsa05215	0.949	Gastric cancer	Prostate cancer
+hsa05226	hsa05217	0.936	Gastric cancer	Basal cell carcinoma
+hsa05226	hsa05218	0.945	Gastric cancer	Melanoma
+hsa05226	hsa05220	0.943	Gastric cancer	Chronic myeloid leukemia
+hsa05226	hsa05223	0.934	Gastric cancer	Non-small cell lung cancer
+hsa05226	hsa05224	0.976	Gastric cancer	Breast cancer
+hsa05226	hsa05225	0.972	Gastric cancer	Hepatocellular carcinoma
+hsa05230	hsa04012	0.912	Central carbon metabolism in cancer	ErbB signaling pathway
+hsa05230	hsa04066	0.909	Central carbon metabolism in cancer	HIF-1 signaling pathway
+hsa05230	hsa04068	0.903	Central carbon metabolism in cancer	FoxO signaling pathway
+hsa05230	hsa04550	0.902	Central carbon metabolism in cancer	Signaling pathways regulating pluripotency of stem cells
+hsa05230	hsa04722	0.907	Central carbon metabolism in cancer	Neurotrophin signaling pathway
+hsa05230	hsa04910	0.903	Central carbon metabolism in cancer	Insulin signaling pathway
+hsa05230	hsa04917	0.907	Central carbon metabolism in cancer	Prolactin signaling pathway
+hsa05230	hsa05210	0.904	Central carbon metabolism in cancer	Colorectal cancer
+hsa05230	hsa05211	0.903	Central carbon metabolism in cancer	Renal cell carcinoma
+hsa05230	hsa05212	0.906	Central carbon metabolism in cancer	Pancreatic cancer
+hsa05230	hsa05213	0.917	Central carbon metabolism in cancer	Endometrial cancer
+hsa05230	hsa05214	0.918	Central carbon metabolism in cancer	Glioma
+hsa05230	hsa05215	0.922	Central carbon metabolism in cancer	Prostate cancer
+hsa05230	hsa05218	0.923	Central carbon metabolism in cancer	Melanoma
+hsa05230	hsa05221	0.911	Central carbon metabolism in cancer	Acute myeloid leukemia
+hsa05230	hsa05223	0.913	Central carbon metabolism in cancer	Non-small cell lung cancer
+hsa05230	hsa05224	0.91	Central carbon metabolism in cancer	Breast cancer
+hsa05230	hsa05226	0.904	Central carbon metabolism in cancer	Gastric cancer
+hsa05230	hsa05231	0.902	Central carbon metabolism in cancer	Choline metabolism in cancer
+hsa05230	hsa05235	0.913	Central carbon metabolism in cancer	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05231	hsa04010	0.911	Choline metabolism in cancer	MAPK signaling pathway
+hsa05231	hsa04012	0.93	Choline metabolism in cancer	ErbB signaling pathway
+hsa05231	hsa04014	0.936	Choline metabolism in cancer	Ras signaling pathway
+hsa05231	hsa04015	0.914	Choline metabolism in cancer	Rap1 signaling pathway
+hsa05231	hsa04071	0.914	Choline metabolism in cancer	Sphingolipid signaling pathway
+hsa05231	hsa04072	0.938	Choline metabolism in cancer	Phospholipase D signaling pathway
+hsa05231	hsa04370	0.921	Choline metabolism in cancer	VEGF signaling pathway
+hsa05231	hsa04664	0.918	Choline metabolism in cancer	Fc epsilon RI signaling pathway
+hsa05231	hsa04666	0.926	Choline metabolism in cancer	Fc gamma R-mediated phagocytosis
+hsa05231	hsa04722	0.921	Choline metabolism in cancer	Neurotrophin signaling pathway
+hsa05231	hsa04935	0.912	Choline metabolism in cancer	Growth hormone synthesis, secretion and action
+hsa05231	hsa05135	0.914	Choline metabolism in cancer	Yersinia infection
+hsa05231	hsa05210	0.913	Choline metabolism in cancer	Colorectal cancer
+hsa05231	hsa05211	0.916	Choline metabolism in cancer	Renal cell carcinoma
+hsa05231	hsa05212	0.921	Choline metabolism in cancer	Pancreatic cancer
+hsa05231	hsa05214	0.923	Choline metabolism in cancer	Glioma
+hsa05231	hsa05215	0.916	Choline metabolism in cancer	Prostate cancer
+hsa05231	hsa05218	0.915	Choline metabolism in cancer	Melanoma
+hsa05231	hsa05223	0.915	Choline metabolism in cancer	Non-small cell lung cancer
+hsa05231	hsa05235	0.916	Choline metabolism in cancer	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05235	hsa04012	0.942	PD-L1 expression and PD-1 checkpoint pathway in cancer	ErbB signaling pathway
+hsa05235	hsa04380	0.948	PD-L1 expression and PD-1 checkpoint pathway in cancer	Osteoclast differentiation
+hsa05235	hsa04620	0.954	PD-L1 expression and PD-1 checkpoint pathway in cancer	Toll-like receptor signaling pathway
+hsa05235	hsa04625	0.946	PD-L1 expression and PD-1 checkpoint pathway in cancer	C-type lectin receptor signaling pathway
+hsa05235	hsa04630	0.938	PD-L1 expression and PD-1 checkpoint pathway in cancer	JAK-STAT signaling pathway
+hsa05235	hsa04650	0.938	PD-L1 expression and PD-1 checkpoint pathway in cancer	Natural killer cell mediated cytotoxicity
+hsa05235	hsa04658	0.938	PD-L1 expression and PD-1 checkpoint pathway in cancer	Th1 and Th2 cell differentiation
+hsa05235	hsa04659	0.943	PD-L1 expression and PD-1 checkpoint pathway in cancer	Th17 cell differentiation
+hsa05235	hsa04660	0.965	PD-L1 expression and PD-1 checkpoint pathway in cancer	T cell receptor signaling pathway
+hsa05235	hsa04662	0.952	PD-L1 expression and PD-1 checkpoint pathway in cancer	B cell receptor signaling pathway
+hsa05235	hsa04668	0.938	PD-L1 expression and PD-1 checkpoint pathway in cancer	TNF signaling pathway
+hsa05235	hsa04722	0.942	PD-L1 expression and PD-1 checkpoint pathway in cancer	Neurotrophin signaling pathway
+hsa05235	hsa04917	0.939	PD-L1 expression and PD-1 checkpoint pathway in cancer	Prolactin signaling pathway
+hsa05235	hsa05135	0.945	PD-L1 expression and PD-1 checkpoint pathway in cancer	Yersinia infection
+hsa05235	hsa05142	0.941	PD-L1 expression and PD-1 checkpoint pathway in cancer	Chagas disease
+hsa05235	hsa05160	0.941	PD-L1 expression and PD-1 checkpoint pathway in cancer	Hepatitis C
+hsa05235	hsa05161	0.942	PD-L1 expression and PD-1 checkpoint pathway in cancer	Hepatitis B
+hsa05235	hsa05167	0.939	PD-L1 expression and PD-1 checkpoint pathway in cancer	Kaposi sarcoma-associated herpesvirus infection
+hsa05235	hsa05168	0.942	PD-L1 expression and PD-1 checkpoint pathway in cancer	Herpes simplex virus 1 infection
+hsa05235	hsa05221	0.946	PD-L1 expression and PD-1 checkpoint pathway in cancer	Acute myeloid leukemia
+hsa05310	hsa04060	0.829	Asthma	Cytokine-cytokine receptor interaction
+hsa05310	hsa04061	0.844	Asthma	Viral protein interaction with cytokine and cytokine receptor
+hsa05310	hsa04514	0.808	Asthma	Cell adhesion molecules
+hsa05310	hsa04612	0.81	Asthma	Antigen processing and presentation
+hsa05310	hsa04640	0.857	Asthma	Hematopoietic cell lineage
+hsa05310	hsa04658	0.785	Asthma	Th1 and Th2 cell differentiation
+hsa05310	hsa04672	0.916	Asthma	Intestinal immune network for IgA production
+hsa05310	hsa04940	0.892	Asthma	Type I diabetes mellitus
+hsa05310	hsa05140	0.819	Asthma	Leishmaniasis
+hsa05310	hsa05143	0.782	Asthma	African trypanosomiasis
+hsa05310	hsa05144	0.819	Asthma	Malaria
+hsa05310	hsa05150	0.86	Asthma	Staphylococcus aureus infection
+hsa05310	hsa05320	0.919	Asthma	Autoimmune thyroid disease
+hsa05310	hsa05321	0.836	Asthma	Inflammatory bowel disease
+hsa05310	hsa05322	0.819	Asthma	Systemic lupus erythematosus
+hsa05310	hsa05323	0.841	Asthma	Rheumatoid arthritis
+hsa05310	hsa05330	0.937	Asthma	Allograft rejection
+hsa05310	hsa05332	0.914	Asthma	Graft-versus-host disease
+hsa05310	hsa05340	0.768	Asthma	Primary immunodeficiency
+hsa05310	hsa05416	0.783	Asthma	Viral myocarditis
+hsa05320	hsa04060	0.847	Autoimmune thyroid disease	Cytokine-cytokine receptor interaction
+hsa05320	hsa04514	0.836	Autoimmune thyroid disease	Cell adhesion molecules
+hsa05320	hsa04612	0.852	Autoimmune thyroid disease	Antigen processing and presentation
+hsa05320	hsa04630	0.811	Autoimmune thyroid disease	JAK-STAT signaling pathway
+hsa05320	hsa04640	0.867	Autoimmune thyroid disease	Hematopoietic cell lineage
+hsa05320	hsa04650	0.828	Autoimmune thyroid disease	Natural killer cell mediated cytotoxicity
+hsa05320	hsa04658	0.819	Autoimmune thyroid disease	Th1 and Th2 cell differentiation
+hsa05320	hsa04672	0.918	Autoimmune thyroid disease	Intestinal immune network for IgA production
+hsa05320	hsa04940	0.928	Autoimmune thyroid disease	Type I diabetes mellitus
+hsa05320	hsa05140	0.835	Autoimmune thyroid disease	Leishmaniasis
+hsa05320	hsa05144	0.824	Autoimmune thyroid disease	Malaria
+hsa05320	hsa05150	0.87	Autoimmune thyroid disease	Staphylococcus aureus infection
+hsa05320	hsa05164	0.811	Autoimmune thyroid disease	Influenza A
+hsa05320	hsa05310	0.919	Autoimmune thyroid disease	Asthma
+hsa05320	hsa05321	0.845	Autoimmune thyroid disease	Inflammatory bowel disease
+hsa05320	hsa05322	0.842	Autoimmune thyroid disease	Systemic lupus erythematosus
+hsa05320	hsa05323	0.848	Autoimmune thyroid disease	Rheumatoid arthritis
+hsa05320	hsa05330	0.965	Autoimmune thyroid disease	Allograft rejection
+hsa05320	hsa05332	0.944	Autoimmune thyroid disease	Graft-versus-host disease
+hsa05320	hsa05340	0.814	Autoimmune thyroid disease	Primary immunodeficiency
+hsa05320	hsa05416	0.844	Autoimmune thyroid disease	Viral myocarditis
+hsa05321	hsa04060	0.903	Inflammatory bowel disease	Cytokine-cytokine receptor interaction
+hsa05321	hsa04380	0.883	Inflammatory bowel disease	Osteoclast differentiation
+hsa05321	hsa04620	0.889	Inflammatory bowel disease	Toll-like receptor signaling pathway
+hsa05321	hsa04630	0.894	Inflammatory bowel disease	JAK-STAT signaling pathway
+hsa05321	hsa04640	0.89	Inflammatory bowel disease	Hematopoietic cell lineage
+hsa05321	hsa04658	0.925	Inflammatory bowel disease	Th1 and Th2 cell differentiation
+hsa05321	hsa04659	0.944	Inflammatory bowel disease	Th17 cell differentiation
+hsa05321	hsa04940	0.882	Inflammatory bowel disease	Type I diabetes mellitus
+hsa05321	hsa05133	0.886	Inflammatory bowel disease	Pertussis
+hsa05321	hsa05134	0.884	Inflammatory bowel disease	Legionellosis
+hsa05321	hsa05140	0.941	Inflammatory bowel disease	Leishmaniasis
+hsa05321	hsa05142	0.891	Inflammatory bowel disease	Chagas disease
+hsa05321	hsa05144	0.882	Inflammatory bowel disease	Malaria
+hsa05321	hsa05145	0.901	Inflammatory bowel disease	Toxoplasmosis
+hsa05321	hsa05146	0.882	Inflammatory bowel disease	Amoebiasis
+hsa05321	hsa05152	0.894	Inflammatory bowel disease	Tuberculosis
+hsa05321	hsa05161	0.881	Inflammatory bowel disease	Hepatitis B
+hsa05321	hsa05164	0.881	Inflammatory bowel disease	Influenza A
+hsa05321	hsa05168	0.911	Inflammatory bowel disease	Herpes simplex virus 1 infection
+hsa05321	hsa05323	0.919	Inflammatory bowel disease	Rheumatoid arthritis
+hsa05321	hsa05330	0.881	Inflammatory bowel disease	Allograft rejection
+hsa05322	hsa04612	0.867	Systemic lupus erythematosus	Antigen processing and presentation
+hsa05322	hsa04613	0.86	Systemic lupus erythematosus	Neutrophil extracellular trap formation
+hsa05322	hsa04640	0.872	Systemic lupus erythematosus	Hematopoietic cell lineage
+hsa05322	hsa04658	0.854	Systemic lupus erythematosus	Th1 and Th2 cell differentiation
+hsa05322	hsa04659	0.851	Systemic lupus erythematosus	Th17 cell differentiation
+hsa05322	hsa04672	0.85	Systemic lupus erythematosus	Intestinal immune network for IgA production
+hsa05322	hsa04940	0.867	Systemic lupus erythematosus	Type I diabetes mellitus
+hsa05322	hsa05133	0.86	Systemic lupus erythematosus	Pertussis
+hsa05322	hsa05140	0.876	Systemic lupus erythematosus	Leishmaniasis
+hsa05322	hsa05145	0.856	Systemic lupus erythematosus	Toxoplasmosis
+hsa05322	hsa05150	0.869	Systemic lupus erythematosus	Staphylococcus aureus infection
+hsa05322	hsa05152	0.854	Systemic lupus erythematosus	Tuberculosis
+hsa05322	hsa05164	0.867	Systemic lupus erythematosus	Influenza A
+hsa05322	hsa05168	0.859	Systemic lupus erythematosus	Herpes simplex virus 1 infection
+hsa05322	hsa05169	0.849	Systemic lupus erythematosus	Epstein-Barr virus infection
+hsa05322	hsa05321	0.872	Systemic lupus erythematosus	Inflammatory bowel disease
+hsa05322	hsa05323	0.87	Systemic lupus erythematosus	Rheumatoid arthritis
+hsa05322	hsa05330	0.864	Systemic lupus erythematosus	Allograft rejection
+hsa05322	hsa05332	0.859	Systemic lupus erythematosus	Graft-versus-host disease
+hsa05322	hsa05416	0.857	Systemic lupus erythematosus	Viral myocarditis
+hsa05323	hsa04060	0.915	Rheumatoid arthritis	Cytokine-cytokine receptor interaction
+hsa05323	hsa04064	0.89	Rheumatoid arthritis	NF-kappa B signaling pathway
+hsa05323	hsa04380	0.887	Rheumatoid arthritis	Osteoclast differentiation
+hsa05323	hsa04620	0.901	Rheumatoid arthritis	Toll-like receptor signaling pathway
+hsa05323	hsa04640	0.903	Rheumatoid arthritis	Hematopoietic cell lineage
+hsa05323	hsa04658	0.887	Rheumatoid arthritis	Th1 and Th2 cell differentiation
+hsa05323	hsa04659	0.904	Rheumatoid arthritis	Th17 cell differentiation
+hsa05323	hsa04668	0.889	Rheumatoid arthritis	TNF signaling pathway
+hsa05323	hsa04672	0.89	Rheumatoid arthritis	Intestinal immune network for IgA production
+hsa05323	hsa05120	0.9	Rheumatoid arthritis	Epithelial cell signaling in Helicobacter pylori infection
+hsa05323	hsa05140	0.916	Rheumatoid arthritis	Leishmaniasis
+hsa05323	hsa05142	0.901	Rheumatoid arthritis	Chagas disease
+hsa05323	hsa05144	0.906	Rheumatoid arthritis	Malaria
+hsa05323	hsa05145	0.898	Rheumatoid arthritis	Toxoplasmosis
+hsa05323	hsa05146	0.89	Rheumatoid arthritis	Amoebiasis
+hsa05323	hsa05152	0.91	Rheumatoid arthritis	Tuberculosis
+hsa05323	hsa05161	0.891	Rheumatoid arthritis	Hepatitis B
+hsa05323	hsa05164	0.89	Rheumatoid arthritis	Influenza A
+hsa05323	hsa05168	0.914	Rheumatoid arthritis	Herpes simplex virus 1 infection
+hsa05323	hsa05321	0.919	Rheumatoid arthritis	Inflammatory bowel disease
+hsa05330	hsa04060	0.86	Allograft rejection	Cytokine-cytokine receptor interaction
+hsa05330	hsa04514	0.845	Allograft rejection	Cell adhesion molecules
+hsa05330	hsa04612	0.876	Allograft rejection	Antigen processing and presentation
+hsa05330	hsa04630	0.826	Allograft rejection	JAK-STAT signaling pathway
+hsa05330	hsa04640	0.886	Allograft rejection	Hematopoietic cell lineage
+hsa05330	hsa04650	0.832	Allograft rejection	Natural killer cell mediated cytotoxicity
+hsa05330	hsa04658	0.846	Allograft rejection	Th1 and Th2 cell differentiation
+hsa05330	hsa04672	0.921	Allograft rejection	Intestinal immune network for IgA production
+hsa05330	hsa04940	0.964	Allograft rejection	Type I diabetes mellitus
+hsa05330	hsa05140	0.861	Allograft rejection	Leishmaniasis
+hsa05330	hsa05143	0.83	Allograft rejection	African trypanosomiasis
+hsa05330	hsa05144	0.839	Allograft rejection	Malaria
+hsa05330	hsa05150	0.865	Allograft rejection	Staphylococcus aureus infection
+hsa05330	hsa05310	0.937	Allograft rejection	Asthma
+hsa05330	hsa05320	0.965	Allograft rejection	Autoimmune thyroid disease
+hsa05330	hsa05321	0.881	Allograft rejection	Inflammatory bowel disease
+hsa05330	hsa05322	0.864	Allograft rejection	Systemic lupus erythematosus
+hsa05330	hsa05323	0.864	Allograft rejection	Rheumatoid arthritis
+hsa05330	hsa05332	0.972	Allograft rejection	Graft-versus-host disease
+hsa05330	hsa05416	0.846	Allograft rejection	Viral myocarditis
+hsa05332	hsa04060	0.843	Graft-versus-host disease	Cytokine-cytokine receptor interaction
+hsa05332	hsa04514	0.845	Graft-versus-host disease	Cell adhesion molecules
+hsa05332	hsa04612	0.884	Graft-versus-host disease	Antigen processing and presentation
+hsa05332	hsa04640	0.887	Graft-versus-host disease	Hematopoietic cell lineage
+hsa05332	hsa04650	0.836	Graft-versus-host disease	Natural killer cell mediated cytotoxicity
+hsa05332	hsa04658	0.832	Graft-versus-host disease	Th1 and Th2 cell differentiation
+hsa05332	hsa04659	0.824	Graft-versus-host disease	Th17 cell differentiation
+hsa05332	hsa04672	0.909	Graft-versus-host disease	Intestinal immune network for IgA production
+hsa05332	hsa04940	0.96	Graft-versus-host disease	Type I diabetes mellitus
+hsa05332	hsa05140	0.851	Graft-versus-host disease	Leishmaniasis
+hsa05332	hsa05143	0.828	Graft-versus-host disease	African trypanosomiasis
+hsa05332	hsa05144	0.838	Graft-versus-host disease	Malaria
+hsa05332	hsa05150	0.859	Graft-versus-host disease	Staphylococcus aureus infection
+hsa05332	hsa05310	0.914	Graft-versus-host disease	Asthma
+hsa05332	hsa05320	0.944	Graft-versus-host disease	Autoimmune thyroid disease
+hsa05332	hsa05321	0.872	Graft-versus-host disease	Inflammatory bowel disease
+hsa05332	hsa05322	0.859	Graft-versus-host disease	Systemic lupus erythematosus
+hsa05332	hsa05323	0.868	Graft-versus-host disease	Rheumatoid arthritis
+hsa05332	hsa05330	0.972	Graft-versus-host disease	Allograft rejection
+hsa05332	hsa05416	0.845	Graft-versus-host disease	Viral myocarditis
+hsa05340	hsa04060	0.814	Primary immunodeficiency	Cytokine-cytokine receptor interaction
+hsa05340	hsa04064	0.848	Primary immunodeficiency	NF-kappa B signaling pathway
+hsa05340	hsa04380	0.826	Primary immunodeficiency	Osteoclast differentiation
+hsa05340	hsa04612	0.823	Primary immunodeficiency	Antigen processing and presentation
+hsa05340	hsa04640	0.831	Primary immunodeficiency	Hematopoietic cell lineage
+hsa05340	hsa04650	0.836	Primary immunodeficiency	Natural killer cell mediated cytotoxicity
+hsa05340	hsa04658	0.854	Primary immunodeficiency	Th1 and Th2 cell differentiation
+hsa05340	hsa04659	0.846	Primary immunodeficiency	Th17 cell differentiation
+hsa05340	hsa04660	0.84	Primary immunodeficiency	T cell receptor signaling pathway
+hsa05340	hsa04662	0.834	Primary immunodeficiency	B cell receptor signaling pathway
+hsa05340	hsa04672	0.814	Primary immunodeficiency	Intestinal immune network for IgA production
+hsa05340	hsa05135	0.809	Primary immunodeficiency	Yersinia infection
+hsa05340	hsa05145	0.81	Primary immunodeficiency	Toxoplasmosis
+hsa05340	hsa05162	0.828	Primary immunodeficiency	Measles
+hsa05340	hsa05166	0.809	Primary immunodeficiency	Human T-cell leukemia virus 1 infection
+hsa05340	hsa05169	0.828	Primary immunodeficiency	Epstein-Barr virus infection
+hsa05340	hsa05170	0.825	Primary immunodeficiency	Human immunodeficiency virus 1 infection
+hsa05340	hsa05235	0.849	Primary immunodeficiency	PD-L1 expression and PD-1 checkpoint pathway in cancer
+hsa05340	hsa05320	0.814	Primary immunodeficiency	Autoimmune thyroid disease
+hsa05340	hsa05330	0.809	Primary immunodeficiency	Allograft rejection
+hsa05410	hsa04010	0.887	Hypertrophic cardiomyopathy	MAPK signaling pathway
+hsa05410	hsa04020	0.872	Hypertrophic cardiomyopathy	Calcium signaling pathway
+hsa05410	hsa04151	0.879	Hypertrophic cardiomyopathy	PI3K-Akt signaling pathway
+hsa05410	hsa04261	0.886	Hypertrophic cardiomyopathy	Adrenergic signaling in cardiomyocytes
+hsa05410	hsa04510	0.902	Hypertrophic cardiomyopathy	Focal adhesion
+hsa05410	hsa04512	0.858	Hypertrophic cardiomyopathy	ECM-receptor interaction
+hsa05410	hsa04530	0.887	Hypertrophic cardiomyopathy	Tight junction
+hsa05410	hsa04611	0.867	Hypertrophic cardiomyopathy	Platelet activation
+hsa05410	hsa04670	0.869	Hypertrophic cardiomyopathy	Leukocyte transendothelial migration
+hsa05410	hsa04810	0.89	Hypertrophic cardiomyopathy	Regulation of actin cytoskeleton
+hsa05410	hsa04921	0.878	Hypertrophic cardiomyopathy	Oxytocin signaling pathway
+hsa05410	hsa04933	0.859	Hypertrophic cardiomyopathy	AGE-RAGE signaling pathway in diabetic complications
+hsa05410	hsa05135	0.87	Hypertrophic cardiomyopathy	Yersinia infection
+hsa05410	hsa05146	0.857	Hypertrophic cardiomyopathy	Amoebiasis
+hsa05410	hsa05165	0.868	Hypertrophic cardiomyopathy	Human papillomavirus infection
+hsa05410	hsa05200	0.861	Hypertrophic cardiomyopathy	Pathways in cancer
+hsa05410	hsa05205	0.889	Hypertrophic cardiomyopathy	Proteoglycans in cancer
+hsa05410	hsa05412	0.925	Hypertrophic cardiomyopathy	Arrhythmogenic right ventricular cardiomyopathy
+hsa05410	hsa05414	0.977	Hypertrophic cardiomyopathy	Dilated cardiomyopathy
+hsa05410	hsa05418	0.883	Hypertrophic cardiomyopathy	Fluid shear stress and atherosclerosis
+hsa05412	hsa04010	0.83	Arrhythmogenic right ventricular cardiomyopathy	MAPK signaling pathway
+hsa05412	hsa04015	0.841	Arrhythmogenic right ventricular cardiomyopathy	Rap1 signaling pathway
+hsa05412	hsa04020	0.834	Arrhythmogenic right ventricular cardiomyopathy	Calcium signaling pathway
+hsa05412	hsa04022	0.839	Arrhythmogenic right ventricular cardiomyopathy	cGMP-PKG signaling pathway
+hsa05412	hsa04024	0.828	Arrhythmogenic right ventricular cardiomyopathy	cAMP signaling pathway
+hsa05412	hsa04260	0.836	Arrhythmogenic right ventricular cardiomyopathy	Cardiac muscle contraction
+hsa05412	hsa04261	0.859	Arrhythmogenic right ventricular cardiomyopathy	Adrenergic signaling in cardiomyocytes
+hsa05412	hsa04390	0.851	Arrhythmogenic right ventricular cardiomyopathy	Hippo signaling pathway
+hsa05412	hsa04510	0.868	Arrhythmogenic right ventricular cardiomyopathy	Focal adhesion
+hsa05412	hsa04512	0.872	Arrhythmogenic right ventricular cardiomyopathy	ECM-receptor interaction
+hsa05412	hsa04520	0.848	Arrhythmogenic right ventricular cardiomyopathy	Adherens junction
+hsa05412	hsa04670	0.854	Arrhythmogenic right ventricular cardiomyopathy	Leukocyte transendothelial migration
+hsa05412	hsa04810	0.851	Arrhythmogenic right ventricular cardiomyopathy	Regulation of actin cytoskeleton
+hsa05412	hsa04911	0.822	Arrhythmogenic right ventricular cardiomyopathy	Insulin secretion
+hsa05412	hsa04921	0.839	Arrhythmogenic right ventricular cardiomyopathy	Oxytocin signaling pathway
+hsa05412	hsa05100	0.854	Arrhythmogenic right ventricular cardiomyopathy	Bacterial invasion of epithelial cells
+hsa05412	hsa05205	0.851	Arrhythmogenic right ventricular cardiomyopathy	Proteoglycans in cancer
+hsa05412	hsa05410	0.925	Arrhythmogenic right ventricular cardiomyopathy	Hypertrophic cardiomyopathy
+hsa05412	hsa05414	0.93	Arrhythmogenic right ventricular cardiomyopathy	Dilated cardiomyopathy
+hsa05412	hsa05418	0.843	Arrhythmogenic right ventricular cardiomyopathy	Fluid shear stress and atherosclerosis
+hsa05414	hsa04010	0.886	Dilated cardiomyopathy	MAPK signaling pathway
+hsa05414	hsa04015	0.895	Dilated cardiomyopathy	Rap1 signaling pathway
+hsa05414	hsa04020	0.891	Dilated cardiomyopathy	Calcium signaling pathway
+hsa05414	hsa04022	0.879	Dilated cardiomyopathy	cGMP-PKG signaling pathway
+hsa05414	hsa04024	0.875	Dilated cardiomyopathy	cAMP signaling pathway
+hsa05414	hsa04151	0.873	Dilated cardiomyopathy	PI3K-Akt signaling pathway
+hsa05414	hsa04261	0.907	Dilated cardiomyopathy	Adrenergic signaling in cardiomyocytes
+hsa05414	hsa04270	0.873	Dilated cardiomyopathy	Vascular smooth muscle contraction
+hsa05414	hsa04510	0.9	Dilated cardiomyopathy	Focal adhesion
+hsa05414	hsa04530	0.885	Dilated cardiomyopathy	Tight junction
+hsa05414	hsa04611	0.883	Dilated cardiomyopathy	Platelet activation
+hsa05414	hsa04670	0.87	Dilated cardiomyopathy	Leukocyte transendothelial migration
+hsa05414	hsa04810	0.893	Dilated cardiomyopathy	Regulation of actin cytoskeleton
+hsa05414	hsa04921	0.886	Dilated cardiomyopathy	Oxytocin signaling pathway
+hsa05414	hsa05135	0.864	Dilated cardiomyopathy	Yersinia infection
+hsa05414	hsa05163	0.867	Dilated cardiomyopathy	Human cytomegalovirus infection
+hsa05414	hsa05165	0.864	Dilated cardiomyopathy	Human papillomavirus infection
+hsa05414	hsa05205	0.888	Dilated cardiomyopathy	Proteoglycans in cancer
+hsa05414	hsa05410	0.977	Dilated cardiomyopathy	Hypertrophic cardiomyopathy
+hsa05414	hsa05412	0.93	Dilated cardiomyopathy	Arrhythmogenic right ventricular cardiomyopathy
+hsa05415	hsa04022	0.896	Diabetic cardiomyopathy	cGMP-PKG signaling pathway
+hsa05415	hsa04024	0.883	Diabetic cardiomyopathy	cAMP signaling pathway
+hsa05415	hsa04066	0.897	Diabetic cardiomyopathy	HIF-1 signaling pathway
+hsa05415	hsa04071	0.886	Diabetic cardiomyopathy	Sphingolipid signaling pathway
+hsa05415	hsa04371	0.897	Diabetic cardiomyopathy	Apelin signaling pathway
+hsa05415	hsa04380	0.889	Diabetic cardiomyopathy	Osteoclast differentiation
+hsa05415	hsa04510	0.897	Diabetic cardiomyopathy	Focal adhesion
+hsa05415	hsa04613	0.893	Diabetic cardiomyopathy	Neutrophil extracellular trap formation
+hsa05415	hsa04714	0.894	Diabetic cardiomyopathy	Thermogenesis
+hsa05415	hsa04722	0.892	Diabetic cardiomyopathy	Neurotrophin signaling pathway
+hsa05415	hsa04926	0.903	Diabetic cardiomyopathy	Relaxin signaling pathway
+hsa05415	hsa04931	0.911	Diabetic cardiomyopathy	Insulin resistance
+hsa05415	hsa04932	0.93	Diabetic cardiomyopathy	Non-alcoholic fatty liver disease
+hsa05415	hsa04933	0.91	Diabetic cardiomyopathy	AGE-RAGE signaling pathway in diabetic complications
+hsa05415	hsa05010	0.928	Diabetic cardiomyopathy	Alzheimer disease
+hsa05415	hsa05016	0.892	Diabetic cardiomyopathy	Huntington disease
+hsa05415	hsa05020	0.925	Diabetic cardiomyopathy	Prion disease
+hsa05415	hsa05022	0.914	Diabetic cardiomyopathy	Pathways of neurodegeneration - multiple diseases
+hsa05415	hsa05208	0.93	Diabetic cardiomyopathy	Chemical carcinogenesis - reactive oxygen species
+hsa05415	hsa05212	0.885	Diabetic cardiomyopathy	Pancreatic cancer
+hsa05416	hsa04015	0.865	Viral myocarditis	Rap1 signaling pathway
+hsa05416	hsa04145	0.879	Viral myocarditis	Phagosome
+hsa05416	hsa04360	0.869	Viral myocarditis	Axon guidance
+hsa05416	hsa04510	0.885	Viral myocarditis	Focal adhesion
+hsa05416	hsa04514	0.899	Viral myocarditis	Cell adhesion molecules
+hsa05416	hsa04530	0.876	Viral myocarditis	Tight junction
+hsa05416	hsa04640	0.871	Viral myocarditis	Hematopoietic cell lineage
+hsa05416	hsa04650	0.888	Viral myocarditis	Natural killer cell mediated cytotoxicity
+hsa05416	hsa04670	0.883	Viral myocarditis	Leukocyte transendothelial migration
+hsa05416	hsa04810	0.877	Viral myocarditis	Regulation of actin cytoskeleton
+hsa05416	hsa05100	0.873	Viral myocarditis	Bacterial invasion of epithelial cells
+hsa05416	hsa05130	0.891	Viral myocarditis	Pathogenic Escherichia coli infection
+hsa05416	hsa05132	0.867	Viral myocarditis	Salmonella infection
+hsa05416	hsa05135	0.879	Viral myocarditis	Yersinia infection
+hsa05416	hsa05145	0.875	Viral myocarditis	Toxoplasmosis
+hsa05416	hsa05152	0.871	Viral myocarditis	Tuberculosis
+hsa05416	hsa05163	0.865	Viral myocarditis	Human cytomegalovirus infection
+hsa05416	hsa05164	0.87	Viral myocarditis	Influenza A
+hsa05416	hsa05169	0.875	Viral myocarditis	Epstein-Barr virus infection
+hsa05416	hsa05170	0.873	Viral myocarditis	Human immunodeficiency virus 1 infection
+hsa05417	hsa04010	0.94	Lipid and atherosclerosis	MAPK signaling pathway
+hsa05417	hsa04062	0.937	Lipid and atherosclerosis	Chemokine signaling pathway
+hsa05417	hsa04151	0.943	Lipid and atherosclerosis	PI3K-Akt signaling pathway
+hsa05417	hsa04380	0.937	Lipid and atherosclerosis	Osteoclast differentiation
+hsa05417	hsa04621	0.946	Lipid and atherosclerosis	NOD-like receptor signaling pathway
+hsa05417	hsa04625	0.941	Lipid and atherosclerosis	C-type lectin receptor signaling pathway
+hsa05417	hsa05131	0.948	Lipid and atherosclerosis	Shigellosis
+hsa05417	hsa05132	0.941	Lipid and atherosclerosis	Salmonella infection
+hsa05417	hsa05135	0.945	Lipid and atherosclerosis	Yersinia infection
+hsa05417	hsa05145	0.937	Lipid and atherosclerosis	Toxoplasmosis
+hsa05417	hsa05152	0.949	Lipid and atherosclerosis	Tuberculosis
+hsa05417	hsa05160	0.943	Lipid and atherosclerosis	Hepatitis C
+hsa05417	hsa05161	0.946	Lipid and atherosclerosis	Hepatitis B
+hsa05417	hsa05162	0.944	Lipid and atherosclerosis	Measles
+hsa05417	hsa05163	0.954	Lipid and atherosclerosis	Human cytomegalovirus infection
+hsa05417	hsa05164	0.938	Lipid and atherosclerosis	Influenza A
+hsa05417	hsa05167	0.951	Lipid and atherosclerosis	Kaposi sarcoma-associated herpesvirus infection
+hsa05417	hsa05168	0.951	Lipid and atherosclerosis	Herpes simplex virus 1 infection
+hsa05417	hsa05170	0.946	Lipid and atherosclerosis	Human immunodeficiency virus 1 infection
+hsa05417	hsa05200	0.944	Lipid and atherosclerosis	Pathways in cancer
+hsa05417	hsa05205	0.937	Lipid and atherosclerosis	Proteoglycans in cancer
+hsa05417	hsa05418	0.944	Lipid and atherosclerosis	Fluid shear stress and atherosclerosis
+hsa05418	hsa04010	0.945	Fluid shear stress and atherosclerosis	MAPK signaling pathway
+hsa05418	hsa04015	0.936	Fluid shear stress and atherosclerosis	Rap1 signaling pathway
+hsa05418	hsa04151	0.941	Fluid shear stress and atherosclerosis	PI3K-Akt signaling pathway
+hsa05418	hsa04380	0.937	Fluid shear stress and atherosclerosis	Osteoclast differentiation
+hsa05418	hsa04510	0.945	Fluid shear stress and atherosclerosis	Focal adhesion
+hsa05418	hsa04722	0.932	Fluid shear stress and atherosclerosis	Neurotrophin signaling pathway
+hsa05418	hsa04933	0.938	Fluid shear stress and atherosclerosis	AGE-RAGE signaling pathway in diabetic complications
+hsa05418	hsa05131	0.937	Fluid shear stress and atherosclerosis	Shigellosis
+hsa05418	hsa05132	0.934	Fluid shear stress and atherosclerosis	Salmonella infection
+hsa05418	hsa05135	0.939	Fluid shear stress and atherosclerosis	Yersinia infection
+hsa05418	hsa05161	0.935	Fluid shear stress and atherosclerosis	Hepatitis B
+hsa05418	hsa05163	0.941	Fluid shear stress and atherosclerosis	Human cytomegalovirus infection
+hsa05418	hsa05167	0.938	Fluid shear stress and atherosclerosis	Kaposi sarcoma-associated herpesvirus infection
+hsa05418	hsa05168	0.933	Fluid shear stress and atherosclerosis	Herpes simplex virus 1 infection
+hsa05418	hsa05200	0.945	Fluid shear stress and atherosclerosis	Pathways in cancer
+hsa05418	hsa05205	0.948	Fluid shear stress and atherosclerosis	Proteoglycans in cancer
+hsa05418	hsa05206	0.932	Fluid shear stress and atherosclerosis	MicroRNAs in cancer
+hsa05418	hsa05215	0.937	Fluid shear stress and atherosclerosis	Prostate cancer
+hsa05418	hsa05225	0.938	Fluid shear stress and atherosclerosis	Hepatocellular carcinoma
+hsa05418	hsa05417	0.944	Fluid shear stress and atherosclerosis	Lipid and atherosclerosis

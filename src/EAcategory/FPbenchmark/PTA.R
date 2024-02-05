@@ -1,0 +1,281 @@
+rm(list = ls())
+setwd('~/eabenchmark/') 
+
+suppressMessages(library(optparse))
+suppressMessages(library(tidyverse))
+suppressMessages(library(SummarizedExperiment))
+suppressMessages(library(parallel))
+
+option_list = list(
+  make_option(c("-c", "--ncores"), type="integer", default='4',
+              help=" (by default: %default)", metavar="character"),
+  make_option(c("-m", "--method"), type="character", default='spia',
+              help=" (by default: %default)", metavar="character")
+)
+opt_parser = OptionParser(option_list=option_list)
+opt = parse_args(opt_parser)
+method_name = opt$method
+ncores = opt$ncores
+
+message(paste0('Execute ', toupper(method_name), ' with #', ncores))
+
+################################################
+## FUNTIONAL GENE SETS
+kegg_df = read_tsv(file = 'data/KEGG/keggrest_hsa.tsv', col_types = 'ffcccff')
+kegg_df = kegg_df %>%
+  filter(pathway_id %in%
+           as.character(
+             kegg_df %>%
+               select(pathway_id,entrezgene_id) %>%
+               unique() %>%
+               group_by(pathway_id) %>%
+               summarise(n=n()) %>%
+               filter(n>14) %>%
+               droplevels() %>%
+               pull(pathway_id))) %>%
+  droplevels() %>%
+  select(pathway_id,entrezgene_id) %>%
+  dplyr::rename(GeneID=entrezgene_id)
+
+kegg_list = tapply(kegg_df$GeneID, kegg_df$pathway_id, function(x) as.character(x))
+kegg_list = lapply(kegg_list, function(x) unique(x))
+
+### Pre-computed KEGG networks
+if (method_name == 'spia'){
+  library(SPIA)
+  ## parsing up-to-date KEGG xml files for use with SPIA
+  ## Download xml KEGG file 
+  for (p in names(kegg_list)){
+    if(file.exists(paste0('data/KEGG/xml/',p,'.xml'))) next
+    system(paste0('bash -c \'',
+                  'curl -s http://rest.kegg.jp/get/',p,'/kgml -o data/KEGG/xml/',p,'.xml\''))
+  }
+  ## or if you don't know the pathway names
+  # curl -s http://rest.kegg.jp/list/pathway/hsa | awk '{split($1,a,':'); print 'curl -s http://rest.kegg.jp/get/'a[2]'/kgml -o data/kegg/xml/'a[2]'.xml'}' | bash
+  if(!file.exists('data/methodSpecific/spia/hsaSPIA.RData')){
+    ## Build SPIA data takes 56'
+    makeSPIAdata(kgml.path='data/KEGG/xml',organism='hsa',out.path='data/methodSpecific/spia')
+  }
+  
+  relation_types = 
+    c('activation', 'compound', 'binding/association', 
+      'expression', 'inhibition', 'activation_phosphorylation', 
+      'phosphorylation', 'inhibition_phosphorylation', 
+      'inhibition_dephosphorylation', 'dissociation', 'dephosphorylation', 
+      'activation_dephosphorylation', 'state change', 'activation_indirect effect', 
+      'inhibition_ubiquination', 'ubiquination', 'expression_indirect effect', 
+      'inhibition_indirect effect', 'repression', 'dissociation_phosphorylation', 
+      'indirect effect_phosphorylation', 'activation_binding/association', 
+      'indirect effect', 'activation_compound', 'activation_ubiquination')
+  beta_v = c(1, 0, 0, 1, -1, 1, 0, -1, -1, 0, 0, 1, 0, 1, -1, 0, 1, -1, -1, 0, 0, 1, 0, 1, 1)
+  names(beta_v) = relation_types
+  print(cbind(beta_v))
+  
+} else if (method_name %in% c('cepaORA')){
+  library(CePa)
+  kegg_net = read_tsv('data/KEGG/hsaKEGG_network.tsv', col_types = 'ccffffc') %>%
+    dplyr::rename(input=from,
+                  output=to) %>%
+    group_by(input,output) %>%
+    mutate(interaction.id = as.character(cur_group_id())) 
+  
+  kegg_list = tapply(kegg_net$interaction.id, kegg_net$pathway_id, function(x) as.character(x))
+  
+  kegg_net = kegg_net %>%
+    select(interaction.id,input,output) %>%
+    unique()
+  
+  mapping_df = data.frame(node.id = unique(c(kegg_net$input,kegg_net$output)),
+                          GeneID = unique(c(kegg_net$input,kegg_net$output)))
+  
+  kegg_catalogue = 
+    set.pathway.catalogue(
+      pathList = kegg_list,
+      interactionList = as.data.frame(kegg_net),
+      mapping = mapping_df
+    )
+}
+
+#################################################
+## EXPRESSION DATA
+set.seed(12345)
+n_sampling = 30
+dataset_df = read_tsv(file = paste0('data/FPbenchmark/cc_deg-alpha10OR20-Min15Max500-beta0-DEG.tsv'),
+                      col_types = 'fcfffiddiciccccc') %>%
+  add_column(seed_n = sample(10000, nrow(.), replace = F)) %>% 
+  group_by(GEO,Title,TargetPathway,DataType,BatchEffect,
+           GenomeCoverage,alpha,beta,NrOfSamples,CC,
+           NrOfDEG,UpDown,mappedDEG,GeneID,Ensembl,Ensembl_PRO,seed_n
+  )%>%
+  summarise(
+    GEO_x = list(paste(GEO,seq(n_sampling),sep = '.'))
+  ) %>%
+  unnest(cols = GEO_x) %>%
+  ungroup() %>%
+  select(-GEO) %>%
+  dplyr::rename(GEO=GEO_x)
+
+outdir = paste0('results/FPbenchmark/')
+
+#################################################
+## EXECUTE METHOD
+run_enrichment = function(d){
+  library(tidyverse)
+  library(SummarizedExperiment)
+  
+  #################################################
+  ## FUNTIONAL GENE SETS
+  kegg_df = read_tsv(file = 'data/KEGG/keggrest_hsa.tsv', col_types = 'ffcccff')
+  kegg_df = kegg_df %>%
+    filter(pathway_id %in%
+             as.character(
+               kegg_df %>%
+                 select(pathway_id,entrezgene_id) %>%
+                 unique() %>%
+                 group_by(pathway_id) %>%
+                 summarise(n=n()) %>%
+                 filter(n>14) %>%
+                 droplevels() %>%
+                 pull(pathway_id))) %>%
+    droplevels() %>%
+    select(pathway_id,entrezgene_id) %>%
+    dplyr::rename(GeneID=entrezgene_id)
+  
+  kegg_list = tapply(kegg_df$GeneID, kegg_df$pathway_id, function(x) as.character(x))
+  kegg_list = lapply(kegg_list, function(x) unique(x))
+  rm(kegg_df)
+  
+  #################################################
+  ## EXPRESSION DATA
+  x = read_tsv(file='data/FPbenchmark/cc_deg-alpha10OR20-Min15Max500-beta0-DEG.tsv.gz',
+                        col_types = 'fcfffiddiciccccc') %>%
+    filter(GEO==d) %>%
+    droplevels()
+  
+  geo = unlist(str_split(x[['GEO']],'\\.'))
+  
+  se = readRDS(paste0('data/TPbenchmark/',x[['DataType']],'/',geo[[1]],'.Rds'))
+  se@colData$GROUP = as.numeric(as.character(se@colData$GROUP))
+  se@metadata$dataType = as.character(x[['DataType']])
+  
+  permuted_se = as.character(
+    read_tsv(file = paste0('data/FPbenchmark/',geo[[1]],'.tsv.gz'), 
+             col_types = 'c', col_select = paste0('P',geo[2])) %>%
+      pull(paste0('P',geo[2]))
+  )
+  
+  dat = assay(se)
+  de = rowData(se)
+  rownames(dat) = rownames(de) = permuted_se
+  
+  newSe =
+    SummarizedExperiment(
+      assays = as.matrix(dat),
+      rowData = de,
+      colData = colData(se),
+      metadata = metadata(se)
+    )
+  # newSe = subset(newSe,complete.cases(assay(newSe)))
+  newSe@colData$GROUP = as.numeric(as.character(newSe@colData$GROUP))
+  
+  rm(se)
+  rm(de)
+  rm(dat)
+  rm(permuted_se)
+  
+  if (method_name %in% c('spia','cepaORA')){
+    GeneID = as.character(
+      unlist(
+        stringr::str_split(x[['GeneID']],',')
+        )
+      )
+  }
+  
+  if (method_name == 'spia'){
+    ##########################################
+    #### SPIA
+    source('src/EAmethods/spia.R')
+    relation_types = 
+      c('activation', 'compound', 'binding/association', 
+        'expression', 'inhibition', 'activation_phosphorylation', 
+        'phosphorylation', 'inhibition_phosphorylation', 
+        'inhibition_dephosphorylation', 'dissociation', 'dephosphorylation', 
+        'activation_dephosphorylation', 'state change', 'activation_indirect effect', 
+        'inhibition_ubiquination', 'ubiquination', 'expression_indirect effect', 
+        'inhibition_indirect effect', 'repression', 'dissociation_phosphorylation', 
+        'indirect effect_phosphorylation', 'activation_binding/association', 
+        'indirect effect', 'activation_compound', 'activation_ubiquination')
+    beta_v = c(1, 0, 0, 1, -1, 1, 0, -1, -1, 0, 0, 1, 0, 1, -1, 0, 1, -1, -1, 0, 0, 1, 0, 1, 1)
+    names(beta_v) = relation_types
+    
+    tmp_enrichment_df = 
+      tryCatch(
+        run_spia(newSe,GeneID,beta_v,x[['seed_n']]),
+        error=function(cond) {
+          return(NULL)})
+    if (!is.null(tmp_enrichment_df)){
+      tmp_enrichment_df = tmp_enrichment_df %>%
+        mutate(ID = paste0('hsa',ID)) %>%
+        dplyr::rename(Pvalue=pG,
+                      pathway_id=ID) %>%
+        add_column(GEO = x[['GEO']]) %>%
+        select(GEO,pathway_id,pSize,pNDE,tA,pPERT,Pvalue,Status,KEGGLINK)
+      
+    } else {return()}
+  } else if (method_name == 'cepaORA'){
+    ##########################################
+    #### CePa ORA
+    source('src/EAmethods/cepa.R')
+    # newSe = subset(newSe,complete.cases(assay(newSe)))
+    tmp_enrichment_df = 
+      tryCatch(
+        run_cepa(newSe, GeneID, kegg_catalogue, method = 'ora', x[['seed_n']]),
+        error=function(cond) {
+          return(NULL)})
+    if (!is.null(tmp_enrichment_df)){
+      p = rownames(p.table(tmp_enrichment_df))
+      tmp_enrichment_df = as.data.frame(p.table(tmp_enrichment_df)) %>%
+        add_column(pathway_id = p,
+                   GEO = x[['GEO']]) %>%
+        magrittr::set_rownames(NULL) %>%
+        select(GEO,pathway_id,colnames(.))
+    } else {return()}
+    
+  } else if (method_name == 'cepaGSA'){
+    ##########################################
+    #### CePa GSA
+    source('src/EAmethods/cepa.R')
+    # newSe = subset(newSe,complete.cases(assay(newSe)))
+    tmp_enrichment_df = 
+      tryCatch(
+        run_cepa(newSe, NULL, kegg_catalogue, method = 'gsa', x[['seed_n']]),
+        error=function(cond) {
+          return(NULL)})
+    if (!is.null(tmp_enrichment_df)){
+      p = rownames(p.table(tmp_enrichment_df))
+      tmp_enrichment_df = as.data.frame(p.table(tmp_enrichment_df)) %>%
+        add_column(pathway_id = p,
+                   GEO = x[['GEO']]) %>%
+        magrittr::set_rownames(NULL) %>%
+        select(GEO,pathway_id,colnames(.))
+    } else {return()}
+  }
+  return(tmp_enrichment_df)
+}
+
+print(paste0('Datasets #',nrow(dataset_df)))
+
+#################################################
+## EXECUTE METHOD
+pb = utils::txtProgressBar(min=0, max=nrow(dataset_df), style = 3)
+progress = function(n) utils::setTxtProgressBar(pb, n)
+opts = list(progress = progress)
+cl = parallel::makeCluster(ncores)
+doSNOW::registerDoSNOW(cl)
+boot = foreach::foreach(i = dataset_df$GEO, .options.snow = opts)
+enrichment_df = foreach::`%dopar%`(boot, run_enrichment(i)) %>% 
+  data.table::rbindlist()
+parallel::stopCluster(cl)
+
+enrichment_df %>%
+  write_tsv(file = paste0(outdir,method_name,'.tsv.gz'))

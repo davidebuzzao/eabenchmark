@@ -1,0 +1,93 @@
+Pathway name	Pathway ID	Pathway subclass (Human diseases)	10	20	40	ALL
+AGE-RAGE signaling pathway in diabetic complications	hsa04933	Endocrine and metabolic disease	12	21	42	143
+Acute myeloid leukemia	hsa05221	Cancer: specific types	11	21	43	129
+African trypanosomiasis	hsa05143	Infectious disease: parasitic	11	21	42	73
+Alcoholic liver disease	hsa04936	Endocrine and metabolic disease	11	21	41	64
+Alcoholism	hsa05034	Substance dependence	11	21	41	106
+Allograft rejection	hsa05330	Immune disease	11	21	41	53
+Alzheimer disease	hsa05010	Neurodegenerative disease	11	21	41	82
+Amoebiasis	hsa05146	Infectious disease: parasitic	11	21	41	98
+Amphetamine addiction	hsa05031	Substance dependence	11	21	41	75
+Amyotrophic lateral sclerosis	hsa05014	Neurodegenerative disease	11	21	24	24
+Arrhythmogenic right ventricular cardiomyopathy	hsa05412	Cardiovascular disease	11	21	27	27
+Asthma	hsa05310	Immune disease	11	21	41	41
+Autoimmune thyroid disease	hsa05320	Immune disease	11	22	41	52
+Bacterial invasion of epithelial cells	hsa05100	Infectious disease: bacterial	11	21	41	80
+Basal cell carcinoma	hsa05217	Cancer: specific types	11	21	38	38
+Bladder cancer	hsa05219	Cancer: specific types	11	21	41	108
+Breast cancer	hsa05224	Cancer: specific types	11	21	42	109
+Central carbon metabolism in cancer	hsa05230	Cancer: overview	11	21	41	95
+Chagas disease	hsa05142	Infectious disease: parasitic	11	22	41	139
+Chemical carcinogenesis - DNA adducts	hsa05204	Cancer: overview	11	15	15	15
+Chemical carcinogenesis - reactive oxygen species	hsa05208	Cancer: overview	11	21	43	73
+Chemical carcinogenesis - receptor activation	hsa05207	Cancer: overview	12	22	41	106
+Choline metabolism in cancer	hsa05231	Cancer: overview	11	21	41	129
+Chronic myeloid leukemia	hsa05220	Cancer: specific types	11	22	41	129
+Cocaine addiction	hsa05030	Substance dependence	11	21	41	82
+Colorectal cancer	hsa05210	Cancer: specific types	11	21	41	128
+Coronavirus disease - COVID-19	hsa05171	Infectious disease: viral	11	21	41	98
+Cushing syndrome	hsa04934	Endocrine and metabolic disease	11	21	41	92
+Diabetic cardiomyopathy	hsa05415	Cardiovascular disease	12	21	41	50
+Dilated cardiomyopathy	hsa05414	Cardiovascular disease	11	21	41	66
+Endometrial cancer	hsa05213	Cancer: specific types	11	21	42	122
+Epithelial cell signaling in Helicobacter pylori infection	hsa05120	Infectious disease: bacterial	12	22	42	105
+Epstein-Barr virus infection	hsa05169	Infectious disease: viral	11	21	41	109
+Fluid shear stress and atherosclerosis	hsa05418	Cardiovascular disease	11	21	41	120
+Gastric cancer	hsa05226	Cancer: specific types	11	21	41	101
+Glioma	hsa05214	Cancer: specific types	11	21	41	129
+Graft-versus-host disease	hsa05332	Immune disease	12	21	41	53
+Hepatitis B	hsa05161	Infectious disease: viral	11	21	41	124
+Hepatitis C	hsa05160	Infectious disease: viral	12	21	41	128
+Hepatocellular carcinoma	hsa05225	Cancer: specific types	11	21	41	110
+Herpes simplex virus 1 infection	hsa05168	Infectious disease: viral	11	21	41	97
+Human T-cell leukemia virus 1 infection	hsa05166	Infectious disease: viral	11	21	41	114
+Human cytomegalovirus infection	hsa05163	Infectious disease: viral	12	21	41	147
+Human immunodeficiency virus 1 infection	hsa05170	Infectious disease: viral	11	21	41	120
+Human papillomavirus infection	hsa05165	Infectious disease: viral	11	23	41	120
+Huntington disease	hsa05016	Neurodegenerative disease	11	21	23	23
+Hypertrophic cardiomyopathy	hsa05410	Cardiovascular disease	11	21	41	43
+Inflammatory bowel disease	hsa05321	Immune disease	11	22	41	79
+Influenza A	hsa05164	Infectious disease: viral	11	21	41	105
+Insulin resistance	hsa04931	Endocrine and metabolic disease	11	21	41	119
+Kaposi sarcoma-associated herpesvirus infection	hsa05167	Infectious disease: viral	11	21	41	132
+Legionellosis	hsa05134	Infectious disease: bacterial	11	21	41	62
+Leishmaniasis	hsa05140	Infectious disease: parasitic	11	22	41	99
+Lipid and atherosclerosis	hsa05417	Cardiovascular disease	13	23	42	121
+Malaria	hsa05144	Infectious disease: parasitic	11	21	41	58
+Maturity onset diabetes of the young	hsa04950	Endocrine and metabolic disease	3	3	3	3
+Measles	hsa05162	Infectious disease: viral	11	21	41	113
+Melanoma	hsa05218	Cancer: specific types	11	21	41	114
+MicroRNAs in cancer	hsa05206	Cancer: overview	11	22	41	86
+Morphine addiction	hsa05032	Substance dependence	11	21	41	60
+Nicotine addiction	hsa05033	Substance dependence	11	21	23	23
+Non-alcoholic fatty liver disease	hsa04932	Endocrine and metabolic disease	11	21	41	96
+Non-small cell lung cancer	hsa05223	Cancer: specific types	12	21	41	129
+PD-L1 expression and PD-1 checkpoint pathway in cancer	hsa05235	Cancer: overview	11	21	42	131
+Pancreatic cancer	hsa05212	Cancer: specific types	11	21	41	135
+Parkinson disease	hsa05012	Neurodegenerative disease	11	21	28	28
+Pathogenic Escherichia coli infection	hsa05130	Infectious disease: bacterial	12	21	42	105
+Pathways in cancer	hsa05200	Cancer: overview	11	21	41	73
+Pathways of neurodegeneration - multiple diseases	hsa05022	Neurodegenerative disease	11	21	41	52
+Pertussis	hsa05133	Infectious disease: bacterial	11	21	42	108
+Primary immunodeficiency	hsa05340	Immune disease	11	21	26	26
+Prion disease	hsa05020	Neurodegenerative disease	11	21	41	77
+Prostate cancer	hsa05215	Cancer: specific types	11	22	42	115
+Proteoglycans in cancer	hsa05205	Cancer: overview	11	21	41	121
+Renal cell carcinoma	hsa05211	Cancer: specific types	11	21	41	129
+Rheumatoid arthritis	hsa05323	Immune disease	11	21	41	67
+Salmonella infection	hsa05132	Infectious disease: bacterial	11	21	41	114
+Shigellosis	hsa05131	Infectious disease: bacterial	11	22	41	114
+Small cell lung cancer	hsa05222	Cancer: specific types	11	21	41	109
+Spinocerebellar ataxia	hsa05017	Neurodegenerative disease	11	21	41	58
+Staphylococcus aureus infection	hsa05150	Infectious disease: bacterial	11	21	31	31
+Systemic lupus erythematosus	hsa05322	Immune disease	11	21	39	39
+Thyroid cancer	hsa05216	Cancer: specific types	11	21	41	108
+Toxoplasmosis	hsa05145	Infectious disease: parasitic	11	21	42	113
+Transcriptional misregulation in cancer	hsa05202	Cancer: overview	11	21	36	36
+Tuberculosis	hsa05152	Infectious disease: bacterial	11	21	41	108
+Type I diabetes mellitus	hsa04940	Endocrine and metabolic disease	11	21	41	43
+Type II diabetes mellitus	hsa04930	Endocrine and metabolic disease	11	21	41	125
+Vibrio cholerae infection	hsa05110	Infectious disease: bacterial	11	21	42	68
+Viral carcinogenesis	hsa05203	Cancer: overview	11	21	41	93
+Viral myocarditis	hsa05416	Cardiovascular disease	12	21	41	68
+Yersinia infection	hsa05135	Infectious disease: bacterial	11	21	42	124
